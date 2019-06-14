@@ -1,0 +1,33 @@
+
+----------------------Resultados Consola CMD---------------------- 
+.
+ECHO is off.
+Este archivo fue creado por SOIN para uso del ICE con RFT 
+RFT version 8.5 sobre windows 7
+Version de bat de fecha 21/08/2017 modificado por SS
+E:\Ambiente\QA\workspace_Juliana\
+.
+Parametros a utilizar...
+Usuario       = usrrft1
+Clave         = 20RftUsr117
+Ambiente      = QA
+Caso          = CP08
+Conjunto      = CD1
+Paso Desde    = A
+Paso Hasta    = 100
+Usuario ALT   = NA
+Clave ALT     = NA
+Log           = E:\Ambiente\QA\workspace_Juliana\Resultados\GUI\Log_CP08.txt
+DataStore     = "E:\Ambiente\QA\workspace_Juliana\RFT_ICE"
+.
+REVISE LOS PARAMETROS ANTES DE CONTINUAR
+Inicializando RFT Playback...
+ECHO is off.
+RFT playback completo su ejecucion.
+ERROR: Input redirection is not supported, exiting the process immediately.
+Exception in thread "Component Resolve Thread" java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getServiceReference(BundleContextImpl.java:559)
+	at org.eclipse.equinox.internal.ds.Activator.log(Activator.java:350)
+
+ OUTPUTSTREAM: java.io.BufferedOutputStream@744a4d

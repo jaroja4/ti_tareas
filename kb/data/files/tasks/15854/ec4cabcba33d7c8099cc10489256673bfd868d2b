@@ -1,0 +1,2714 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CPC1_CD1 ya existia - No se copia
+Proceso completado correctamente
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: TIPO DE TERMINAL [CLIENTE/ICE]
+Valor: ICE
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE PAGO [RED/NOMINAICE]
+Valor: RED
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE VENTA [PREPAGO/POSTPAGO/HIBRIDO]
+Valor: POSTPAGO
+Accion: Valor Actualizado...
+
+Descripcion: MODO DE PAGO [RED/ADM]
+Valor: RED
+Accion: Valor Actualizado...
+
+Descripcion: IDENTIFICACION DE LA CUENTA CLIENTE
+Valor: 209940347
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SERVICIO PARA LA VENTA
+Valor: 89469449
+Accion: Valor Actualizado...
+
+Descripcion: SIM CORRECTA
+Valor: 89506010412112325720
+Accion: Valor Actualizado...
+
+Descripcion: PLAN
+Valor: PLAN 4G K1 12 M
+Accion: Valor Actualizado...
+
+Descripcion: NOMBRE DEL TERMINAL A COMPRAR
+Valor: IPHONE 8 PLUS 64GB GRIS PLATA
+Accion: Valor Actualizado...
+
+Descripcion: IMEI CORRECTO
+Valor: 352214043679803
+Accion: Valor Actualizado...
+
+Descripcion: CATEGORIA CREDITICIA
+Valor: B
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO VEP
+Valor: usrrft1
+Accion: Valor Actualizado...
+
+Descripcion: CLAVE VEP
+Valor: 20RftUsr117
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CPC1
+Argumento 4:=CD1
+Argumento 5:=A
+Argumento 6:=50
+Argumento 7:=NA
+Argumento 8:=NA
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CPC1_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPC1
+-----------------------------------------------------------
+NumeroCaso = CPC1
+Path DP Entrada = E:\Ambiente\QA\workspace_Luis\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPC1.rftdp
+false
+false
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=TipoTerminal
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=TipoPerfilCorrecto
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=TipoVenta
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=CategoriaCrediticia1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=TipoPago
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLeerVariableCondicionanteDP
+CPC1Param=ModoPago
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fLogin
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Siempre
+--------------------------------------------------------------------
+CPC1Pasos=fVista360
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-9
+--------------------------------------------------------------------
+CPC1Pasos=fNuevaVenta
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarPedidoVenta
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=10-49
+--------------------------------------------------------------------
+CPC1Pasos=fValidarAgencia
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fIngresarAutenticacion
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fObtenerMorosidad
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-14
+--------------------------------------------------------------------
+CPC1Pasos=fValidarCategoria
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fCompraPlanCategoriaCatalogoNew
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fIngresarSIM
+CPC1Param=SIM Correcta
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fTerminalCliente
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoTerminal%=="CLIENTE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fSeleccionarTerminal
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fIngresarIMEI
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fIngresarIMEI
+CPC1Param=2
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fIngresarIMEI
+CPC1Param=3
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fGenerarCtaFact
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fASRM_Login
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-25
+--------------------------------------------------------------------
+CPC1Pasos=fASRM_ModificarEstadoServicio
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fASRM_Logout
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarProducto
+CPC1Param=7
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPerfilCorrecto%=="PREPAGO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-30
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarProducto
+CPC1Param=8
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPerfilCorrecto%=="POSTPAGO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-30
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarProducto
+CPC1Param=9
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPerfilCorrecto%=="HIBRIDO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-30
+--------------------------------------------------------------------
+CPC1Pasos=fNumeroEspecial
+CPC1Param=1
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fProximoNumero
+CPC1Param=1
+CPC1Ejecuta=FALSE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fValorarTodo
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarProducto
+CPC1Param=8
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE" && %CategoriaCrediticia1%!="A" && %TipoPerfilCorrecto%!="HIBRIDO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-37
+--------------------------------------------------------------------
+CPC1Pasos=fExpandiryBuscar
+CPC1Param=11
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE" && %CategoriaCrediticia1%!="A" && %TipoPerfilCorrecto%!="HIBRIDO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-37
+--------------------------------------------------------------------
+CPC1Pasos=fCheckPagoFact
+CPC1Param=FALSE
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE" && %CategoriaCrediticia1%!="A" && %TipoPerfilCorrecto%!="HIBRIDO"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarProducto
+CPC1Param=3
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE"  && %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-37
+--------------------------------------------------------------------
+CPC1Pasos=fExpandiryBuscar
+CPC1Param=6
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE"  && %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-37
+--------------------------------------------------------------------
+CPC1Pasos=fCheckPagoFact
+CPC1Param=FALSE
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="NOMINAICE" && %TipoTerminal%=="ICE"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fCrearRED
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fAdministrarRED
+CPC1Param=Crear
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "ADM"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarPedidoVenta
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "ADM"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fEsperaEstadoRED
+CPC1Param=Por pagar+REDValido
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fVEP_Login
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=1-44
+--------------------------------------------------------------------
+CPC1Pasos=fVEP_PagarRED
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fVEP_Logout
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fAdministrarRED
+CPC1Param=Pagar
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "ADM"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fBuscarPedidoVenta
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"  && %ModoPago% == "ADM"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fEsperaEstadoRED
+CPC1Param=Pagado
+CPC1Ejecuta=TRUE
+CPC1Cond=Condicionado: %TipoPago%=="RED"
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fEnviarPedido
+CPC1Param=NA
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=fEsperaEstado
+CPC1Param=Completar
+CPC1Ejecuta=TRUE
+CPC1Cond=NA
+CPC1ErrorStop=TRUE
+CPC1ReEjec=Nunca
+--------------------------------------------------------------------
+CPC1Pasos=FIN
+CPC1Param=
+CPC1Ejecuta=
+CPC1Cond=
+CPC1ErrorStop=TRUE
+CPC1ReEjec=
+--------------------------------------------------------------------
+CPC1Pasos=UltimaModificacionDP
+CPC1Param=
+CPC1Ejecuta=DB
+CPC1Cond=DB 05/04/2019
+CPC1ErrorStop=false
+CPC1ReEjec=
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPC1_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPC1_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = VC 2018/12/19
+Variable1= UltimaModifiacionDP
+Dato VC 2018/12/19 leido del dp = VC 2018/12/19
+--------------------------------------------------------------------
+Dato = TIPO DE TERMINAL [CLIENTE/ICE]
+Cantidad Variables = 1
+Valor = ICE
+Variable1= TipoTerminal
+Dato ICE leido del dp = ICE
+--------------------------------------------------------------------
+Dato = TIPO DE PAGO [RED/NOMINAICE]
+Cantidad Variables = 1
+Valor = RED
+Variable1= TipoPago
+Dato RED leido del dp = RED
+--------------------------------------------------------------------
+Dato = TIPO DE VENTA [PREPAGO/POSTPAGO/HIBRIDO]
+Cantidad Variables = 2
+Valor = POSTPAGO
+Variable1= TipoPerfilCorrecto
+Dato POSTPAGO leido del dp = POSTPAGO
+Variable2= TipoVenta
+Dato POSTPAGO leido del dp = POSTPAGO
+--------------------------------------------------------------------
+Dato = MODO DE PAGO [RED/ADM]
+Cantidad Variables = 1
+Valor = RED
+Variable1= ModoPago
+Dato RED leido del dp = RED
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DE LA CUENTA CLIENTE
+Cantidad Variables = 1
+Valor = 209940347
+Variable1= Identificacion
+Dato 209940347 leido del dp = 209940347
+--------------------------------------------------------------------
+Dato = NUMERO DE SERVICIO PARA LA VENTA
+Cantidad Variables = 3
+Valor = 89469449
+Variable1= NumeroServicio
+Dato 89469449 leido del dp = 89469449
+Variable2= NumeroServicio1
+Dato 89469449 leido del dp = 89469449
+Variable3= ProxNum1
+Dato 89469449 leido del dp = 89469449
+--------------------------------------------------------------------
+Dato = SIM CORRECTA
+Cantidad Variables = 1
+Valor = 89506010412112325720
+Variable1= SIM Correcta
+Dato 89506010412112325720 leido del dp = 89506010412112325720
+--------------------------------------------------------------------
+Dato = PLAN
+Cantidad Variables = 1
+Valor = PLAN 4G K1 12 M
+Variable1= Plan1
+Dato PLAN 4G K1 12 M leido del dp = PLAN 4G K1 12 M
+--------------------------------------------------------------------
+Dato = NOMBRE DEL TERMINAL A COMPRAR
+Cantidad Variables = 2
+Valor = IPHONE 8 PLUS 64GB GRIS PLATA
+Variable1= NombreTerminal
+Dato IPHONE 8 PLUS 64GB GRIS PLATA leido del dp = IPHONE 8 PLUS 64GB GRIS PLATA
+Variable2= PROD6
+Dato IPHONE 8 PLUS 64GB GRIS PLATA leido del dp = IPHONE 8 PLUS 64GB GRIS PLATA
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 3
+Valor = 352214043679803
+Variable1= IMEI1
+Dato 352214043679803 leido del dp = 352214043679803
+Variable2= IMEI2
+Dato 352214043679803 leido del dp = 352214043679803
+Variable3= IMEI3
+Dato 352214043679803 leido del dp = 352214043679803
+--------------------------------------------------------------------
+Dato = CATEGORIA CREDITICIA
+Cantidad Variables = 1
+Valor = B
+Variable1= CategoriaCrediticia1
+Dato B leido del dp = B
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CLAVE VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+UltimoPasoOK46
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :47
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPC1_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+T1_NroPedido=1-1787001733
+T1_NroServicio=89469449
+T1_NroRED=8775219
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=TipoTerminal
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:14
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=TipoTerminal
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoTerminal
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=ICE
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=TipoTerminal-Valor Anterior=ICE
+Se actualizara con: ICE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 1 Ultimo paso OK: 46
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=TipoPerfilCorrecto
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:14
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=TipoPerfilCorrecto
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoPerfilCorrecto
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=POSTPAGO
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=TipoPerfilCorrecto-Valor Anterior=POSTPAGO
+Se actualizara con: POSTPAGO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 2 Ultimo paso OK: 1
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=TipoVenta
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:15
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=TipoVenta
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoVenta
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=POSTPAGO
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=TipoVenta-Valor Anterior=POSTPAGO
+Se actualizara con: POSTPAGO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 3 Ultimo paso OK: 1
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=CategoriaCrediticia1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:15
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=CategoriaCrediticia1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CategoriaCrediticia1
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=B
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=CategoriaCrediticia1-Valor Anterior=B
+Se actualizara con: B
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 4 Ultimo paso OK: 1
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=TipoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:15
+-------------------------------------------------
+Inicio de Paso: 5
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso5
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=RED
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=TipoPago-Valor Anterior=RED
+Se actualizara con: RED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 5 Ultimo paso OK: 1
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=ModoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:15
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+CPC1_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=CPC1_CD1
+Argumento 4:=RED
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPC1_CD1.rftdp
+Se lee: Variable=ModoPago-Valor Anterior=RED
+Se actualizara con: RED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 6 Ultimo paso OK: 1
+Paso selecionado: fLogin
+false
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:47
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:15
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+usrrft1
+20RftUsr117
+Primera expresion false
+Segunda expresion false
+Segunda sub expresion1 false
+Segunda sub expresion2 true
+iNroPaso e iNroPasoDsede7-47
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LoginIf
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+Existe mensaje de Reintentar?:false
+Existe mensaje de error?:false
+Existe el IE de siebel?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LoginIf
+Resultado:Resultado NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=NOK
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+El process Id de Siebel es: 8064
+Mensaje DialogoExplorer existe?:false
+Mensaje de sesión ya abierta existe?:false
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:4
+Argumento 0:=DPM0029
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=BrowserScript
+-----------------------------------------------------------
+Tipo: BrowserScript
+Existe Mensaje BrowserScript: false
+Resultado: No Existe
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:No Existe
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 7 Ultimo paso OK: 1
+Paso selecionado: fVista360
+false
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=1-9
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:9
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 8 Ultimo paso OK: 1
+Paso selecionado: fNuevaVenta
+false
+Script a validar:fNuevaVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 9 Ultimo paso OK: 1
+Paso selecionado: fBuscarPedidoVenta
+false
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=10-49
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:10 Hasta:49
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:22:51
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVenta
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+NroPedido: 1-1787001733
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVenta
+Cantidad de argumentos:2
+Argumento 0:=1-1787001733
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVenta
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 10 Ultimo paso OK: 1
+Paso selecionado: fValidarAgencia
+false
+Script a validar:fValidarAgencia
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 11 Ultimo paso OK: 1
+Paso selecionado: fIngresarAutenticacion
+false
+Script a validar:fIngresarAutenticacion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 12 Ultimo paso OK: 1
+Paso selecionado: fObtenerMorosidad
+false
+Script a validar:fObtenerMorosidad
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=1-14
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:14
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 13 Ultimo paso OK: 1
+Paso selecionado: fValidarCategoria
+false
+Script a validar:fValidarCategoria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 14 Ultimo paso OK: 1
+Paso selecionado: fCompraPlanCategoriaCatalogoNew
+false
+Script a validar:fCompraPlanCategoriaCatalogoNew
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 15 Ultimo paso OK: 1
+Paso selecionado: fIngresarSIM
+false
+Script a validar:fIngresarSIM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=16
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=SIM Correcta
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:16 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 16 Ultimo paso OK: 1
+Paso selecionado: fTerminalCliente
+false
+Script a validar:fTerminalCliente
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=17
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipoterminal%=="cliente"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:17 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 17 Ultimo paso OK: 1
+Paso selecionado: fSeleccionarTerminal
+false
+Script a validar:fSeleccionarTerminal
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=18
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:18 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 18 Ultimo paso OK: 1
+Paso selecionado: fIngresarIMEI
+false
+Script a validar:fIngresarIMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=19
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:19 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 19 Ultimo paso OK: 1
+Paso selecionado: fIngresarIMEI
+false
+Script a validar:fIngresarIMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=20
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:20 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 20 Ultimo paso OK: 1
+Paso selecionado: fIngresarIMEI
+false
+Script a validar:fIngresarIMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=21
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:21 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 21 Ultimo paso OK: 1
+Paso selecionado: fGenerarCtaFact
+false
+Script a validar:fGenerarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=22
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:22 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 22 Ultimo paso OK: 1
+Paso selecionado: fASRM_Login
+false
+Script a validar:fASRM_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=23
+Argumento 4:=true
+Argumento 5:=1-25
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:25
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:23 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 23 Ultimo paso OK: 1
+Paso selecionado: fASRM_ModificarEstadoServicio
+false
+Script a validar:fASRM_ModificarEstadoServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=24
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:24 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 24 Ultimo paso OK: 1
+Paso selecionado: fASRM_Logout
+false
+Script a validar:fASRM_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=25
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:25 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 25 Ultimo paso OK: 1
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=26
+Argumento 4:=true
+Argumento 5:=1-30
+Argumento 6:=condicionado: %tipoperfilcorrecto%=="prepago"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=7
+-----------------------------------------------------------
+Desde:1 Hasta:30
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:26 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 26 Ultimo paso OK: 1
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=27
+Argumento 4:=true
+Argumento 5:=1-30
+Argumento 6:=condicionado: %tipoperfilcorrecto%=="postpago"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=8
+-----------------------------------------------------------
+Desde:1 Hasta:30
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:27 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 27 Ultimo paso OK: 1
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=28
+Argumento 4:=true
+Argumento 5:=1-30
+Argumento 6:=condicionado: %tipoperfilcorrecto%=="hibrido"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=9
+-----------------------------------------------------------
+Desde:1 Hasta:30
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:28 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 28 Ultimo paso OK: 1
+Paso selecionado: fNumeroEspecial
+false
+Script a validar:fNumeroEspecial
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=29
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:29 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 29 Ultimo paso OK: 1
+Paso selecionado: fProximoNumero
+false
+Script a validar:fProximoNumero
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=30
+Argumento 4:=false
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 30 Ultimo paso OK: 1
+Paso selecionado: fValorarTodo
+false
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=31
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:31 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 31 Ultimo paso OK: 1
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=32
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=condicionado: %tipopago%=="nominaice" && %categoriacrediticia1%!="a" && %tipoperfilcorrecto%!="hibrido"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=8
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:32 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 32 Ultimo paso OK: 1
+Paso selecionado: fExpandiryBuscar
+false
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=33
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=condicionado: %tipopago%=="nominaice" && %categoriacrediticia1%!="a" && %tipoperfilcorrecto%!="hibrido"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=11
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:33 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 33 Ultimo paso OK: 1
+Paso selecionado: fCheckPagoFact
+false
+Script a validar:fCheckPagoFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=34
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="nominaice" && %categoriacrediticia1%!="a" && %tipoperfilcorrecto%!="hibrido"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:34 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 34 Ultimo paso OK: 1
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=35
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=condicionado: %tipopago%=="nominaice"  && %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:35 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 35 Ultimo paso OK: 1
+Paso selecionado: fExpandiryBuscar
+false
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=36
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=condicionado: %tipopago%=="nominaice"  && %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=6
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:36 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 36 Ultimo paso OK: 1
+Paso selecionado: fCheckPagoFact
+false
+Script a validar:fCheckPagoFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=37
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="nominaice" && %tipoterminal%=="ice"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:37 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 37 Ultimo paso OK: 1
+Paso selecionado: fCrearRED
+false
+Script a validar:fCrearRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=38
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:38 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 38 Ultimo paso OK: 1
+Paso selecionado: fAdministrarRED
+false
+Script a validar:fAdministrarRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=39
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "adm"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=Crear
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:39 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 39 Ultimo paso OK: 1
+Paso selecionado: fBuscarPedidoVenta
+false
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=40
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "adm"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:40 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 40 Ultimo paso OK: 1
+Paso selecionado: fEsperaEstadoRED
+false
+Script a validar:fEsperaEstadoRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=41
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=Por pagar+REDValido
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:41 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 41 Ultimo paso OK: 1
+Paso selecionado: fVEP_Login
+false
+Script a validar:fVEP_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=42
+Argumento 4:=true
+Argumento 5:=1-44
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:44
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:42 Paso desde:47
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 42 Ultimo paso OK: 1
+Paso selecionado: fVEP_PagarRED
+false
+Script a validar:fVEP_PagarRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=43
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:43 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 43 Ultimo paso OK: 1
+Paso selecionado: fVEP_Logout
+false
+Script a validar:fVEP_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=44
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:44 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 44 Ultimo paso OK: 1
+Paso selecionado: fAdministrarRED
+false
+Script a validar:fAdministrarRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=45
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "adm"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=Pagar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:45 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 45 Ultimo paso OK: 1
+Paso selecionado: fBuscarPedidoVenta
+false
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=46
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"  && %modopago% == "adm"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:46 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+registro actual: 46 Ultimo paso OK: 1
+Paso selecionado: fEsperaEstadoRED
+false
+Script a validar:fEsperaEstadoRED
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=47
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %tipopago%=="red"
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=Pagado
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:47 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+Expresion a evaluarCondicionado: %TipoPago%=="RED"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEvaluarExpresionCondicionante
+Cantidad de argumentos:4
+Argumento 0:=CPC1_CD1
+Argumento 1:=Condicionado: %TipoPago%=="RED"
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CPC1_CD1
+Path DP Condicionates = E:\Ambiente\QA\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CPC1_CD1.rftdp
+Inicio=14
+Resto Expresion=TipoPago%=="RED"
+fin=8
+VarName=TipoPago
+Resto Expresion==="RED"
+La variable TipoPago fue encontrada en el DP
+Expresion Condicionado: "RED"=="RED"
+Inicio=-1
+Resultado=true
+Expresion a evaluar=true
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:23:27
+-------------------------------------------------
+Inicio de Paso: 47
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEsperaEstadoRED
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=Pagado
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso47
+-----------------------------------------------------------
+Estado a esperar=*Pagado*
+Tipo RED:*RED*
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EsperaEstadoRED
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=Pagado
+Argumento 2:=Venta
+Argumento 3:=null
+-----------------------------------------------------------
+Reintentos Maximos180
+Estado en SBL pagado
+RED en SBL 8775219
+Reintentos Maximos 180
+Reintentos Realizados2
+Se llegó a estado pagado 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EsperaEstadoRED
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=47
+-----------------------------------------------------------
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 47
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=47
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=46
+Se actualizara con: Ult Tramite=NA-Ult Paso=47
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 47 Ultimo paso OK: 47
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEnviarPedido
+false
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=48
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:48 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:23:48
+-------------------------------------------------
+Inicio de Paso: 48
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso48
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=Venta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=48
+-----------------------------------------------------------
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 48
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=48
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=47
+Se actualizara con: Ult Tramite=NA-Ult Paso=48
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 48 Ultimo paso OK: 48
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEsperaEstado
+false
+Script a validar:fEsperaEstado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=47
+Argumento 3:=49
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPC1_CD1_T1
+Argumento 8:=Completar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:49 Paso desde:47
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/04/10 08:25:15
+-------------------------------------------------
+Inicio de Paso: 49
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEsperaEstado
+Cantidad de argumentos:5
+Argumento 0:=CPC1_CD1_T1
+Argumento 1:=Completar
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso49
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EsperaEstado
+Cantidad de argumentos:3
+Argumento 0:=Completar
+Argumento 1:=null
+Argumento 2:=Venta
+-----------------------------------------------------------
+Reintentos Maximos60
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 2
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 3
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 4
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 5
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 6
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 7
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 8
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 9
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 10
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 11
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 12
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 13
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 14
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 15
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 16
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 17
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 18
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 19
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 20
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 21
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 22
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 23
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 24
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 25
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 26
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 27
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 28
+Estado Completar
+Reintentos Maximos 60
+Reintentos 29
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EsperaEstado
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=49
+-----------------------------------------------------------
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 49
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPC1_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=49
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPC1_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=48
+Se actualizara con: Ult Tramite=NA-Ult Paso=49
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 49 Ultimo paso OK: 49
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Fin del caso
+Resultado:OK
+-----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  LeerDatosSalida; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    3  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    4  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    5  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    6  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    7  -  fLogin; ;OK;
+Paso    8  -  fVista360; ;NE;
+Paso    9  -  fNuevaVenta; ;NE;
+Paso   10  -  fBuscarPedidoVenta; ;OK;
+Paso   11  -  fValidarAgencia; ;NE;
+Paso   12  -  fIngresarAutenticacion; ;NE;
+Paso   13  -  fObtenerMorosidad; ;NE;
+Paso   14  -  fValidarCategoria; ;NE;
+Paso   15  -  fCompraPlanCategoriaCatalogoNew; ;NE;
+Paso   16  -  fIngresarSIM; ;NE;
+Paso   17  -  fTerminalCliente; ;NE;
+Paso   18  -  fSeleccionarTerminal; ;NE;
+Paso   19  -  fIngresarIMEI; ;NE;
+Paso   20  -  fIngresarIMEI; ;NE;
+Paso   21  -  fIngresarIMEI; ;NE;
+Paso   22  -  fGenerarCtaFact; ;NE;
+Paso   23  -  fASRM_Login; ;NE;
+Paso   24  -  fASRM_ModificarEstadoServicio; ;NE;
+Paso   25  -  fASRM_Logout; ;NE;
+Paso   26  -  fBuscarProducto; ;NE;
+Paso   27  -  fBuscarProducto; ;NE;
+Paso   28  -  fBuscarProducto; ;NE;
+Paso   29  -  fNumeroEspecial; ;NE;
+Paso   30  -  fProximoNumero; ;NE;
+Paso   31  -  fValorarTodo; ;NE;
+Paso   32  -  fBuscarProducto; ;NE;
+Paso   33  -  fExpandiryBuscar; ;NE;
+Paso   34  -  fCheckPagoFact; ;NE;
+Paso   35  -  fBuscarProducto; ;NE;
+Paso   36  -  fExpandiryBuscar; ;NE;
+Paso   37  -  fCheckPagoFact; ;NE;
+Paso   38  -  fCrearRED; ;NE;
+Paso   39  -  fAdministrarRED; ;NE;
+Paso   40  -  fBuscarPedidoVenta; ;NE;
+Paso   41  -  fEsperaEstadoRED; ;NE;
+Paso   42  -  fVEP_Login; ;NE;
+Paso   43  -  fVEP_PagarRED; ;NE;
+Paso   44  -  fVEP_Logout; ;NE;
+Paso   45  -  fAdministrarRED; ;NE;
+Paso   46  -  fBuscarPedidoVenta; ;NE;
+Paso   47  -  fEvaluarExpresionCondicionante; ;OK;
+Paso   47  -  fEsperaEstadoRED; ;OK;
+Paso   48  -  fEnviarPedido; ;OK;
+Paso   49  -  fEsperaEstado; ;OK;
+Paso   50  -  Fin del caso; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;46;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    0  -  LeerDatosSalida;T1_NroPedido;1-1787001733;
+Paso    0  -  LeerDatosSalida;NroServicio;89469449;
+Paso    0  -  LeerDatosSalida;T1_NroRED;8775219;
+Paso   47  -  fEsperaEstadoRED;Expresion;true;
+Paso   47  -  fEsperaEstadoRED;NroRED;8775219;
+ 

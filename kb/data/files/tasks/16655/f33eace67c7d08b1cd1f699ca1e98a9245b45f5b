@@ -1,0 +1,694 @@
+Inicio de consola en archivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Linea agregada al DP de Datos Salida
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CPKO11_CD1 ya existia - No se copia
+Proceso completado correctamente
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: USUARIO KO
+Valor: misanc3
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA KO
+Valor: asp128
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO ACTUAL
+Valor: 89848999
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE ACCION
+Valor: PUK
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CPKO11
+Argumento 4:=CD1
+Argumento 5:=A
+Argumento 6:=30
+Argumento 7:=NA
+Argumento 8:=NA
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CPKO11_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO11
+-----------------------------------------------------------
+NumeroCaso = CPKO11
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO11.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO11Pasos=fKO_Login
+CPKO11Param=NA
+CPKO11Ejecuta=TRUE
+CPKO11Cond=NA
+CPKO11ErrorStop=TRUE
+CPKO11ReEjec=1-4
+--------------------------------------------------------------------
+CPKO11Pasos=fKO_ConsultaPorServicio
+CPKO11Param=1
+CPKO11Ejecuta=TRUE
+CPKO11Cond=NA
+CPKO11ErrorStop=TRUE
+CPKO11ReEjec=1-4
+--------------------------------------------------------------------
+CPKO11Pasos=fKO_PostVenta
+CPKO11Param=NA
+CPKO11Ejecuta=TRUE
+CPKO11Cond=NA
+CPKO11ErrorStop=TRUE
+CPKO11ReEjec=1-4
+--------------------------------------------------------------------
+CPKO11Pasos=fKO_ValidaPUK
+CPKO11Param=1*
+CPKO11Ejecuta=TRUE
+CPKO11Cond=NA
+CPKO11ErrorStop=TRUE
+CPKO11ReEjec=1-4
+--------------------------------------------------------------------
+CPKO11Pasos=FIN
+CPKO11Param=null
+CPKO11Ejecuta=null
+CPKO11Cond=null
+CPKO11ErrorStop=TRUE
+CPKO11ReEjec=null
+--------------------------------------------------------------------
+CPKO11Pasos=UltimaModificacionDP
+CPKO11Param=null
+CPKO11Ejecuta=29/04/2019
+CPKO11Cond=DB
+CPKO11ErrorStop=false
+CPKO11ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO11_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO11_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 17/04/2019
+Variable1= UltimaModifiacionDP
+Dato DB 17/04/2019 leido del dp = DB 17/04/2019
+--------------------------------------------------------------------
+Dato = USUARIO KO
+Cantidad Variables = 1
+Valor = misanc3
+Variable1= KO_usr1
+Dato misanc3 leido del dp = misanc3
+--------------------------------------------------------------------
+Dato = CONTRASENA KO
+Cantidad Variables = 1
+Valor = asp128
+Variable1= KO_pass1
+Dato asp128 leido del dp = asp128
+--------------------------------------------------------------------
+Dato = NUMERO ACTUAL
+Cantidad Variables = 1
+Valor = 89848999
+Variable1= NumeroServicio1
+Dato 89848999 leido del dp = 89848999
+--------------------------------------------------------------------
+Dato = TIPO DE ACCION
+Cantidad Variables = 1
+Valor = PUK
+Variable1= TipoTramite
+Dato PUK leido del dp = PUK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CPKO11_CD1
+Path DP Condicionates = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CPKO11_CD1.rftdp
+DPC_CPKO11_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO11_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/08 12:08:07
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO11_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+Incapaz de matar o no se encontro chrome.exe Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 0
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 1
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 2
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 0
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ConsultaPorServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO11_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/08 12:09:02
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ConsultaPorServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO11_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=89848999
+Argumento 2:=null
+Argumento 3:=null
+-----------------------------------------------------------
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: editActions Intento: 0
+Servicio: 89848999 - Cliente:  CALVO VEGA LILLIAM 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Resultado:Servicio: 89848999 - Cliente:  CALVO VEGA LILLIAM 
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroCtaFact
+Argumento 4:=101787807032
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se graba el dato T1_NroCtaFact con 101787807032
+Grabar Dato Salida - Variable y Valor: T1_NroCtaFact=101787807032
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_PostVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO11_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/08 12:09:53
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_PostVenta
+Cantidad de argumentos:5
+Argumento 0:=CPKO11_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_PostVenta
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=PUK
+Argumento 2:=null
+-----------------------------------------------------------
+ Ordenes Suspensiones Consulta Prepago PUK 
+ Ordenes 
+ 
+ Ordenes 
+ Ordenes 
+ Suspensiones 
+ 
+ Suspensiones 
+ Suspensiones 
+ Consulta Prepago 
+ 
+ Consulta Prepago 
+ Consulta Prepago 
+ PUK 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_PostVenta
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ValidaPUK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO11_CD1_T1
+Argumento 8:=1*
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/08 12:10:14
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ValidaPUK
+Cantidad de argumentos:5
+Argumento 0:=CPKO11_CD1_T1
+Argumento 1:=1*
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+Consulta a ejecutar: SELECT temp.paymnt_type_cd, temp.name, temp.serial_num, temp.status_cd, temp.x_sim, temp.x_imsi, temp.x_imei, temp.last_upd, ROWNUM
+FROM (select prd.paymnt_type_cd AS paymnt_type_cd, prd.name AS name, act.serial_num AS serial_num, act.status_cd AS status_cd, act.x_sim AS x_sim, act.x_imsi AS x_imsi,  act.x_imei AS x_imei, act.last_upd AS last_upd, act.created AS created, ROWNUM AS fila
+  from siebel.s_asset act inner join
+       siebel.s_prod_int prd on prd.row_id = act.prod_id
+where act.prod_id in ('1-144HF', --	Servicio de Telefonia Movil 
+                       '1-78K4K', --	Servicio Telefonia Movil Prepago
+                       '1-T0EVRZ', --	Servicio de Telefonia Movil Hibrido
+                       '1-79Y1L', -- Servicio Datos
+                       '1-7YBJY', -- Servicio Celular Geolocalizacion
+                       '1-6GVRW' -- Servicio Datos Prepago
+                       )
+and serial_num = %1 
+ORDER BY act.created DESC) temp
+WHERE ROWNUM = 1
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.129.23.237)(PORT=1523)))(CONNECT_DATA=(SID=certcrm1)(SERVER=DEDICATED)))
+Consulta a realizarSELECT temp.paymnt_type_cd, temp.name, temp.serial_num, temp.status_cd, temp.x_sim, temp.x_imsi, temp.x_imei, temp.last_upd, ROWNUM
+FROM (select prd.paymnt_type_cd AS paymnt_type_cd, prd.name AS name, act.serial_num AS serial_num, act.status_cd AS status_cd, act.x_sim AS x_sim, act.x_imsi AS x_imsi,  act.x_imei AS x_imei, act.last_upd AS last_upd, act.created AS created, ROWNUM AS fila
+  from siebel.s_asset act inner join
+       siebel.s_prod_int prd on prd.row_id = act.prod_id
+where act.prod_id in ('1-144HF', --	Servicio de Telefonia Movil 
+                       '1-78K4K', --	Servicio Telefonia Movil Prepago
+                       '1-T0EVRZ', --	Servicio de Telefonia Movil Hibrido
+                       '1-79Y1L', -- Servicio Datos
+                       '1-7YBJY', -- Servicio Celular Geolocalizacion
+                       '1-6GVRW' -- Servicio Datos Prepago
+                       )
+and serial_num = '89848999' 
+ORDER BY act.created DESC) temp
+WHERE ROWNUM = 1
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@4f94fd67
+cols 9
+Resultado de la consulta
+------------------------
+Prepago/CC/Servicio Telefonia Movil Prepago/CC/89848999/CC/Activo/CC/89506010811110227657/CC/712011003222765/CC/352214043678111/CC/2019-05-08 16:59:25.0/CC/1/CC//FF/
+Cantidad total de filas 1
+conexion no es null oracle.jdbc.driver.T4CConnection@4f94fd67
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EjecutarWS
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=WS0003QA
+Argumento 2:=userID|usrrft1,ICCID|89506010811110227657
+-----------------------------------------------------------
+Request SOAP Message:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:proc="http://xmlns.oracle.com/QueryPUKSiebelReqABCSImpl"><SOAP-ENV:Header/><SOAP-ENV:Body><proc:QueryPUKSiebelReqABCSImplProcessRequest><proc:userID>usrrft1</proc:userID><proc:ICCID>89506010811110227657</proc:ICCID></proc:QueryPUKSiebelReqABCSImplProcessRequest></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+Response SOAP Message:
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing"><env:Header><wsa:MessageID>urn:93562F0071BC11E98F224DD5647A619D</wsa:MessageID><wsa:ReplyTo><wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address><wsa:ReferenceParameters><instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2019-05-08T12:10:34.361-06:00</instra:tracking.compositeInstanceCreatedTime></wsa:ReferenceParameters></wsa:ReplyTo><wsa:FaultTo><wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address><wsa:ReferenceParameters><instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2019-05-08T12:10:34.361-06:00</instra:tracking.compositeInstanceCreatedTime></wsa:ReferenceParameters></wsa:FaultTo></env:Header><env:Body><QueryPUKSiebelReqABCSImplProcessResponse xmlns:dvm="http://www.oracle.com/XSL/Transform/java/oracle.tip.dvm.LookupValue" xmlns:ns1="http://xmlns.oracle.com/QueryPUKSiebelReqABCSImpl" xmlns="http://xmlns.oracle.com/QueryPUKSiebelReqABCSImpl"><ns1:oPUK>50589252</ns1:oPUK><ns1:ErrorReport><ns1:ErrorCode/><ns1:ErrorDesc/></ns1:ErrorReport></QueryPUKSiebelReqABCSImplProcessResponse></env:Body></env:Envelope>
+---------------------------------------------------
+Resultado: <env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsa="http://www.w3.org/2005/08/addressing"><env:Header><wsa:MessageID>urn:93562F0071BC11E98F224DD5647A619D</wsa:MessageID><wsa:ReplyTo><wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address><wsa:ReferenceParameters><instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2019-05-08T12:10:34.361-06:00</instra:tracking.compositeInstanceCreatedTime></wsa:ReferenceParameters></wsa:ReplyTo><wsa:FaultTo><wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address><wsa:ReferenceParameters><instra:tracking.compositeInstanceCreatedTime xmlns:instra="http://xmlns.oracle.com/sca/tracking/1.0">2019-05-08T12:10:34.361-06:00</instra:tracking.compositeInstanceCreatedTime></wsa:ReferenceParameters></wsa:FaultTo></env:Header><env:Body><QueryPUKSiebelReqABCSImplProcessResponse xmlns:dvm="http://www.oracle.com/XSL/Transform/java/oracle.tip.dvm.LookupValue" xmlns:ns1="http://xmlns.oracle.com/QueryPUKSiebelReqABCSImpl" xmlns="http://xmlns.oracle.com/QueryPUKSiebelReqABCSImpl"><ns1:oPUK>50589252</ns1:oPUK><ns1:ErrorReport><ns1:ErrorCode/><ns1:ErrorDesc/></ns1:ErrorReport></QueryPUKSiebelReqABCSImplProcessResponse></env:Body></env:Envelope>
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EjecutarWS
+Resultado:OK
+-----------------------------------------------------------
+PUK pagina50589252
+PUK SI coincide
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=4
+-----------------------------------------------------------
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO11_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=4
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO11_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Fin del caso
+Resultado:OK
+-----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fKO_Login; ;OK;
+Paso    2  -  fKO_ConsultaPorServicio; ;OK;
+Paso    3  -  fKO_PostVenta; ;OK;
+Paso    4  -  fKO_ValidaPUK; ;OK;
+Paso    5  -  Fin del caso; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    2  -  GrabarDatosSalida;T1_NroCtaFact;101787807032;
+Paso    2  -  fKO_ConsultaPorServicio;NroCtaFact;101787807032;
+Paso    4  -  DB_SQL;Fila:1;Prepago/CC/Servicio Telefonia Movil Prepago/CC/89848999/CC/Activo/CC/89506010811110227657/CC/712011003222765/CC/352214043678111/CC/2019-05-08 16:59:25.0/CC/1/CC//FF/;
+ 

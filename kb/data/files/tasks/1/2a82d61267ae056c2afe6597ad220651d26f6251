@@ -1,0 +1,61 @@
+#!/usr/bin/python
+import MySQLdb
+import sys
+import os
+
+acometida = ""
+caterpillar = ""
+
+
+try:
+    db = MySQLdb.connect(
+        host = '127.0.0.1',
+        user = 'root',
+        passwd = 'Sabana1',
+        db = 'BloqueCMonitoreo'
+     )
+except Exception as e:
+        sys.exit(3)
+
+def CargarEstado():
+        cursor = db.cursor()
+        cursor.execute('SELECT Estado FROM ElectroMecanicaBloqueC WHERE Nombre= "Acometida"')
+        global acometida
+        acometida = cursor.fetchone()
+        acometida2 =("Dato BD: %s" % acometida)
+        global acometida3
+        acometida3 = acometida2[9:]
+        #print acometida3
+        cursor.close()
+
+        cursor = db.cursor()
+        cursor.execute('SELECT Estado FROM ElectroMecanicaBloqueC WHERE Nombre= "Planta Caterpillar"')
+        global caterpillar
+        caterpillar = cursor.fetchone()
+        caterpillar2 =("Dato BD: %s" % caterpillar)
+        global caterpillar3
+        caterpillar3 = caterpillar2[9:]
+        #print ("Estado de Planta: %s" % caterpillar3)
+        cursor.close()
+
+CargarEstado()
+
+#cadena = str(acometida)+str("2")
+#print cadena
+
+#print ("Despues de CargarEstado el valor de Acometida es: %s" % acometida)
+if acometida3 == "Normal" and caterpillar3 == "Stand By":
+        print ("Estado: Normal")
+        sys.exit(0)
+elif acometida3 == "Normal" and caterpillar3 == "Averia":
+        print ("Estado: Warning")
+        sys.exit(3)
+elif acometida3 == "Averia" and caterpillar3 == "Generando":
+        print ("Estado: Warning")
+        sys.exit(1)
+elif acometida3 == "Averia"  and caterpillar3 == "Averia" :
+        print ("Estado: Critical")
+        sys.exit(2)
+else:
+        print ("Estado: Desconocido")
+        sys.exit(3)

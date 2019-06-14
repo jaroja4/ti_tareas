@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Informacion de la colilla de pago-</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="shortcut icon" href="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/template/images/favico/favicon.ico" />
+		<link href="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/bootstrap336/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<script src="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/jquery1120/jquery1120.js" type="text/javascript"></script>
+		<script src="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/bootstrap336/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/typeHead/typeHead.js" type="text/javascript"></script>
+
+		<!-- ********************************************************** -->
+		<!-- Estilos de la p?na -->
+		<!-- ********************************************************** -->
+		<link href="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/template/css/css.css" rel="stylesheet" type="text/css"/>
+		<!-- Estilos del menu -->		
+		<link rel="stylesheet" type="text/css" href="css/style5.css" />
+	</head>
+<body>
+
+<br>
+<div class="container">
+	<div class="page-header">
+		<h1>Direcci&oacute;n Gesti&oacute;n  Humana<small> Colilla de Pago</small><img src="http://10.3.104.113/rh_aplicPHP/SistemasIncludes/template/images/logos/logoICENegro.png" align="right"/></h1>
+	</div>
+	<div class="row">
+		<div class="col-md-12 text-center">
+			
+		</div>
+	</div>	
+		
+    <div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div class ="bordeColilla">
+				<h2 class="text-center">Datos generales del empleado</h2>
+				<div class="row">
+					<div class="col-md-3"><b>Funcionario</b></div>
+					<div class="col-md-3">114140310</div>
+					<div class="col-md-6">ROJAS VALVERDE JASON GUSTAVO</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"><b>Puesto</b></div>
+					<div class="col-md-3">OPCDB</div>
+					<div class="col-md-3"><b>Planilla</b></div>
+					<div class="col-md-3">1</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"><b>Labora en</b></div>
+					<div class="col-md-3">5531</div>
+					<div class="col-md-6">GESTION ARQUITECTURA TENOLOGICA</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3"><b>Per&iacute;odo</b></div>
+					<div class="col-md-3">2Q. Mar. 2019</div>
+					<div class="col-md-3"><b>Fecha de pago</b></div>
+					<div class="col-md-3">29 de Mar. de 2019</div>
+				</div>
+				<hr>
+				<h2 class="text-center">Comprobante de pago</h2>
+				<!-- datos del comprobante de pago -->
+				<table width="100%">
+					<tr>
+					  <th class="text-center" ><b>Detalle de Pago Quincenal</b></th>
+					</tr> 	
+					<tr>
+						<td>
+							<table width="100%" align="center" class="table table-hover">
+							  <tr>
+								<td class="encabezado" style="text-align:center;">Sueldo ordinario</td>
+								<td colspan="2" style="text-align:center;">Horas ordinarias</td>
+								<td class="encabezado" style="text-align:center;">Horas extra</td>
+							  </tr>
+							  <tr >
+								<td class="texto" style="text-align:center;">&cent;315,433.12</td>
+								<td colspan="2" class="texto" style="text-align:center;">96.00</td>
+								<td class="texto" style="text-align:center;">27.00</td>
+							  </tr>
+							  <tr>
+								<td class="encabezado" style="text-align:right;"><b>Incrementos</b></td>
+								<td class="monto" >&cent;125,920.45</td>
+								<td class="encabezado" style="text-align:right;"><b>Deducciones</b></td>
+								<td class="monto" >&cent;217,061.70</td>
+							  </tr>
+							  <tr>
+								<td class="encabezado" style="text-align:right;"><b>Total devengado</b></td>
+								<td class="monto" >&cent;441,353.55</td>
+								<td class="encabezado" style="text-align:right;"><b>Neto Pagado</b></td>
+								<td class="monto_total" >&cent;224,291.85</td>
+							  </tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<!-- incrementos -->
+				<table width="100%">
+					<tr>
+						<th class="text-center" ><h3>Movimientos de personal y ajustes</h3></th>
+					</tr> 	
+					<tr>
+						<td>
+							<table width="100%" align="center" class="table table-hover">
+								<tr >
+									<td width="70"> <b>C&oacute;digo</b></td>                
+									<td width="313"><b>Descripci&oacute;n </b></td>                
+									<td width="126" style="text-align:right;" > <b>Monto</b></td>
+								</tr>		
+								
+								<!-- BEGIN INCRE -->			
+								<tr >
+									<td width="70" class="texto">6200  </td>
+									<td width="313" class="texto">HORAS EXTRA                      </td>
+									<td width="126" class="monto"  style="text-align:right;" >&cent;125,920.45</td>
+								</tr>
+								<!-- END INCRE -->
+								
+								<tr >
+									<td width="70" class=""></td>
+									<td width="313" class="" style="text-align:right;" ><b>Total incrementos :</b></td>
+									<td width="126" class="monto_total" style="text-align:right;" ><b>&cent;125,920.45</b></td>
+								</tr>			
+							</table>
+						</td>
+					</tr>
+				</table>
+				<!-- deducciones -->
+				<table width="100%">
+					<tr>
+						<th class="text-center" ><h3>Deducciones</h3></th>
+					</tr> 	
+					<tr>
+						<td>
+							<table width="100%" align="center" class="table table-hover">
+								<tr >
+									<td width="70" class="" ><b>C&oacute;digo</b></td>
+									<td width="313" class=""><b>Descripci&oacute;n</b></td>
+									<td width="126" class="" style="text-align:right;" ><b>Monto</b></td>
+								</tr>
+								
+								<!-- BEGIN DEDUC -->
+								<tr >
+									<td width="70" class="texto">	2001</td>
+									<td width="313" class="texto">CCSS SEGURO ENFERMEDAD           </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;24,274.45</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2002</td>
+									<td width="313" class="texto">CCSS SEGURO INVALIDEZ V.M.       </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;16,947.95</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2003</td>
+									<td width="313" class="texto">BANCO POPULAR AHORRO OBLIG.      </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;4,413.55</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2004</td>
+									<td width="313" class="texto">FONDO GARANTIAS Y AHORRO         </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;22,067.65</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2006</td>
+									<td width="313" class="texto">PENSION COMPLEMENTARIA           </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;4,413.55</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2218</td>
+									<td width="313" class="texto">PRESTAMO PERS.SIMPLIFIC.TRES</td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;26,063.80</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2311</td>
+									<td width="313" class="texto">IMPUESTO RENTA                   </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;10,493.80</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2341</td>
+									<td width="313" class="texto">BANCO POPULAR PRESTAMO           </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;39,598.85</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2607</td>
+									<td width="313" class="texto">COOPEFYL CUOTA                   </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;4,731.50</td>
+								</tr>
+								
+								<tr >
+									<td width="70" class="texto">	2612</td>
+									<td width="313" class="texto">COOPEFYL PRESTAMO                </td>
+									<td width="126" class="monto" style="text-align:right;" >&cent;64,056.60</td>
+								</tr>
+								<!-- END DEDUC -->
+								
+								<tr >
+									<td width="70" class=""></td>
+									<td width="313" class="" style="text-align:right"><b>Total deducciones :</b></td>
+									<td width="126" class="monto_total"  style="text-align:right;"  ><b>&cent;217,061.70</b></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table> 
+				<!-- TOTALES -->
+				<table width="100%">
+					<tr>                        	
+						<td  class="text-center" ><b>Total devengado</b></td>
+						<td  class="text-center"><b>Neto pagado</b></td>
+					</tr>
+					<tr>                        	
+						<td  class="text-center" ><h3>&cent;441,353.55</h3></td>
+						<td  class="text-center" ><h3>&cent;224,291.85</h3></td>
+					</tr>
+				</table>
+				<!-- SICERE -->
+				<table width="100%">
+					<tr>
+						<th class="text-center" ><h3>SICERE</h3></th>
+					</tr>  	
+					<tr>
+						<td>
+							<table width="100%" align="center" class="table table-hover">
+								<tr>
+									<td width="206" class="" style="text-align:right" ><b>Fondo pensiones obligatorio</b></td>
+									<td width="145" class="texto">(1,5)%</td>
+									<td width="138" class="" >&cent;6,620.30</td>
+								</tr>
+								<tr>
+									<td width="206" class=""  style="text-align:right" ><b>Fondo capitalizaci&oacute;n laboral</b></td>
+									<td width="145" class="texto" >(1,5)%</td>
+									<td width="138" class="" >&cent;6,620.30</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table> 
+				<!-- Bancos -->
+				<table width="100%">
+					<tr>
+						<th class="text-center" ><h3>Distribuci&oacute;n del Dep&oacute;sito</h3></th>
+					</tr>	
+					<tr>
+						<td>                            	
+							<table width="100%" align="center" class="table table-hover">
+								<tr>
+									<th class="">Forma de pago</th>
+									<th width="50" class="" style="text-align:center;">%</th>
+									<th width="138"  style="text-align:right;"><div class=""><strong>Monto</strong></div></th>
+								</tr>
+								<!-- BEGIN DEPOS -->
+								<tr>
+									<td class="texto">AHO-BANCO DE COSTA RICA          </td>
+									<td width="50" class="texto">100%</td>
+									<td width="138" class="monto" style="text-align:right;">&cent;224,291.85</td>
+								</tr>
+								<!-- END DEPOS -->
+								 <tr>
+									<td class="encabezado" style="text-align:right;"><b>Total depositado :</b></td>
+									<td width="50" class="texto">100%</td>
+									<td width="141" class="monto_total" style="text-align:right;"><b>&cent;224,291.85</b></td>
+								</tr>
+							</table>
+				
+						<!-- </table> no deberia ir aqui-->
+						</td>
+					</tr>
+				</table>
+				<table width="100%" >
+					<tr>
+						<th class="text-center" ><h3>Acumulados</h3></th>
+					</tr> 	
+					<tr>
+						<td>                            	
+							<table width="100%" align="center" class="table table-hover">
+								<tr >
+									<th width="125" class="">&nbsp;</th>
+									<th width="143" class="" style="text-align:center;">Per&iacute;odo</th>
+									<th width="138" class="" style="text-align:right;">Monto</th>
+								</tr>
+								<tr>
+									<td width="125" class="" style="text-align:right;"><b>Aguinaldo</b></td>
+									<td width="203" class="" >1Q DIC 2018 hasta 2Q MAR 2019</td>
+									<td width="138" class="" style="text-align:right;">&cent;384,264.30</td>
+								</tr>
+								<tr>
+									<td class="encabezado" style="text-align:right;"><b>Salario escolar</b></td>
+									<td class="texto" >1Q ENE  hasta 2Q MAR 2019</td>
+									<td class="monto_total" style="text-align:right;">&cent;235,472.01</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table width="100%" >
+					<tr>
+						<th class="text-center" ><h3>Servicios</h3></th>
+					</tr> 	
+					<tr>
+						<td>                            	
+							<!--TABLA DE SERVICIOS-->                         	
+							<table cellpadding="0" cellspacing="0" width="100%"  class="table table-hover">                                                       	
+								<!-- BEGIN SERVICIOS -->
+								<tr>
+									<td class="encabezado" style="text-align:right;">Saldo de Vacaciones&nbsp;&nbsp;</td>
+									<td class="texto" style="text-align:center;"> 
+										<input type='button' onClick="window.open('http://sab-rhweb.icetel.ice:8080/rh_aplic/jsp/NP_vacacionesConsulta_body.jsp?cedula=114140310', 'Vacaciones', 'width=900,height=700,status=no,resizable=no,top=100,left=200,scrollbars=auto')" name='btnVacaPeriodo' value='Ver Saldo'/>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="encabezado" style="text-align:right;">Ficha de Personal&nbsp;&nbsp;</td>
+									<td class="texto" style="text-align:center;"> 
+										<input type='button' onClick="window.open('http://rh.infocom.ice', 'Actualice', 'resizable=1, scrollbars=1')" name='btnActualizarDatos' value='Actualizar'/><br/>* Debe indicar usuario y contrase&ntilde;a
+									</td>
+								</tr>
+								<!-- END SERVICIOS -->
+							</table>
+							<!--FIN TABLA DE SERVICIOS--> 
+						</td>
+					</tr>
+				</table>
+				<table width="100%" >
+					<tr>
+						<th class="text-center" ><h3>Mensaje</h3></th>
+					</tr>	
+					<tr>
+						<td>                    
+							<div class="bordeColilla">
+								 <table width="100%">
+									<tr>
+										<td class="mensaje">&nbsp;</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<br>
+				<table width="100%" align="center" cellpadding="0" cellspacing="0">                   			
+					<tr>
+						<th class="text-center" ><h3>Consultas</h3></th>
+					</tr> 
+					<tr>
+						<td>                            	
+							 <table width="100%"  class="table table-hover">  
+								<tr style="height:25px;">
+									<td class="pie" style="text-align:left;" width="100%">
+										<span style="font-weight:bold;">
+										Para consultas dir&iacute;jase a los siguientes compañeros(as):</span>
+										<br><br>
+										<ul>										
+										<!--- <a href="mailto:ECascante@ice.go.cr">Edith Cascante Cede&ntilde;o</a> (VACACIONES- INCAPACIDADES CCSS- ACCIDENTES DE TRANSITO )	<br/>	-->							
+										<li><a href="mailto:ILCASTRILLO@ice.go.cr">Ileana Castrillo Sanchez   </a> <br>Pensiones Alimentarias-Vacaciones- Incapacidades CCSS e INS-Promedios de Vacaciones;  2000-6490</li>
+										<li><a href="mailto:Morozco@ice.go.cr">Maribel Orozco Brenes </a> <br>Liquidaciones - Deducciones Mensuales- Pago de Menguas; 2000-6249</li>
+										<li><a href="mailto:mmatac@ice.go.cr">Marianella Mata Chinchilla </a><br> Carrera Profesional- Pago CCSS- Impuesto de Renta- FGA; 2000-7332</li>
+										<li><a href="mailto:GPorrasS@ice.go.cr">Gestin Porras Selva </a> <br>Embargos- Comisiones por Ventas- Pago Fondos de Absorción; 2000-6777</li>
+										<!--- <a href="mailto:Ycerdas@ice.go.cr">Yunie Cerdas Badilla  </a> (CONSULTAS GENERAL)<br/>-->
+										<li><a href="mailto:cpineda@ice.go.cr">Carlos Pineda Garcia  </a><br> Digitación de Planillas - Deposito de Salario en Cuentas Bancarias- Horas Extras- Guardias- Deducciones- Accidentes de Tránsito INS; 2000-7299</li>
+										<li><a href="mailto:gmoreiras@ice.go.cr">Guillermo Moreira Sandoval  </a><br> Deposito de Salario en Cuentas Bancarias - Horas Extras-Guardias-Deducciones; 2000-1621</li>
+										<li><a href="mailto:JCastroL@ice.go.cr">Jeffrey Castro Leiton  </a><br> Horas Extras– Guardias; 2000-7634</li>
+										<li><a href="mailto:NRodriguez@ice.go.cr">Nubia Rodriguez Rodriguez  </a> <br>Permisos Con y Sin Goce de Salario-Suspensiones de Contrato-Cambios de Horario; 2000-7056</li>
+										</ul>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				
+				<table width="100%" >                  			
+					<tr>
+						<td>                            	
+							 <table width="100%" align="center" class="table table-hover">
+								<tr style="height:25px;">
+									<td width="50%" class="pie" align="center"><a href="mailto:LGarita@ice.go.cr">Informaci&oacute;n y Consultas</a></td>
+									<td width="50%" align="center" class="pie">Vis&iacute;tenos en:  <a href="http://dcgth.intranet.ice" target="_blank">http://dcgth.intranet.ice</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	<HR>												
+	<div class="row">
+		<div class="col-md-12">
+			<div style="text-align: center;">						
+				<p>
+					Este documento no es negociable
+				</p><br>
+			 </div>
+		</div>
+		<br>
+	</div>
+</body>
+</html>

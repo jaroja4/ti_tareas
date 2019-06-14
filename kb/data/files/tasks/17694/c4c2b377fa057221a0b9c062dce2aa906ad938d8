@@ -1,0 +1,1862 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CP04_CD1 ya existia - No se copia
+Proceso completado correctamente
+-> CP04_CD1_T1:  NumEspPrimerNum2daopcion1/FALSE
+-> CP04_CD1_T1:  NumEspIrAdmin1/FALSE
+-> CP04_CD1_T1:  Servicio/Servicio de Telefonia Movil
+-> CP04_CD1_T1:  CatLug1/Central |  CatLug2/Central | 
+-> CP04_CD1_T1:  CatAccion1/False
+-> CP04_CD1_T1:  CatAccion2/NA
+-> CP04_CD1_T1:  Tempo_Accion1/Encender |  Tempo_Accion2/Encender |  Tempo_Accion3/Encender |  Tempo_Accion4/Encender | 
+-> CP04_CD1_T1:  Tempo_Prod1/Habilitador Descuento Masivo
+-> CP04_CD1_T1:  Tempo_Prod2/Habilitador descuento KOE 24 M
+-> CP04_CD1_T1:  Tempo_Prod3/Favorito SMS - Habilitacion
+-> CP04_CD1_T1:  Tempo_Prod4/Favorito - Habilitacion
+-> CP04_CD1_T1:  Comentario/Cambio para el escenario CP04
+-> CP04_CD1_T1:  IMEI_Lugar1/Terminal |  IMEI_Lugar5/Terminal | 
+-> CP04_CD1_T1:  IMEI_Lugar3/TerminalesPromocionales
+-> CP04_CD1_T1:  IMEI_Lugar2/Servicio |  IMEI_Lugar4/Servicio | 
+-> CP04_CD1_T1:  PROD3/Descuento % con SVA 4 Duracion 1
+-> CP04_CD1_T1:  PROD2/Activador Descuento % con SVA 2 Duracion 1
+-> CP04_CD1_T1:  PROD1/Promociones de Afiliacion |  PROD_Padre2/Promociones de Afiliacion |  PROD_Padre3/Promociones de Afiliacion | 
+-> CP04_CD1_T1:  PROD_Padre1/Servicio de Telefonia Movil |  Servicio/Servicio de Telefonia Movil | 
+-> CP04_CD1_T1:  PROD_Accion1/Encontrar |  PROD_Accion2/Encontrar |  PROD_Accion3/Encontrar |  PROD_Accion4/Encontrar | 
+-> CP04_CD1_T1:  TipoPerfilCorrecto/Postpago
+-> CP04_CD1_T1:  PROD7/Servicio de Telefonia Movil |  VCT_Prod1/Servicio de Telefonia Movil | 
+-> CP04_CD1_T1:  ASRM_EstadoSIM1/ACTIVO
+-> CP04_CD1_T1:  ASRM_EstadoSIM2/DISPONIBLE |  ASRM_EstadoServicio/DISPONIBLE | 
+-> CP04_CD1_T1:  ASRM_pass/jvalerio1
+-> CP04_CD1_T1:  ASRM_usr/jvalerio1
+-> CP04_CD1_T1:  Serie/R38FC0
+-> CP04_CD1_T1:  Version/Android 5.0
+-> CP04_CD1_T1:  VCT_Marca1/No Editable |  VCT_Modelo1/No Editable |  VCT_Version1/No Editable |  VCT_Serie1/No Editable | 
+-> CP04_CD1_T1:  VCS_Editable1/True
+-> CP04_CD1_T1:  VCS_Prod1/Servicio
+-> CP04_CD1_T1:  TipoPerfilCtaCliente/Postpago
+-> CP04_CD1_T1:  PROD_Padre4/Terminales Promocionales |  PROD6/Terminales Promocionales | 
+-> CP04_CD1_T1:  BuscaDesdeIni7/Si |  BuscaDesdeIni6/Si | 
+-> CP04_CD1_T1:  ClaseCuenta/Cliente
+-> CP04_CD1_T1:  ProxNum1/DP
+-> CP04_CD1_T1:  Tramite/Venta
+-> CP04_CD1_T1:  PROD5/Llamadas Internacionales
+-> CP04_CD1_T1:  PROD_Accion5/Alta
+-> CP04_CD1_T1:  PROD_Categoria5/Facilidades Telefonia
+-> CP04_CD1_T1:  BRM_Cant1/1
+-> CP04_CD1_T1:  BRM_Estado1/Activo
+-> CP04_CD1_T1:  BRM_Operador1/=
+-> CP04_CD1_T1:  BRM_Prod1/Descuento % con SVA 4 Duracion 1
+-> CP04_CD1_T1:  ATV_TipoPedido1/Actual
+-> CP04_CD1_T1:  ATV_TIPO_CP1/Downgrade
+Datapool de datos entrada llenado con exito.
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: MODO DE PAGO [RED/ADM]
+Valor: ADM
+Accion: Valor Actualizado...
+
+Descripcion: MEDIO PARA CAMBIO DE CATEGORIA  [SCRW/BD]
+Valor: BD
+Accion: Valor Actualizado...
+
+Descripcion: IDENTIFICACION DEL CLIENTE
+Valor: 405267789
+Accion: Valor Actualizado...
+
+Descripcion: CATEGORIA CREDITICIA A MODIFICAR
+Valor: F
+Accion: Valor Actualizado...
+
+Descripcion: CATEGORIA CREDITICIA CORRECTA
+Valor: B
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO SCOREWEB
+Valor: usrrft1
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA SCOREWEB
+Valor: 20RftUsr117
+Accion: Valor Actualizado...
+
+Descripcion: IMEI CORRECTO
+Valor: 012486006075938
+Accion: Valor Actualizado...
+
+Descripcion: IMEI DE OTRO MODELO
+Valor: 352214043679464
+Accion: Valor Actualizado...
+
+Descripcion: TERMINAL A COMPRAR
+Valor: IPHONE 8 PLUS 64GB DORADO
+Accion: Valor Actualizado...
+
+Descripcion: SIM EN USO
+Valor: 89506010412112325472
+Accion: Valor Actualizado...
+
+Descripcion: SIM CORRECTO
+Valor: 89506010412112325761
+Accion: Valor Actualizado...
+
+Descripcion: CANAL UTILIZADO
+Valor: Agencia ICE
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE AUTENTICACION
+Valor: Enrute directo
+Accion: Valor Actualizado...
+
+Descripcion: PLAN POSTPAGO A COMPRAR
+Valor: PLAN 4G K2 12 M
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SERVICIO
+Valor: 89669222
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO  DE SIPV (Coincidir con usuario siebel)
+Valor: C110440882
+Accion: Valor Actualizado...
+
+Descripcion: PASSWORD DE SIPV (Coincidir con usuario siebel)
+Valor: USRRFT1
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO VEP
+Valor: usrrft1
+Accion: Valor Actualizado...
+
+Descripcion: PASSWORD VEP
+Valor: 20RftUsr117
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO ATV
+Valor: usrrft1
+Accion: Valor Actualizado...
+
+Descripcion: PASSWORD ATV
+Valor: 20RftUsr117
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CP04
+Argumento 4:=CD1
+Argumento 5:=A
+Argumento 6:=150
+Argumento 7:=NA
+Argumento 8:=NA
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CP04_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP04
+-----------------------------------------------------------
+NumeroCaso = CP04
+Path DP Entrada = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP04.rftdp
+false
+false
+--------------------------------------------------------------------
+CP04Pasos=fLeerVariableCondicionanteDP
+CP04Param=ModoPago
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Siempre
+--------------------------------------------------------------------
+CP04Pasos=fLeerVariableCondicionanteDP
+CP04Param=ConsultaCategoria
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Siempre
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=1-4
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_ModificarCategoria
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_ModificarCategoria_BD
+CP04Param=update1
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "BD"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogin
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-14
+--------------------------------------------------------------------
+CP04Pasos=fVista360
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-14
+--------------------------------------------------------------------
+CP04Pasos=fNuevaVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=10-14
+--------------------------------------------------------------------
+CP04Pasos=fObtenerMorosidad
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarCategoria
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCompraPlanCategoriaCatalogoNew
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=1-17
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_ModificarCategoria
+CP04Param=2
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "SCRW"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSCRW_ModificarCategoria_BD
+CP04Param=update2
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ConsultaCategoria% == "BD"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogin
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-119
+--------------------------------------------------------------------
+CP04Pasos=fVista360
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-79
+--------------------------------------------------------------------
+CP04Pasos=fNuevaVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=22-118
+--------------------------------------------------------------------
+CP04Pasos=fObtenerMorosidad
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarCategoria
+CP04Param=2
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCompraPlanCategoriaCatalogoNew
+CP04Param=2
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarAgencia
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarAutenticacion
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarProducto
+CP04Param=7
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-30
+--------------------------------------------------------------------
+CP04Pasos=fSeleccionarProxNum
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-30
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0001
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-33
+--------------------------------------------------------------------
+CP04Pasos=fASRM_ConsultaEstadoSIM
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarSIM
+CP04Param=SIM Incorrecta
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-35
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0002
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-38
+--------------------------------------------------------------------
+CP04Pasos=fASRM_ConsultaEstadoSIM
+CP04Param=2
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarSIM
+CP04Param=SIM Correcta
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-42
+--------------------------------------------------------------------
+CP04Pasos=fASRM_ModificarEstadoServicio
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fASRM_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarProducto
+CP04Param=7
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-44
+--------------------------------------------------------------------
+CP04Pasos=fNumeroEspecial
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidacPostServicio
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-47
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0006
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSeleccionarTerminal
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-50
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0006
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarIMEI
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-53
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-53
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0006
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarIMEI
+CP04Param=2
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-56
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-56
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0012
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValorarTodo
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-59
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-59
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0006
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarCamposTerminal
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fGenerarCtaFact
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-63
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0006
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarProducto
+CP04Param=6
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-72
+--------------------------------------------------------------------
+CP04Pasos=fExpandiryBuscar
+CP04Param=4
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-72
+--------------------------------------------------------------------
+CP04Pasos=fAgregarCamposTerminalICE
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarProducto
+CP04Param=7
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-72
+--------------------------------------------------------------------
+CP04Pasos=fPersonalizar_SRV_MOV_POS
+CP04Param=5
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidacPostServicio
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarIMEI
+CP04Param=3
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarIMEI
+CP04Param=4
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fIngresarIMEI
+CP04Param=5
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-74
+--------------------------------------------------------------------
+CP04Pasos=fValidarMensaje
+CP04Param=DPM0012
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValorarTodo
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtonNumDisp
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtonLiberarNumero
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Crear
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstadoRED
+CP04Param=Por pagar
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtnAnularRED
+CP04Param=true
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAnularRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Anular
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstadoRED
+CP04Param=Anulado
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarGenCtaFact
+CP04Param=true
+CP04Ejecuta=FALSE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fCrearRED
+CP04Param=true
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Crear
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstadoRED
+CP04Param=Por pagar+REDValido
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=1-94
+--------------------------------------------------------------------
+CP04Pasos=fVEP_PagarREDNew
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Pagar
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstado
+CP04Param=RED Pagado
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=1-100
+--------------------------------------------------------------------
+CP04Pasos=fVEP_ReversarRED
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Crear
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstadoRED
+CP04Param=Por pagar
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=1-106
+--------------------------------------------------------------------
+CP04Pasos=fVEP_PagarREDNew
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fVEP_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "RED"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fAdministrarRED
+CP04Param=Pagar
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarPedidoVenta
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=Condicionado: %ModoPago% == "ADM"
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstado
+CP04Param=RED Pagado
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtonValorarTodo
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEnviarPedido
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fEsperaEstado
+CP04Param=Completar
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtonValorarTodo
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSIPV_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-117
+--------------------------------------------------------------------
+CP04Pasos=fSIPV_ValidarCedula
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSIPV_ValidarRebajaIMEI
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fSIPV_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fValidacPostEnvio2
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fATV_Login
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-122
+--------------------------------------------------------------------
+CP04Pasos=fATV_ValidarPosibMultas
+CP04Param=1
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fATV_Logout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogin
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-130
+--------------------------------------------------------------------
+CP04Pasos=fVista360
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-129
+--------------------------------------------------------------------
+CP04Pasos=fValidarBtonVerMultas
+CP04Param=TRUE
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarActivo
+CP04Param=DP
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-129
+--------------------------------------------------------------------
+CP04Pasos=fValidarUnPerfil
+CP04Param=Cliente
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fBuscarCtaFact
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=1-129
+--------------------------------------------------------------------
+CP04Pasos=fValidarUnPerfil
+CP04Param=Fact
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=fLogout
+CP04Param=NA
+CP04Ejecuta=TRUE
+CP04Cond=NA
+CP04ErrorStop=TRUE
+CP04ReEjec=Nunca
+--------------------------------------------------------------------
+CP04Pasos=FIN
+CP04Param=
+CP04Ejecuta=
+CP04Cond=
+CP04ErrorStop=false
+CP04ReEjec=
+--------------------------------------------------------------------
+CP04Pasos=UltimaModificacionDP
+CP04Param=null
+CP04Ejecuta=VC 10/04/2019
+CP04Cond=null
+CP04ErrorStop=false
+CP04ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP04_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP04_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = VC 2019/03/21
+Variable1= UltimaModifiacionDP
+Dato VC 2019/03/21 leido del dp = VC 2019/03/21
+--------------------------------------------------------------------
+Dato = MODO DE PAGO [RED/ADM]
+Cantidad Variables = 1
+Valor = ADM
+Variable1= ModoPago
+Dato ADM leido del dp = ADM
+--------------------------------------------------------------------
+Dato = MEDIO PARA CAMBIO DE CATEGORIA  [SCRW/BD]
+Cantidad Variables = 1
+Valor = BD
+Variable1= ConsultaCategoria
+Dato BD leido del dp = BD
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DEL CLIENTE
+Cantidad Variables = 1
+Valor = 405267789
+Variable1= Identificacion
+Dato 405267789 leido del dp = 405267789
+--------------------------------------------------------------------
+Dato = CATEGORIA CREDITICIA A MODIFICAR
+Cantidad Variables = 1
+Valor = F
+Variable1= CategoriaCrediticia1
+Dato F leido del dp = F
+--------------------------------------------------------------------
+Dato = CATEGORIA CREDITICIA CORRECTA
+Cantidad Variables = 1
+Valor = B
+Variable1= CategoriaCrediticia2
+Dato B leido del dp = B
+--------------------------------------------------------------------
+Dato = USUARIO SCOREWEB
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= SCRW_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA SCOREWEB
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= SCRW_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 4
+Valor = 012486006075938
+Variable1= IMEI4
+Dato 012486006075938 leido del dp = 012486006075938
+Variable2= IMEI5
+Dato 012486006075938 leido del dp = 012486006075938
+Variable3= IMEI3
+Dato 012486006075938 leido del dp = 012486006075938
+Variable4= IMEI_SIPV
+Dato 012486006075938 leido del dp = 012486006075938
+--------------------------------------------------------------------
+Dato = IMEI DE OTRO MODELO
+Cantidad Variables = 3
+Valor = 352214043679464
+Variable1= IMEI1
+Dato 352214043679464 leido del dp = 352214043679464
+Variable2= IMEI2
+Dato 352214043679464 leido del dp = 352214043679464
+Variable3= IMEI
+Dato 352214043679464 leido del dp = 352214043679464
+--------------------------------------------------------------------
+Dato = TERMINAL A COMPRAR
+Cantidad Variables = 2
+Valor = IPHONE 8 PLUS 64GB DORADO
+Variable1= NombreTerminal
+Dato IPHONE 8 PLUS 64GB DORADO leido del dp = IPHONE 8 PLUS 64GB DORADO
+Variable2= PROD4
+Dato IPHONE 8 PLUS 64GB DORADO leido del dp = IPHONE 8 PLUS 64GB DORADO
+--------------------------------------------------------------------
+Dato = SIM EN USO
+Cantidad Variables = 2
+Valor = 89506010412112325472
+Variable1= SIM Incorrecta
+Dato 89506010412112325472 leido del dp = 89506010412112325472
+Variable2= SIM_ASRM1
+Dato 89506010412112325472 leido del dp = 89506010412112325472
+--------------------------------------------------------------------
+Dato = SIM CORRECTO
+Cantidad Variables = 2
+Valor = 89506010412112325761
+Variable1= SIM Correcta
+Dato 89506010412112325761 leido del dp = 89506010412112325761
+Variable2= SIM_ASRM2
+Dato 89506010412112325761 leido del dp = 89506010412112325761
+--------------------------------------------------------------------
+Dato = CANAL UTILIZADO
+Cantidad Variables = 1
+Valor = Agencia ICE
+Variable1= Canal
+Dato Agencia ICE leido del dp = Agencia ICE
+--------------------------------------------------------------------
+Dato = TIPO DE AUTENTICACION
+Cantidad Variables = 1
+Valor = Enrute directo
+Variable1= Tipo
+Dato Enrute directo leido del dp = Enrute directo
+--------------------------------------------------------------------
+Dato = PLAN POSTPAGO A COMPRAR
+Cantidad Variables = 2
+Valor = PLAN 4G K2 12 M
+Variable1= Plan1
+Dato PLAN 4G K2 12 M leido del dp = PLAN 4G K2 12 M
+Variable2= Plan2
+Dato PLAN 4G K2 12 M leido del dp = PLAN 4G K2 12 M
+--------------------------------------------------------------------
+Dato = NUMERO DE SERVICIO
+Cantidad Variables = 2
+Valor = 89669222
+Variable1= NumeroServicio
+Dato 89669222 leido del dp = 89669222
+Variable2= NumeroServicio1
+Dato 89669222 leido del dp = 89669222
+--------------------------------------------------------------------
+Dato = USUARIO  DE SIPV (Coincidir con usuario siebel)
+Cantidad Variables = 1
+Valor = C110440882
+Variable1= SIPV_usr
+Dato C110440882 leido del dp = C110440882
+--------------------------------------------------------------------
+Dato = PASSWORD DE SIPV (Coincidir con usuario siebel)
+Cantidad Variables = 1
+Valor = USRRFT1
+Variable1= SIPV_pass
+Dato USRRFT1 leido del dp = USRRFT1
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = PASSWORD VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = USUARIO ATV
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= ATV_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = PASSWORD ATV
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= ATV_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP04_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP04_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CP04_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP04_CD1.rftdp
+DPC_CP04_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=ModoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/22 15:34:15
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CP04_CD1_T1
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CP04_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=CP04_CD1
+Argumento 4:=ADM
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+DP Salida en DP=E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CP04_CD1.rftdp
+Se Crea: Variable=ModoPago- con Valor=ADM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CP04_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP04_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 1 Ultimo paso OK: 1
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fLeerVariableCondicionanteDP
+false
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=ConsultaCategoria
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/22 15:34:15
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CP04_CD1_T1
+Argumento 1:=ConsultaCategoria
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+CP04_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ConsultaCategoria
+Argumento 2:=QA
+Argumento 3:=CP04_CD1
+Argumento 4:=BD
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+DP Salida en DP=E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CP04_CD1.rftdp
+Se Crea: Variable=ConsultaCategoria- con Valor=BD
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CP04_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP04_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP04_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 2 Ultimo paso OK: 2
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fSCRW_Login
+false
+Script a validar:fSCRW_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=condicionado: %consultacategoria% == "scrw"
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+Expresion a evaluarCondicionado: %ConsultaCategoria% == "SCRW"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEvaluarExpresionCondicionante
+Cantidad de argumentos:4
+Argumento 0:=CP04_CD1
+Argumento 1:=Condicionado: %ConsultaCategoria% == "SCRW"
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP04_CD1.rftdp
+Inicio=14
+Resto Expresion=ConsultaCategoria% == "SCRW"
+fin=17
+VarName=ConsultaCategoria
+Resto Expresion= == "SCRW"
+La variable ConsultaCategoria fue encontrada en el DP
+Expresion Condicionado: "BD" == "SCRW"
+Inicio=-1
+Resultado=false
+Expresion a evaluar=false
+DATO: -1
+registro actual: 3 Ultimo paso OK: 2
+Paso selecionado: fSCRW_ModificarCategoria
+false
+Script a validar:fSCRW_ModificarCategoria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %consultacategoria% == "scrw"
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+Expresion a evaluarCondicionado: %ConsultaCategoria% == "SCRW"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEvaluarExpresionCondicionante
+Cantidad de argumentos:4
+Argumento 0:=CP04_CD1
+Argumento 1:=Condicionado: %ConsultaCategoria% == "SCRW"
+Argumento 2:=QA
+Argumento 3:=false
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP04_CD1.rftdp
+Inicio=14
+Resto Expresion=ConsultaCategoria% == "SCRW"
+fin=17
+VarName=ConsultaCategoria
+Resto Expresion= == "SCRW"
+La variable ConsultaCategoria fue encontrada en el DP
+Expresion Condicionado: "BD" == "SCRW"
+Inicio=-1
+Resultado=false
+Expresion a evaluar=false
+DATO: -1
+registro actual: 4 Ultimo paso OK: 2
+Paso selecionado: fSCRW_Logout
+false
+Script a validar:fSCRW_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %consultacategoria% == "scrw"
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+Expresion a evaluarCondicionado: %ConsultaCategoria% == "SCRW"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEvaluarExpresionCondicionante
+Cantidad de argumentos:4
+Argumento 0:=CP04_CD1
+Argumento 1:=Condicionado: %ConsultaCategoria% == "SCRW"
+Argumento 2:=QA
+Argumento 3:=false
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP04_CD1.rftdp
+Inicio=14
+Resto Expresion=ConsultaCategoria% == "SCRW"
+fin=17
+VarName=ConsultaCategoria
+Resto Expresion= == "SCRW"
+La variable ConsultaCategoria fue encontrada en el DP
+Expresion Condicionado: "BD" == "SCRW"
+Inicio=-1
+Resultado=false
+Expresion a evaluar=false
+DATO: -1
+registro actual: 5 Ultimo paso OK: 2
+Paso selecionado: fSCRW_ModificarCategoria_BD
+false
+Script a validar:fSCRW_ModificarCategoria_BD
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=condicionado: %consultacategoria% == "bd"
+Argumento 7:=CP04_CD1_T1
+Argumento 8:=update1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+Expresion a evaluarCondicionado: %ConsultaCategoria% == "BD"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEvaluarExpresionCondicionante
+Cantidad de argumentos:4
+Argumento 0:=CP04_CD1
+Argumento 1:=Condicionado: %ConsultaCategoria% == "BD"
+Argumento 2:=QA
+Argumento 3:=false
+-----------------------------------------------------------
+FileName=DPC_CP04_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP04_CD1.rftdp
+Inicio=14
+Resto Expresion=ConsultaCategoria% == "BD"
+fin=17
+VarName=ConsultaCategoria
+Resto Expresion= == "BD"
+La variable ConsultaCategoria fue encontrada en el DP
+Expresion Condicionado: "BD" == "BD"
+Inicio=-1
+Resultado=true
+Expresion a evaluar=true
+ 
+Hora de Inicio de la Ejecucion:2019/05/22 15:34:17
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fSCRW_ModificarCategoria_BD
+Cantidad de argumentos:5
+Argumento 0:=CP04_CD1_T1
+Argumento 1:=update1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+Consulta a ejecutar: UPDATE USRSCORECER.SCORE_PROTECTORA_CLIENTE PC SET PC.CATEGORIA_MANUAL = %2, PC.CATEGORIA_FINAL = %2, PC.FECHA_CATE_MANUAL = SYSDATE WHERE PC.ID_PROTECTORA_CLIENTE = (SELECT MAX(TEMP.ID_PROTECTORA_CLIENTE) FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE TEMP LEFT JOIN USRSCORECER.SCORE_CLIENTE CLI ON CLI.ID_CLIENTE = TEMP.ID_CLIENTE WHERE CLI.CEDULA = %1)
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.149.137.215)(PORT=1522)))(CONNECT_DATA=(SID=certel)(SERVER=DEDICATED)))
+Consulta a realizarUPDATE USRSCORECER.SCORE_PROTECTORA_CLIENTE PC SET PC.CATEGORIA_MANUAL = 'F', PC.CATEGORIA_FINAL = 'F', PC.FECHA_CATE_MANUAL = SYSDATE WHERE PC.ID_PROTECTORA_CLIENTE = (SELECT MAX(TEMP.ID_PROTECTORA_CLIENTE) FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE TEMP LEFT JOIN USRSCORECER.SCORE_CLIENTE CLI ON CLI.ID_CLIENTE = TEMP.ID_CLIENTE WHERE CLI.CEDULA = '405267789')
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@82585bc4
+conexion no es null oracle.jdbc.driver.T4CConnection@82585bc4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+Consulta a ejecutar:    SELECT PC.CATEGORIA_MANUAL, PC.CATEGORIA_FINAL 
+FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE PC 
+WHERE PC.ID_PROTECTORA_CLIENTE = ( SELECT MAX(TEMP.ID_PROTECTORA_CLIENTE) FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE TEMP LEFT JOIN USRSCORECER.SCORE_CLIENTE CLI ON CLI.ID_CLIENTE = TEMP.ID_CLIENTE WHERE CLI.CEDULA = %1 )
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.149.137.215)(PORT=1522)))(CONNECT_DATA=(SID=certel)(SERVER=DEDICATED)))
+Consulta a realizar   SELECT PC.CATEGORIA_MANUAL, PC.CATEGORIA_FINAL 
+FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE PC 
+WHERE PC.ID_PROTECTORA_CLIENTE = ( SELECT MAX(TEMP.ID_PROTECTORA_CLIENTE) FROM USRSCORECER.SCORE_PROTECTORA_CLIENTE TEMP LEFT JOIN USRSCORECER.SCORE_CLIENTE CLI ON CLI.ID_CLIENTE = TEMP.ID_CLIENTE WHERE CLI.CEDULA = '405267789' )
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@2e10cd29
+cols 2
+Resultado de la consulta
+------------------------
+
+Cantidad total de filas 0
+conexion no es null oracle.jdbc.driver.T4CConnection@2e10cd29
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 1-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problemas al validar/actualizar la categoria crediticia
+Argumento 1:=QA
+Argumento 2:=CP04_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fSCRW_ModificarCategoria_BD
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problemas al validar/actualizar la categoria crediticia
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    3  -  fEvaluarExpresionCondicionante; ;OK;
+Paso    3  -  fSCRW_Login; ;NA;
+Paso    4  -  fEvaluarExpresionCondicionante; ;OK;
+Paso    4  -  fSCRW_ModificarCategoria; ;NA;
+Paso    5  -  fEvaluarExpresionCondicionante; ;OK;
+Paso    5  -  fSCRW_Logout; ;NA;
+Paso    6  -  fEvaluarExpresionCondicionante; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    3  -  fSCRW_Login;Expresion;false;
+Paso    4  -  fSCRW_ModificarCategoria;Expresion;false;
+Paso    5  -  fSCRW_Logout;Expresion;false;
+Paso    6  -  fSCRW_ModificarCategoria_BD;Expresion;true;
+Scripts.Comun.SistemasExternos.DB_SQL;Fila:0;;
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------Resultados Consola CMD----------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ 
+.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ERROR: Input redirection is not supported, exiting the process immediately.
+The process tried to write to a nonexistent pipe.
+2019-05-22 15:33:51.832:INFO:oejs.Server:jetty-8.1.16.v20140903
+2019-05-22 15:33:52.421:INFO:oejw.StandardDescriptorProcessor:NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-05-22 15:33:52.545:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:9100
+Exception occurred during playback of script [Scripts.CasosPrueba.LeerDatosUSR_CSV] [RationalTestScriptError on line 0 of script Scripts.CasosPrueba.LeerDatosUSR_CSV:  [com.rational.test.ft.UserStoppedScriptError] - CRFCN0515E: stop() method called.].
+2019-05-22 15:34:51.312:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/E:/Program%20Files%20(x86)/IBM/SDP/FunctionalTester/WebConfiguration/}
+2019-05-22 15:34:51.374:WARN:oejut.QueuedThreadPool:1 threads could not be stopped
+2019-05-22 15:34:51.374:INFO:oejut.QueuedThreadPool:Couldn't stop Thread[qtp-1393006916-43,5,main]
+2019-05-22 15:34:51.379:INFO:oejut.QueuedThreadPool: at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:594)
+2019-05-22 15:34:51.379:INFO:oejut.QueuedThreadPool: at java.lang.Thread.run(Thread.java:785)
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ OUTPUTSTREAM: java.io.BufferedOutputStream@e6f970

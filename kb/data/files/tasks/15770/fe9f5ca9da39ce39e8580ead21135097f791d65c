@@ -1,0 +1,60 @@
+*********** Reporte de ejecución del bat ***********
+.
+ECHO is off.
+Este archivo fue creado por SOIN para uso del ICE con RFT 
+RFT version 8.5 sobre windows 7
+Version de bat de fecha 18/01/2019 modificado por VC
+E:\Ambiente\QA\workspace_Juliana\
+.
+Parametros a utilizar...
+Usuario       = usrrft1
+Clave         = 20RftUsr117
+Ambiente      = QA
+Caso          = CPC1
+Conjunto      = CD1
+Paso Desde    = 1
+Paso Hasta    = 50
+Usuario ALT   = NA
+Clave ALT     = NA
+Log           = E:\Ambiente\QA\workspace_Juliana\Resultados\GUI\Log_CPC1.txt
+DataStore     = "E:\Ambiente\QA\workspace_Juliana\RFT_ICE"
+.
+REVISE LOS PARAMETROS ANTES DE CONTINUAR
+Inicializando RFT Playback...
+ECHO is off.
+RFT playback completo su ejecucion.
+
+******* Fin de reporte de ejecución del bat *******
+********** Reporte de ejecución de RFT **********
+Se deshabilita el modo interactivo
+CPC1-CD1
+E:\Ambiente\workspace_Release\PlantillasCSVMasivos\CPC1_CD1_All.rftdp
+-
+Procesado,Resultado,NroPedido,Titulo,Identificacion,NumeroServicio,SIM Correcta,Plan1,NombreTerminal,IMEI1,FIN,TipoTerminal,TipoPago,TipoPerfilCorrecto,ModoPago,CategoriaCrediticia1
+Procesado
+NA,NA,NA,Dato,407770854,89465775,89506010812111077273,PLAN 4G K1 24 M,NA,352214043678326,FIN,CLIENTE,NOMINA,POSTPAGO,ADM,A
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Desde: E:\Ambiente\workspace_Release\PlantillasCSVMasivos\CPC1_CD1_All.rftdp
+Hacia: E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\\CPC1_CD1_All.rftdp
+Procesado - NA
+Resultado - NA
+NroPedido - NA
+Titulo - Dato
+Identificacion - 407770854
+NumeroServicio - 89465775
+SIM Correcta - 89506010812111077273
+Plan1 - PLAN 4G K1 24 M
+NombreTerminal - NA
+IMEI1 - 352214043678326
+FIN - FIN
+TipoTerminal - CLIENTE
+TipoPago - NOMINA
+TipoPerfilCorrecto - POSTPAGO
+ModoPago - ADM
+CategoriaCrediticia1 - A
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+
+** Inserccion de Datos detenida: Sustituir la fila (null) (Incorrecta) por (null) (Correcta) en el .CSV **
+DATOS
+ 
+******* Fin de reporte de ejecución de RFT *******

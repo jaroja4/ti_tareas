@@ -1,0 +1,43 @@
+
+-----------------------------------------------------------------------------------------
+Informe de Errores del Caso Prueba y Conj Datos: CP10_CD1 Modo:Real
+Hora de Inicio: 2019/05/23 15:59:27
+
+-----------------------------------------------------------------------------------------
+>>> Motivo por el cual se detuvo la ejecucion <<<
+Tipo Parada         = Excepción no esperada
+Mensaje de Parada   = Script=fBRM_ValidarIMSI_Servicio Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+Parada en paso	    = 29
+-----------------------------------------------------------------------------------------
+
+
+Informe de Bugs
+-----------------------------------------------------------------------------------------
+
+
+Informe de re-ejecuciones por causa de Error
+-----------------------------------------------------------------------------------------
+Parada en paso	    = 31
+Script              = BRM_ValidarIMSI_Servicio
+Detalle Error       = 
+
+
+-----------------------------------------------------------------------------------------
+
+Informe de Errores imprevistos de sistema
+-----------------------------------------------------------------------------------------
+'Paso   26  -  Accion'                             'Excepción en Método'          'Script=Vista360 Línea=46 Método=setText Error=CRFCN0557E: Activation failed when running under a Terminal Services environment. This may be caused by using a minimized terminal window - try playing back without minimizing the terminal window (it does not need to be full-screen). Clase=com.rational.test.ft.WindowActivateFailedException Objeto=TextGuiTestObject(Name: <b>Identificación</b>, Map: Identificación)'
+
+'Paso   28  -  Accion'                             'Excepción en Método'          'Script=Logout Línea=45 Método=close Error=CRFCN0557E: Activation failed when running under a Terminal Services environment. This may be caused by using a minimized terminal window - try playing back without minimizing the terminal window (it does not need to be full-screen). Clase=com.rational.test.ft.WindowActivateFailedException Objeto=BrowserTestObject(Name: <b>BrowserIE</b>, Map: 2.- IESiebel -- SS                                    )'
+
+'Paso   31  -  Accion'                             'Objeto no encontrado'         'TestObjectMethodState {OBJECT_NOT_FOUND,testObjectClassName=GuiSubitemTestObject(Name: <b>popUpAcciones</b>, Map: PDropDown_JPopupMenu),method=click,signature=(L.script.Subitem;),args=[Ljava.lang.Object;@e0949f30}'
+
+'Paso   29  -  Accion'                             'Excepción en Método'          'Script=BRM_Login Línea=58 Método=setText Error=CRFCN0557E: Activation failed when running under a Terminal Services environment. This may be caused by using a minimized terminal window - try playing back without minimizing the terminal window (it does not need to be full-screen). Clase=com.rational.test.ft.WindowActivateFailedException Objeto=TextGuiSubitemTestObject(Name: <b>port</b>, Map: Port)'
+
+'Paso   29  -  Accion'                             'Excepción no esperada'        'Script=fBRM_Login Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.'
+
+'Paso   29  -  Accion'                             'Excepción no esperada'        'Script=fBRM_ValidarIMSI_Servicio Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.'
+
+
+Hora de Finalizacion de la Ejecucion: 2019/05/23 16:19:07
+-----------------------------------------------------------------------------------------

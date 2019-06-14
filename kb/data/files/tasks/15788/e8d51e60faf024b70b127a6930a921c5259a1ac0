@@ -1,0 +1,312 @@
+Control Calidad BO
+Salida de comando...
+####################################################
+PARAMETROS DE ENTRADA                          
+####################################################
+
+DOM:24
+MES:03
+ANNO:2019
+MODO:Ciclo
+
+####################################################
+IDENTIFICANDO DIFERENCIAS ITEM'S VRS EVENTOS   
+####################################################
+
+Inicia :02/04/2019 05:38:58
+
+
+Moviendo archivos ControlParse ...
+Se movieron  1237 archivos 
+Truncando tablas de diferencias ...
+Ejecutando loader  ...
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Respaldando archivos ControlParse ...
+Cantidad de facturas :258035
+
+Facturas con diferencias  :5
+
+
+Hay 5  diferencias entre item vrs eventos
+El porcentaje de diferencias es de  0 %
+Se debe ejecutar el protocolo que corrige la diferencia tanto en BRM y BO
+Para resolver el problema
+
+Si el porcentaje de diferencias supera el 10%
+recomendamos detener el proceso
+
+En caso de que ya exista un incidente asociado a estas diferencias reportadas
+y la solución de la misma es por medio de un ajuste.
+Por medio del botón Ajustes masivos de la gui operativa de BRM
+realizar los ajustes respectivos y una vez finalizado ejecutar 
+el botón de gui que permite realizar las correcciones de las facturas en BO.
+Para mas detalles  de este  workarround hacer referencia al protocolo.
+5
+
+Finaliza :02/04/2019 05:45:28
+
+#######################################################
+ACTUALIZACION CAMBIO DESCRIPCION PRODUCTOS DE INTERNET 
+#######################################################
+
+Inicia :02/04/2019 05:46:10
+
+Casos : Cambio descripcion productos internet
+
+0 rows updated.
+
+
+0 rows updated.
+
+
+Commit complete.
+
+Update Cambio descripcion productos internet Finalizado
+
+
+Finaliza :02/04/2019 05:46:49
+
+####################################################
+BORRADO DE FACTURAS CON INCONSISTENCIAS Y DUPLICADAS
+####################################################
+
+Inicia :02/04/2019 05:46:49
+
+- No se encontraron factura duplicadas a nivel de la tabla TMP_CUENTACLIENTE
+- No se encontraron factura duplicadas a nivel de la tabla TMP_RESUMENFACTURA
+- No se encontraron factura duplicadas a nivel de la tabla TMP_FACTURADETALLADA_ITEMS
+- No se encontraron factura duplicadas a nivel de la tabla TMP_FACTURADETALLADA_EVENTS
+
+Finaliza :02/04/2019 05:49:33
+
+####################################################
+FACTURAS NO CARGADAS A BO
+####################################################
+
+Inicia :02/04/2019 05:49:33
+
+Esta actividad se ejecuta en segundo plano.
+
+Finaliza :02/04/2019 05:49:33
+
+
+####################################################
+IDENTIFICANDO COMPRAS DUPLICADAS EN ATV        
+####################################################
+
+Inicia :02/04/2019 05:51:27
+
+
+Existe 75 factura(s) con mas de una compra de ATV
+por lo que se debe analizar con el área de ATV si las compra(s)
+se encuentran correctamente para esa(s) factura(s) de lo contrario
+se indicar al area de ATV realizar la apertura de un incidente para corregirla(s)
+y así resolver el problema a la mayor brevedad.
+
+Lista facturas:
+
+112023545
+111875598
+112124570
+112081063
+112124759
+111938721
+112081067
+112124701
+112020126
+111941298
+112116762
+112124122
+112044798
+112122596
+111876758
+112084631
+112035045
+111973003
+112040638
+111928980
+111946750
+112123903
+112113762
+112071993
+112115769
+112123296
+111870839
+112125998
+111950901
+111874147
+112124785
+112032067
+112124896
+112072815
+112110426
+111931841
+112010777
+111914753
+112124621
+111883873
+112124643
+111949516
+112124195
+111928731
+112123815
+112124506
+111869353
+112096144
+112108593
+111934381
+112114081
+112125110
+111872255
+111881990
+111870551
+112123908
+112122253
+112080712
+111929295
+112124331
+111910936
+111966230
+111934803
+111917096
+112123839
+111920823
+111875597
+111990078
+112123233
+112109604
+111872113
+112122241
+112122578
+112123282
+112124935
+
+
+Finaliza :02/04/2019 05:51:55
+
+####################################################
+IDENTIFICANDO FACTURAS CON MONTO EN CERO O NEGATIVAS 
+####################################################
+
+Inicia :02/04/2019 05:51:55
+
+facturas monto cero   : 0
+
+
+No hay facturas con monto igual a cero con preferencia de envio fisica o digital 
+
+facturas monto negativo   : 0
+
+
+No hay facturas con monto menor cero con preferencia de envio fisica o digital
+
+
+Finaliza :02/04/2019 05:52:13
+
+####################################################
+VALIDANDO CREACION DE INDICES                  
+####################################################
+
+Inicia :02/04/2019 05:52:13
+
+indices malos all indexs     :         0
+
+indices malos all partitions :         0
+
+indices malos user indexes   :         0
+
+
+Los indices estan creados correctamente
+
+
+Validando fecha de la ultima estadistica realizada a la tablas (si alguna es menor a la fecha de hoy se debe informar a soporte operativo
+
+
+y no continuar hasta que esten actualizadas)
+
+TMP_CUENTACLIENTE                                                                          02-APR-19
+TMP_RESUMENFACTURA                                                                         02-APR-19
+TMP_FACTURADETALLADA_ITEMS                                                                 02-APR-19
+TMP_FACTURADETALLADA_EVENTS                                                                02-APR-19
+Estadisticas
+
+TMP_CUENTACLIENTE                                                                          02-APR-19
+TMP_RESUMENFACTURA                                                                         02-APR-19
+TMP_FACTURADETALLADA_ITEMS                                                                 02-APR-19
+TMP_FACTURADETALLADA_EVENTS                                                                02-APR-19
+
+Finaliza :02/04/2019 05:52:17
+
+####################################################
+ACTUALIZACION DEL SYSDATE      
+####################################################
+
+Inicia :02/04/2019 05:52:17
+
+Actualizando sysdate en las tablas  tmp_cuentacliente y  tmp_resumenfactura
+
+Finaliza :02/04/2019 05:52:17
+
+####################################################
+FACTURAS CON CODIGO POSTAL INCORRECTOS              
+####################################################
+
+Inicia :02/04/2019 05:52:59
+
+
+No se encuentra ningun codigo postal incorrecto para este ciclo de facturacion
+
+Finaliza :02/04/2019 05:52:59
+
+####################################################
+VALIDANDO CANTIDAD DE TXT Y PDF A GENERAR      
+####################################################
+
+Inicia :02/04/2019 05:52:59
+
+## Validando cantidad de TXT ##
+Cantidad de TXT   :       70275
+
+## Validando cantidad de PDF ##
+Cantidad de PDF    :           1
+
+
+Finaliza :02/04/2019 05:54:27
+
+####################################################
+CORRECCION DEL MES AL COBRO A FACTURAS                  
+####################################################
+
+Inicia :02/04/2019 05:54:27
+
+Comienzo ejecucion ...
+Iniciando transferencia del archivo /ICE_GL_REP_DIR/FIX_PR_MESCOBRO_20190323_20190402055427.txt desde el servidor de base de datos...
+Transferencia de archivo finalizada.
+Fin Proceso
+
+Finaliza :02/04/2019 05:54:42
+
+####################################################
+ACTUALIZACION DEL IMPACTO DE BALANCE                 
+####################################################
+
+Inicia :02/04/2019 05:54:42
+
+Se realizo la actualizacion del impacto de balance a 258035 facturas
+
+Finaliza :02/04/2019 06:19:37
+
+####################################################
+MOVIMIENTO DE ARCHIVOS XML Y  COMPRENSION  
+####################################################
+
+Inicia :02/04/2019 06:19:37
+
+Esta actividad se ejecuta en segundo plano.
+El respaldo quedara depositado posterior a su finalizacion en la ruta: /ICE_INVOICER/historicos/PROCESS_DATA/
+warning: commands will be executed using /usr/bin/sh
+job 1554207578.a at Tue Apr  2 06:19:38 2019
+
+Finaliza :02/04/2019 06:19:38
+
+logout

@@ -1,0 +1,3548 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP10
+-----------------------------------------------------------
+NumeroCaso = CP10
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP10.rftdp
+false
+false
+--------------------------------------------------------------------
+CP10Pasos=fLogin
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-28
+--------------------------------------------------------------------
+CP10Pasos=fVista360
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-6
+--------------------------------------------------------------------
+CP10Pasos=fValidarUnPerfil
+CP10Param=Cliente
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBuscarActivo
+CP10Param=DP
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-6
+--------------------------------------------------------------------
+CP10Pasos=fBuscarCtaFact
+CP10Param=DP
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-6
+--------------------------------------------------------------------
+CP10Pasos=fValidarUnPerfil
+CP10Param=Fact
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fVista360
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-10
+--------------------------------------------------------------------
+CP10Pasos=fBuscarActivo
+CP10Param=DP
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-10
+--------------------------------------------------------------------
+CP10Pasos=fBuscarCtaFact
+CP10Param=DP
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-10
+--------------------------------------------------------------------
+CP10Pasos=fNuevaPostvta
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBuscarPedidoVenta
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-25
+--------------------------------------------------------------------
+CP10Pasos=fValidarAgencia
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fIngresarAutenticacion
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fASRM_Login
+CP10Param=DP
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-16
+--------------------------------------------------------------------
+CP10Pasos=fASRM_ModificarEstadoServicio
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fASRM_Logout
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fNumeroEspecial
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fProximoNumero
+CP10Param=1
+CP10Ejecuta=FALSE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fValidacPostServicio
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEnviarPedido
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-21
+--------------------------------------------------------------------
+CP10Pasos=fValidarMensaje
+CP10Param=DPM0012
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fValorarTodo
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEnviarPedido
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEsperaEstado
+CP10Param=Completar
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fValidacPostEnvio1
+CP10Param=true
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fVista360
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-27
+--------------------------------------------------------------------
+CP10Pasos=fBuscarActivo
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fLogout
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBRM_Login
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-32
+--------------------------------------------------------------------
+CP10Pasos=fBRM_BuscarCliente
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-31
+--------------------------------------------------------------------
+CP10Pasos=fBRM_ValidarIMSI_Servicio
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBRM_Logout
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fLogin
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-72
+--------------------------------------------------------------------
+CP10Pasos=fVista360
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-37
+--------------------------------------------------------------------
+CP10Pasos=fBuscarActivo
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-37
+--------------------------------------------------------------------
+CP10Pasos=fBuscarCtaFact
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-37
+--------------------------------------------------------------------
+CP10Pasos=fNuevaPostvta
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBuscarPedidoVenta
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fPersonalizarFavoritoNew
+CP10Param=FavVoz
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fIngresarAutenticacion
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=3
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=4
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fBuscarProducto
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fBuscarProducto
+CP10Param=6
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fBuscarProducto
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-47
+--------------------------------------------------------------------
+CP10Pasos=fCrearLE
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBuscarPedidoVenta
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-71
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-53
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=3
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-53
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-53
+--------------------------------------------------------------------
+CP10Pasos=fAsociarListaEspecial
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-53
+--------------------------------------------------------------------
+CP10Pasos=fValidarMensaje
+CP10Param=DPM0016
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fAgregarNum_a_LE
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fAgregarNum_a_LE
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fAgregarNum_a_LE
+CP10Param=3
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fAgregarNum_a_LE
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-61
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=3
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-61
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-61
+--------------------------------------------------------------------
+CP10Pasos=fValidarPrecioenPedido
+CP10Param=1
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEnviarPedido
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-63
+--------------------------------------------------------------------
+CP10Pasos=fValidarMensaje
+CP10Param=DPM0012
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fBuscarProducto
+CP10Param=7
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-68
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=2
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-68
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=3
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-68
+--------------------------------------------------------------------
+CP10Pasos=fExpandiryBuscar
+CP10Param=5
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=1-68
+--------------------------------------------------------------------
+CP10Pasos=fAsociarListaEspecial
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fValorarTodo
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEnviarPedido
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fEsperaEstado
+CP10Param=Completar
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=fLogout
+CP10Param=NA
+CP10Ejecuta=TRUE
+CP10Cond=NA
+CP10ErrorStop=TRUE
+CP10ReEjec=Nunca
+--------------------------------------------------------------------
+CP10Pasos=FIN
+CP10Param=
+CP10Ejecuta=
+CP10Cond=
+CP10ErrorStop=TRUE
+CP10ReEjec=
+--------------------------------------------------------------------
+CP10Pasos=UltimaModificacionDP
+CP10Param=
+CP10Ejecuta=VC 12/09/2018
+CP10Cond=
+CP10ErrorStop=false
+CP10ReEjec=
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP10_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP10_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = JH 2018/05/11
+Variable1= UltimaModifiacionDP
+Dato JH 2018/05/11 leido del dp = JH 2018/05/11
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DE LA CUENTA CLIENTE
+Cantidad Variables = 1
+Valor = 121044088
+Variable1= Identificacion
+Dato 121044088 leido del dp = 121044088
+--------------------------------------------------------------------
+Dato = NUMERO DEL ACTIVO PARA EL CAMBIO DE NUMERO
+Cantidad Variables = 1
+Valor = 89666222
+Variable1= NumeroServicio
+Dato 89666222 leido del dp = 89666222
+--------------------------------------------------------------------
+Dato = NUEVO NUMERO DE ACTIVO
+Cantidad Variables = 4
+Valor = 89520175
+Variable1= ProxNumNvo1
+Dato 89520175 leido del dp = 89520175
+Variable2= NumeroServicio1
+Dato 89520175 leido del dp = 89520175
+Variable3= BRM_ServicioDeseado
+Dato 89520175 leido del dp = 89520175
+Variable4= NumEspPrimerNum2daopcion1
+Dato 89520175 leido del dp = 89520175
+--------------------------------------------------------------------
+Dato = NUMERO DE OTRO OPERADOR
+Cantidad Variables = 1
+Valor = 70162170
+Variable1= LETel1
+Dato 70162170 leido del dp = 70162170
+--------------------------------------------------------------------
+Dato = NUMERO INTERNACIONAL
+Cantidad Variables = 1
+Valor = 541197269194
+Variable1= LETel2
+Dato 541197269194 leido del dp = 541197269194
+--------------------------------------------------------------------
+Dato = NUMERO FIJO
+Cantidad Variables = 1
+Valor = 22345678
+Variable1= LETel3
+Dato 22345678 leido del dp = 22345678
+--------------------------------------------------------------------
+Dato = NUMERO CORTO
+Cantidad Variables = 1
+Valor = 2431467
+Variable1= LETel4
+Dato 2431467 leido del dp = 2431467
+--------------------------------------------------------------------
+Dato = NUMERO FAVORITO
+Cantidad Variables = 2
+Valor = 89520293
+Variable1= LETel5
+Dato 89520293 leido del dp = 89520293
+Variable2= BRM_FavNum
+Dato 89520293 leido del dp = 89520293
+--------------------------------------------------------------------
+Dato = TIPO DE AUNTENTICACION
+Cantidad Variables = 1
+Valor = Enrute directo
+Variable1= Tipo
+Dato Enrute directo leido del dp = Enrute directo
+--------------------------------------------------------------------
+Dato = CANAL UTILIZADO
+Cantidad Variables = 1
+Valor = Agencia ICE
+Variable1= Canal
+Dato Agencia ICE leido del dp = Agencia ICE
+--------------------------------------------------------------------
+Dato = CUENTA DE FACTURACION DEL ACTIVO
+Cantidad Variables = 1
+Valor = 101785905688
+Variable1= BRM_Cuenta
+Dato 101785905688 leido del dp = 101785905688
+--------------------------------------------------------------------
+Dato = CONTRASENA BRM
+Cantidad Variables = 1
+Valor = password
+Variable1= BRM_pass
+Dato password leido del dp = password
+--------------------------------------------------------------------
+Dato = USUARIO BRM
+Cantidad Variables = 1
+Valor = root.0.0.0.1
+Variable1= BRM_usr
+Dato root.0.0.0.1 leido del dp = root.0.0.0.1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP10_CD1
+Ambiente = QA
+UltimoPasoOK70
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :71
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP10_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CP10_CD1
+Ambiente = QA
+T1_NroPedido=1-1785913136
+T1_NroServicio=89520175
+T1_NroCtaFact=101785905688
+T1_NomListaEspecial=1-1785913498
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-28
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:28
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-6
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:6
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarUnPerfil
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=Cliente
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=1-6
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:6
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=1-6
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:6
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarUnPerfil
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=Fact
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=1-10
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:10
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=1-10
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:10
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=1-10
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:10
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fNuevaPostvta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=1-25
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:25
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarAgencia
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fIngresarAutenticacion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fASRM_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=1-16
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:16
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fASRM_ModificarEstadoServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fASRM_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=16
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:16 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fNumeroEspecial
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=17
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:17 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fProximoNumero
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=18
+Argumento 4:=false
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidacPostServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=19
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:19 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=20
+Argumento 4:=true
+Argumento 5:=1-21
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:21
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:20 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=21
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DPM0012
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:21 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=22
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:22 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=23
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:23 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEsperaEstado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=24
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=Completar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:24 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidacPostEnvio1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=25
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=true
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:25 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=26
+Argumento 4:=true
+Argumento 5:=1-27
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:27
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:26 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=27
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:27 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fLogout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=28
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:28 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBRM_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=29
+Argumento 4:=true
+Argumento 5:=1-32
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:32
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:29 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBRM_BuscarCliente
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=30
+Argumento 4:=true
+Argumento 5:=1-31
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:31
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:30 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBRM_ValidarIMSI_Servicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=31
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:31 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBRM_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=32
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:32 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=33
+Argumento 4:=true
+Argumento 5:=1-72
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:72
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:33 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/28 12:11:28
+-------------------------------------------------
+Inicio de Paso: 33
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP10_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso33
+-----------------------------------------------------------
+usrrft1
+20RftUsr117
+Primera expresion false
+Segunda expresion false
+Segunda sub expresion1 false
+Segunda sub expresion2 true
+iNroPaso e iNroPasoDsede33-71
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LoginIf
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-7896
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11188
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9440
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6868
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-5200
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-4068
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9380
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6152
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+Existe mensaje de Reintentar?:false
+Existe mensaje de error?:false
+Existe el IE de siebel?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LoginIf
+Resultado:Resultado NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=NOK
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-3364
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-7388
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-8816
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10352
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-10668
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-9640
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9864
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6708
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+El process Id de Siebel es: 7596
+Mensaje DialogoExplorer existe?:true
+Mensaje de sesión ya abierta existe?:true
+Mensaje DialogoExplorer existe?:true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:4
+Argumento 0:=DPM0029
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=BrowserScript
+-----------------------------------------------------------
+Tipo: BrowserScript
+Existe Mensaje BrowserScript: true
+Mensaje del código: *Se ha excedido el tiempo de espera de la sesión porque estuvo inactivo demasiado tiempo. Vuelva a iniciar sesión para reanudarla. Si tenía abierto un archivo adjunto de Siebel, puede que los cambios se hayan perdido. Guarde el archivo localmente, ciérrelo y vuelva a adjuntarlo en el registro adecuado.*
+Mensaje de la pantalla: *Text*
+El mensaje No Coincide false
+Mensaje del código: *Se ha excedido el tiempo de espera de la sesión porque estuvo inactivo demasiado tiempo. Vuelva a iniciar sesión para reanudarla. Si tenía abierto un archivo adjunto de Siebel, puede que los cambios se hayan perdido. Guarde el archivo localmente, ciérrelo y vuelva a adjuntarlo en el registro adecuado.*
+Mensaje de la pantalla: *Text*
+Resultado: false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:false
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=34
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:34 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=35
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:35 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=36
+Argumento 4:=true
+Argumento 5:=1-37
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:37
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:36 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fNuevaPostvta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=37
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:37 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=38
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:38 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fPersonalizarFavoritoNew
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=39
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=FavVoz
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:39 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fIngresarAutenticacion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=40
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:40 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=41
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:41 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=42
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:42 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=43
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=4
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:43 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=44
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:44 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=45
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=6
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:45 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=46
+Argumento 4:=true
+Argumento 5:=1-47
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:47
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:46 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fCrearLE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=47
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:47 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=48
+Argumento 4:=true
+Argumento 5:=1-71
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:71
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:48 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/28 12:12:01
+-------------------------------------------------
+Inicio de Paso: 48
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVenta
+Cantidad de argumentos:5
+Argumento 0:=CP10_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso48
+-----------------------------------------------------------
+NroPedido: 1-1785913136
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVenta
+Cantidad de argumentos:2
+Argumento 0:=1-1785913136
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVenta
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=49
+Argumento 4:=true
+Argumento 5:=1-53
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:1 Hasta:53
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:49 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=50
+Argumento 4:=true
+Argumento 5:=1-53
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:1 Hasta:53
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:50 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=51
+Argumento 4:=true
+Argumento 5:=1-53
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:53
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:51 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAsociarListaEspecial
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=52
+Argumento 4:=true
+Argumento 5:=1-53
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:53
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:52 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=53
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DPM0016
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:53 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAgregarNum_a_LE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=54
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:54 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAgregarNum_a_LE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=55
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:55 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAgregarNum_a_LE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=56
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:56 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAgregarNum_a_LE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=57
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:57 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=58
+Argumento 4:=true
+Argumento 5:=1-61
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:1 Hasta:61
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:58 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=59
+Argumento 4:=true
+Argumento 5:=1-61
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:1 Hasta:61
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:59 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=60
+Argumento 4:=true
+Argumento 5:=1-61
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:61
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:60 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarPrecioenPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=61
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:61 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=62
+Argumento 4:=true
+Argumento 5:=1-63
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:63
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:62 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=63
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=DPM0012
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:63 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=64
+Argumento 4:=true
+Argumento 5:=1-68
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=7
+-----------------------------------------------------------
+Desde:1 Hasta:68
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:64 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=65
+Argumento 4:=true
+Argumento 5:=1-68
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:1 Hasta:68
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:65 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=66
+Argumento 4:=true
+Argumento 5:=1-68
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=3
+-----------------------------------------------------------
+Desde:1 Hasta:68
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:66 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=67
+Argumento 4:=true
+Argumento 5:=1-68
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:68
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:67 Paso desde:71
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fAsociarListaEspecial
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=68
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:68 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=69
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:69 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=70
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:70 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEsperaEstado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=71
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=Completar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:71 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/28 12:12:33
+-------------------------------------------------
+Inicio de Paso: 71
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEsperaEstado
+Cantidad de argumentos:5
+Argumento 0:=CP10_CD1_T1
+Argumento 1:=Completar
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso71
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EsperaEstado
+Cantidad de argumentos:3
+Argumento 0:=Completar
+Argumento 1:=null
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Reintentos Maximos60
+Estado Completar
+Reintentos Maximos 60
+Reintentos 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EsperaEstado
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=71
+-----------------------------------------------------------
+NumeroCaso = CP10_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 71
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=71
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP10_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=70
+Se actualizara con: Ult Tramite=NA-Ult Paso=71
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fLogout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=71
+Argumento 3:=72
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP10_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:72 Paso desde:71
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/28 12:12:48
+-------------------------------------------------
+Inicio de Paso: 72
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogout
+Cantidad de argumentos:5
+Argumento 0:=CP10_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso72
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Logout
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=NA
+-----------------------------------------------------------
+Cerrar IE: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-4136
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-2780
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-10132
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6516
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-10552
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-9680
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 25
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1004
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+Proceso: siebelax_test_automation_21238.exe
+Se descarta el proceso:siebelax_test_automation_21238.exe-9448
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-5232
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-11128
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-536
+Proceso: java.exe
+Se descarta el proceso:java.exe-5000
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-10788
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10596
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-10168
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11168
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Logout
+Resultado:Resultado: OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=72
+-----------------------------------------------------------
+NumeroCaso = CP10_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 72
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP10_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=72
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP10_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=71
+Se actualizara con: Ult Tramite=NA-Ult Paso=72
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Fin del caso
+Resultado:OK
+-----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  LeerDatosSalida; ;OK;
+Paso    1  -  fLogin; ;NE;
+Paso    2  -  fVista360; ;NE;
+Paso    3  -  fValidarUnPerfil; ;NE;
+Paso    4  -  fBuscarActivo; ;NE;
+Paso    5  -  fBuscarCtaFact; ;NE;
+Paso    6  -  fValidarUnPerfil; ;NE;
+Paso    7  -  fVista360; ;NE;
+Paso    8  -  fBuscarActivo; ;NE;
+Paso    9  -  fBuscarCtaFact; ;NE;
+Paso   10  -  fNuevaPostvta; ;NE;
+Paso   11  -  fBuscarPedidoVenta; ;NE;
+Paso   12  -  fValidarAgencia; ;NE;
+Paso   13  -  fIngresarAutenticacion; ;NE;
+Paso   14  -  fASRM_Login; ;NE;
+Paso   15  -  fASRM_ModificarEstadoServicio; ;NE;
+Paso   16  -  fASRM_Logout; ;NE;
+Paso   17  -  fNumeroEspecial; ;NE;
+Paso   18  -  fProximoNumero; ;NE;
+Paso   19  -  fValidacPostServicio; ;NE;
+Paso   20  -  fEnviarPedido; ;NE;
+Paso   21  -  fValidarMensaje; ;NE;
+Paso   22  -  fValorarTodo; ;NE;
+Paso   23  -  fEnviarPedido; ;NE;
+Paso   24  -  fEsperaEstado; ;NE;
+Paso   25  -  fValidacPostEnvio1; ;NE;
+Paso   26  -  fVista360; ;NE;
+Paso   27  -  fBuscarActivo; ;NE;
+Paso   28  -  fLogout; ;NE;
+Paso   29  -  fBRM_Login; ;NE;
+Paso   30  -  fBRM_BuscarCliente; ;NE;
+Paso   31  -  fBRM_ValidarIMSI_Servicio; ;NE;
+Paso   32  -  fBRM_Logout; ;NE;
+Paso   33  -  fLogin; ;OK;
+Paso   34  -  fVista360; ;NE;
+Paso   35  -  fBuscarActivo; ;NE;
+Paso   36  -  fBuscarCtaFact; ;NE;
+Paso   37  -  fNuevaPostvta; ;NE;
+Paso   38  -  fBuscarPedidoVenta; ;NE;
+Paso   39  -  fPersonalizarFavoritoNew; ;NE;
+Paso   40  -  fIngresarAutenticacion; ;NE;
+Paso   41  -  fExpandiryBuscar; ;NE;
+Paso   42  -  fExpandiryBuscar; ;NE;
+Paso   43  -  fExpandiryBuscar; ;NE;
+Paso   44  -  fBuscarProducto; ;NE;
+Paso   45  -  fBuscarProducto; ;NE;
+Paso   46  -  fBuscarProducto; ;NE;
+Paso   47  -  fCrearLE; ;NE;
+Paso   48  -  fBuscarPedidoVenta; ;OK;
+Paso   49  -  fExpandiryBuscar; ;NE;
+Paso   50  -  fExpandiryBuscar; ;NE;
+Paso   51  -  fExpandiryBuscar; ;NE;
+Paso   52  -  fAsociarListaEspecial; ;NE;
+Paso   53  -  fValidarMensaje; ;NE;
+Paso   54  -  fAgregarNum_a_LE; ;NE;
+Paso   55  -  fAgregarNum_a_LE; ;NE;
+Paso   56  -  fAgregarNum_a_LE; ;NE;
+Paso   57  -  fAgregarNum_a_LE; ;NE;
+Paso   58  -  fExpandiryBuscar; ;NE;
+Paso   59  -  fExpandiryBuscar; ;NE;
+Paso   60  -  fExpandiryBuscar; ;NE;
+Paso   61  -  fValidarPrecioenPedido; ;NE;
+Paso   62  -  fEnviarPedido; ;NE;
+Paso   63  -  fValidarMensaje; ;NE;
+Paso   64  -  fBuscarProducto; ;NE;
+Paso   65  -  fExpandiryBuscar; ;NE;
+Paso   66  -  fExpandiryBuscar; ;NE;
+Paso   67  -  fExpandiryBuscar; ;NE;
+Paso   68  -  fAsociarListaEspecial; ;NE;
+Paso   69  -  fValorarTodo; ;NE;
+Paso   70  -  fEnviarPedido; ;NE;
+Paso   71  -  fEsperaEstado; ;OK;
+Paso   72  -  fLogout; ;OK;
+Paso   73  -  Fin del caso; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;70;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    0  -  LeerDatosSalida;T1_NroPedido;1-1785913136;
+Paso    0  -  LeerDatosSalida;NroServicio;89520175;
+Paso    0  -  LeerDatosSalida;T1_NroCtaFact;101785905688;
+Paso    0  -  LeerDatosSalida;T1_NomListaEspecial;1-1785913498;
+ 

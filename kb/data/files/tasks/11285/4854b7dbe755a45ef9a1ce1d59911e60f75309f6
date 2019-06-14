@@ -1,0 +1,1390 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO09
+-----------------------------------------------------------
+NumeroCaso = CPKO09
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO09.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO09Pasos=fLeerVariableCondicionanteDP
+CPKO09Param=TipoPago
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_Login
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-23
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ConsultaPorServicio
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-4
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_NuevoTramite
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_BuscarPedido
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=5-15
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ConsultarMorosidad
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SeleccionarPlan
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SincronizarPlan
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SeleccionarTerminal
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_CotizarPedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-15
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_IngresarIMEI
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-14
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_IngresarVersionSerie
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-14
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_FinalizarOrden
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_BotonDetallePedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EstadoOrden
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_Login
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_PagarREDNew
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_Logout
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EstadoOrden
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_OpcionesDeOrden
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="ADM"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_BotonDetallePedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EsperaEstadoPedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ValidaInfoPedido
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=FIN
+CPKO09Param=null
+CPKO09Ejecuta=null
+CPKO09Cond=null
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=null
+--------------------------------------------------------------------
+CPKO09Pasos=UltimaModificacionDP
+CPKO09Param=null
+CPKO09Ejecuta=23/11/2018
+CPKO09Cond=DB
+CPKO09ErrorStop=null
+CPKO09ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO09_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO09_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 16/11/2018
+Variable1= UltimaModifiacionDP
+Dato DB 16/11/2018 leido del dp = DB 16/11/2018
+--------------------------------------------------------------------
+Dato = TIPO DE PAGO A REALIZAR (ADM/VEP)
+Cantidad Variables = 1
+Valor = VEP
+Variable1= TipoPago
+Dato VEP leido del dp = VEP
+--------------------------------------------------------------------
+Dato = NUMERO_DEL_SERVICIO
+Cantidad Variables = 2
+Valor = 10161821
+Variable1= NumeroServicio1
+Dato 10161821 leido del dp = 10161821
+Variable2= NumeroServicio
+Dato 10161821 leido del dp = 10161821
+--------------------------------------------------------------------
+Dato = CATEGORIA CREDITICIA DEL CLIENTE
+Cantidad Variables = 1
+Valor = B
+Variable1= CategoriaCrediticia1
+Dato B leido del dp = B
+--------------------------------------------------------------------
+Dato = NOMBRE DEL TIPO DE OFERTA COMERCIAL A SELECCIONAR
+Cantidad Variables = 1
+Valor = Oferta Kolbi Masiva
+Variable1= OfertafKO1
+Dato Oferta Kolbi Masiva leido del dp = Oferta Kolbi Masiva
+--------------------------------------------------------------------
+Dato = NOMBRE DEL GRUPO DE PROMOCION A SELECCIONAR
+Cantidad Variables = 1
+Valor = Planes 4G K
+Variable1= GrupoPromocion1
+Dato Planes 4G K leido del dp = Planes 4G K
+--------------------------------------------------------------------
+Dato = NOMBRE DEL PLAN A ELEGIR
+Cantidad Variables = 1
+Valor = PLAN 4G K4 12 M
+Variable1= Plan1
+Dato PLAN 4G K4 12 M leido del dp = PLAN 4G K4 12 M
+--------------------------------------------------------------------
+Dato = NOMBRE DE TERMINAL
+Cantidad Variables = 2
+Valor = HUAWEI P10 NEGRO
+Variable1= Terminal1
+Dato HUAWEI P10 NEGRO leido del dp = HUAWEI P10 NEGRO
+Variable2= ValidaDato1_3
+Dato HUAWEI P10 NEGRO leido del dp = HUAWEI P10 NEGRO
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 2
+Valor = 352214043665695
+Variable1= IMEI1
+Dato 352214043665695 leido del dp = 352214043665695
+Variable2= ValidaDato1_1
+Dato 352214043665695 leido del dp = 352214043665695
+--------------------------------------------------------------------
+Dato = OBSERVACIONES DE LA ORDEN
+Cantidad Variables = 1
+Valor = Prueba CPKO-09
+Variable1= ObservacionTP1
+Dato Prueba CPKO-09 leido del dp = Prueba CPKO-09
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = VERSION DEL SOFTWARE
+Cantidad Variables = 1
+Valor = 1111
+Variable1= Serie
+Dato 1111 leido del dp = 1111
+--------------------------------------------------------------------
+Dato = NUMERO DE SERIE
+Cantidad Variables = 1
+Valor = 111111111
+Variable1= Version
+Dato 111111111 leido del dp = 111111111
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CPKO09_CD1
+Path DP Condicionates = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CPKO09_CD1.rftdp
+DPC_CPKO09_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=TipoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:30:50
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CPKO09_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=CPKO09_CD1
+Argumento 4:=VEP
+-----------------------------------------------------------
+FileName=DPC_CPKO09_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPKO09_CD1.rftdp
+Se Crea: Variable=TipoPago- con Valor=VEP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-23
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:23
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:30:51
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+"System Idle Process","0","Services","0","4 K"
+"System","4","Services","0","232 K"
+"smss.exe","296","Services","0","988 K"
+"csrss.exe","412","Services","0","4,412 K"
+"csrss.exe","476","Console","1","3,588 K"
+"wininit.exe","484","Services","0","4,104 K"
+"winlogon.exe","512","Console","1","5,840 K"
+"services.exe","580","Services","0","6,232 K"
+"lsass.exe","588","Services","0","15,956 K"
+"svchost.exe","656","Services","0","12,192 K"
+"svchost.exe","692","Services","0","9,736 K"
+"vmacthlp.exe","772","Services","0","4,144 K"
+"LogonUI.exe","796","Console","1","26,016 K"
+"dwm.exe","808","Console","1","23,372 K"
+"svchost.exe","828","Services","0","20,108 K"
+"kavfs.exe","888","Services","0","29,664 K"
+"svchost.exe","980","Services","0","46,308 K"
+"kavfswp.exe","1012","Services","0","75,948 K"
+"svchost.exe","1020","Services","0","15,392 K"
+"conhost.exe","352","Services","0","2,920 K"
+"svchost.exe","428","Services","0","17,796 K"
+"svchost.exe","992","Services","0","11,000 K"
+"spoolsv.exe","1180","Services","0","16,132 K"
+"kavfswp.exe","1260","Services","0","62,260 K"
+"conhost.exe","1268","Services","0","2,912 K"
+"svchost.exe","1296","Services","0","8,132 K"
+"kavfsscs.exe","1320","Services","0","5,632 K"
+"nscp.exe","1384","Services","0","22,660 K"
+"svchost.exe","1484","Services","0","13,880 K"
+"VGAuthService.exe","1572","Services","0","10,644 K"
+"vmtoolsd.exe","1692","Services","0","18,968 K"
+"ManagementAgentHost.exe","1784","Services","0","9,676 K"
+"svchost.exe","1452","Services","0","284,292 K"
+"svchost.exe","1684","Services","0","4,728 K"
+"WmiPrvSE.exe","2316","Services","0","22,168 K"
+"dllhost.exe","2380","Services","0","11,080 K"
+"msdtc.exe","2640","Services","0","7,044 K"
+"GoogleCrashHandler.exe","2780","Services","0","932 K"
+"GoogleCrashHandler64.exe","3388","Services","0","696 K"
+"klnagent.exe","2116","Services","0","28,708 K"
+"csrss.exe","5512","","3","22,520 K"
+"winlogon.exe","4004","","3","5,436 K"
+"dwm.exe","4092","","3","47,360 K"
+"taskhostex.exe","3968","","3","8,192 K"
+"rdpclip.exe","4712","","3","9,664 K"
+"rdpinput.exe","2208","","3","4,040 K"
+"explorer.exe","4192","","3","98,676 K"
+"vmtoolsd.exe","2564","","3","10,692 K"
+"kavtray.exe","5220","","3","1,124 K"
+"csrss.exe","6900","RDP-Tcp#7","4","29,608 K"
+"winlogon.exe","5244","RDP-Tcp#7","4","5,356 K"
+"dwm.exe","6480","RDP-Tcp#7","4","65,516 K"
+"taskhostex.exe","6816","RDP-Tcp#7","4","25,444 K"
+"rdpclip.exe","4568","RDP-Tcp#7","4","9,544 K"
+"explorer.exe","6372","RDP-Tcp#7","4","94,536 K"
+"rdpinput.exe","6280","RDP-Tcp#7","4","3,992 K"
+"csrss.exe","1048","RDP-Tcp#9","5","33,868 K"
+"winlogon.exe","4908","RDP-Tcp#9","5","5,300 K"
+"dwm.exe","6160","RDP-Tcp#9","5","78,720 K"
+"taskhostex.exe","1796","RDP-Tcp#9","5","14,352 K"
+"rdpclip.exe","6580","RDP-Tcp#9","5","6,996 K"
+"explorer.exe","6736","RDP-Tcp#9","5","85,948 K"
+"javaw.exe","6784","RDP-Tcp#7","4","141,472 K"
+"vmtoolsd.exe","5708","RDP-Tcp#7","4","10,636 K"
+"kavtray.exe","6068","RDP-Tcp#7","4","2,352 K"
+"jusched.exe","3980","RDP-Tcp#7","4","5,060 K"
+"vmtoolsd.exe","4928","RDP-Tcp#9","5","10,708 K"
+"kavtray.exe","6564","RDP-Tcp#9","5","3,036 K"
+"jusched.exe","6676","RDP-Tcp#9","5","5,056 K"
+"javaw.exe","7148","RDP-Tcp#9","5","138,000 K"
+"iexplore.exe","1008","RDP-Tcp#9","5","29,928 K"
+"iexplore.exe","1748","RDP-Tcp#9","5","54,024 K"
+"chrome.exe","2872","RDP-Tcp#7","4","94,824 K"
+"chrome.exe","8696","RDP-Tcp#7","4","5,644 K"
+"chrome.exe","5992","RDP-Tcp#7","4","6,100 K"
+"chrome.exe","9152","RDP-Tcp#7","4","89,592 K"
+"chrome.exe","9164","RDP-Tcp#7","4","29,556 K"
+"chrome.exe","8312","RDP-Tcp#7","4","74,192 K"
+"chrome.exe","8940","RDP-Tcp#7","4","39,792 K"
+"chrome.exe","5780","RDP-Tcp#7","4","18,592 K"
+"chrome.exe","5828","RDP-Tcp#7","4","74,356 K"
+"chrome.exe","7312","RDP-Tcp#7","4","26,088 K"
+"javaw.exe","5468","RDP-Tcp#9","5","157,512 K"
+"iexplore.exe","2744","RDP-Tcp#9","5","52,344 K"
+"csrss.exe","8316","RDP-Tcp#12","6","35,064 K"
+"winlogon.exe","8912","RDP-Tcp#12","6","5,316 K"
+"dwm.exe","1596","RDP-Tcp#12","6","64,844 K"
+"taskhostex.exe","6920","RDP-Tcp#12","6","8,276 K"
+"rdpclip.exe","8136","RDP-Tcp#12","6","9,180 K"
+"rdpinput.exe","1616","RDP-Tcp#12","6","3,956 K"
+"explorer.exe","8404","RDP-Tcp#12","6","80,108 K"
+"vmtoolsd.exe","8684","RDP-Tcp#12","6","10,504 K"
+"kavtray.exe","1744","RDP-Tcp#12","6","5,788 K"
+"jusched.exe","6060","RDP-Tcp#12","6","5,000 K"
+"eclipse.exe","6344","RDP-Tcp#12","6","3,424 K"
+"javaw.exe","4452","RDP-Tcp#12","6","325,840 K"
+"javaw.exe","6620","RDP-Tcp#12","6","115,752 K"
+"chrome.exe","8368","RDP-Tcp#12","6","104,172 K"
+"chrome.exe","8056","RDP-Tcp#12","6","5,428 K"
+"chrome.exe","8272","RDP-Tcp#12","6","5,856 K"
+"chrome.exe","3084","RDP-Tcp#12","6","77,080 K"
+"chrome.exe","7604","RDP-Tcp#12","6","97,248 K"
+"chrome.exe","4116","RDP-Tcp#12","6","33,372 K"
+"chrome.exe","652","RDP-Tcp#12","6","32,532 K"
+"chrome.exe","7704","RDP-Tcp#12","6","11,832 K"
+"explorer.exe","1668","RDP-Tcp#12","6","12,560 K"
+"chrome.exe","3716","RDP-Tcp#12","6","18,604 K"
+"cmd.exe","2860","RDP-Tcp#9","5","2,668 K"
+"conhost.exe","6572","RDP-Tcp#9","5","3,544 K"
+"java.exe","7760","RDP-Tcp#9","5","137,236 K"
+"playerhook32.exe","5352","RDP-Tcp#9","5","4,508 K"
+"conhost.exe","5924","RDP-Tcp#9","5","3,432 K"
+"cmd.exe","7724","RDP-Tcp#12","6","2,672 K"
+"conhost.exe","6132","RDP-Tcp#12","6","3,560 K"
+"java.exe","7088","RDP-Tcp#12","6","72,904 K"
+"tasklist.exe","6888","RDP-Tcp#9","5","5,980 K"
+"conhost.exe","8220","RDP-Tcp#9","5","3,484 K"
+num: 117
+Proceso: System Idle Process
+Se descarta el proceso:System Idle Process-0
+Proceso: System
+Se descarta el proceso:System-4
+Proceso: smss.exe
+Se descarta el proceso:smss.exe-296
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-412
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-476
+Proceso: wininit.exe
+Se descarta el proceso:wininit.exe-484
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-512
+Proceso: services.exe
+Se descarta el proceso:services.exe-580
+Proceso: lsass.exe
+Se descarta el proceso:lsass.exe-588
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-656
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-692
+Proceso: vmacthlp.exe
+Se descarta el proceso:vmacthlp.exe-772
+Proceso: LogonUI.exe
+Se descarta el proceso:LogonUI.exe-796
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-808
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-828
+Proceso: kavfs.exe
+Se descarta el proceso:kavfs.exe-888
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-980
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1012
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1020
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-352
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-428
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-992
+Proceso: spoolsv.exe
+Se descarta el proceso:spoolsv.exe-1180
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1260
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-1268
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1296
+Proceso: kavfsscs.exe
+Se descarta el proceso:kavfsscs.exe-1320
+Proceso: nscp.exe
+Se descarta el proceso:nscp.exe-1384
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1484
+Proceso: VGAuthService.exe
+Se descarta el proceso:VGAuthService.exe-1572
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1692
+Proceso: ManagementAgentHost.exe
+Se descarta el proceso:ManagementAgentHost.exe-1784
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1452
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1684
+Proceso: WmiPrvSE.exe
+Se descarta el proceso:WmiPrvSE.exe-2316
+Proceso: dllhost.exe
+Se descarta el proceso:dllhost.exe-2380
+Proceso: msdtc.exe
+Se descarta el proceso:msdtc.exe-2640
+Proceso: GoogleCrashHandler.exe
+Se descarta el proceso:GoogleCrashHandler.exe-2780
+Proceso: GoogleCrashHandler64.exe
+Se descarta el proceso:GoogleCrashHandler64.exe-3388
+Proceso: klnagent.exe
+Se descarta el proceso:klnagent.exe-2116
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-5512
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-4004
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-4092
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-3968
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-4712
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-2208
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4192
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-2564
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-5220
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-6900
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-5244
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-6480
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-6816
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-4568
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6372
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-6280
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-1048
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-4908
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-6160
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-1796
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-6580
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6736
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-6784
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-5708
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6068
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-3980
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-4928
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6564
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6676
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-7148
+Proceso: iexplore.exe
+Se descarta el proceso:iexplore.exe-1008
+Proceso: iexplore.exe
+Se descarta el proceso:iexplore.exe-1748
+Proceso: chrome.exe
+chrome.exe-2872
+chrome-2872
+El proceso chrome.exe-2872fue removido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ConsultaPorServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:31:55
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ConsultaPorServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=10161821
+Argumento 2:=null
+-----------------------------------------------------------
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultaPorServicio Línea=53 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+Servicio: 10161821 - Cliente:  VILLALOBOS TORRES CARLOS 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Resultado:Servicio: 10161821 - Cliente:  VILLALOBOS TORRES CARLOS 
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_NuevoTramite
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:32:23
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_NuevoTramite
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_NuevoTramite
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP
+Argumento 2:=10161821
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=41 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=52 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_NuevoTramite Línea=54 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+Se crea la orden de CP
+Orden de Cambio de Plan Generada con éxito para el servicio 10161821
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_NuevoTramite
+Resultado:KO-58383
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroPedido
+Argumento 4:=KO-58383
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato T1_NroPedido con KO-58383
+Grabar Dato Salida - Variable y Valor: T1_NroPedido=KO-58383
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroCtaFact
+Argumento 4:=101784089772
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato T1_NroCtaFact con 101784089772
+Grabar Dato Salida - Variable y Valor: T1_NroCtaFact=101784089772
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=4
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=4
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BuscarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=5-15
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:5 Hasta:15
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ConsultarMorosidad
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=1-12
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:12
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:33:08
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ConsultarMorosidad
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_ConsultarMorosidad
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=B
+Argumento 2:=null
+-----------------------------------------------------------
+Categoria indicada: B
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=42 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=43 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:2041e00062c16, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=KomercialICE.KO_ConsultarMorosidad Línea=49 Método=findChildrenWithProperties Error=Input string was not in a correct format. Clase=System.FormatException Objeto=DomainTestObject(Ref:RemoteProxyReference{testContext:b8190508626e, objectId:Win, testObjectClass:com.rational.test.ft.object.interfaces.DomainTestObject})
+##################################################################
+Categoria cliente: B
+null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ConsultarMorosidad
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=6
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=6
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=4
+Se actualizara con: Ult Tramite=NA-Ult Paso=6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_SeleccionarPlan
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=1-12
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:12
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:33:43
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_SeleccionarPlan
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_SeleccionarPlan
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=null
+Argumento 2:=Planes 4G K
+Argumento 3:=PLAN 4G K4 12 M
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_SeleccionarPlan
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problemas al Seleccionar el Plan
+Argumento 1:=QA
+Argumento 2:=CPKO09_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fKO_SeleccionarPlan
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problemas al Seleccionar el Plan
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fKO_Login; ;OK;
+Paso    3  -  fKO_ConsultaPorServicio; ;OK;
+Paso    4  -  fKO_NuevoTramite; ;OK;
+Paso    5  -  fKO_BuscarPedido; ;NE;
+Paso    6  -  fKO_ConsultarMorosidad; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    4  -  GrabarDatosSalida;T1_NroPedido;KO-58383;
+Paso    4  -  GrabarDatosSalida;T1_NroCtaFact;101784089772;
+Paso    4  -  fKO_NuevoTramite;NroPedido;KO-58383;
+ 
+ 

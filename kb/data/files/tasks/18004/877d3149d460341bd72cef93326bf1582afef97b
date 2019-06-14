@@ -1,0 +1,936 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CPKO25_CD1 ya existia - No se copia
+Proceso completado correctamente
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: USUARIO KO
+Valor: misanc3
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA KO
+Valor: asp128
+Accion: Valor Actualizado...
+
+Descripcion: SERVICIO A CONSULTAR
+Valor: 89510221
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE ACCION
+Valor: CS
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE NUEVA SIM
+Valor: 89506010613114851569
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DEL NUEVO IMSI
+Valor: 712012008895205
+Accion: Valor Actualizado...
+
+Descripcion: EXCENTO DE PAGO SIM
+Valor: Si
+Accion: Valor Actualizado...
+
+Descripcion: OBSERVACION PARA EL ESCENARIO
+Valor: Cambio de SIM para escenario CPKO25 Carilyn
+Accion: Valor Actualizado...
+
+Descripcion: CANTIDAD DE VALIDACIONES
+Valor: 1
+Accion: Valor Actualizado...
+
+Descripcion: VALIDAR CAMPOS: [IMEI/SIM/FACILIDADES/NUMERO/TERMINAL/TIPO_PAGO]
+Valor: NEW_SIM
+Accion: Valor Actualizado...
+
+Descripcion: CANTIDAD DE VALIDACIONES EN SIEBEL
+Valor: 1
+Accion: Valor Actualizado...
+
+Descripcion: OPCIONES A SELECCIONAR SIEBEL: [ESTADO/IMEI/SIM/IMSI/TIPO_NUMERO]
+Valor: SIM
+Accion: Valor Actualizado...
+
+Descripcion: CANTIDAD VALIDACIONES BRM
+Valor: 1
+Accion: Valor Actualizado...
+
+Descripcion: OPCIONES A SELECCIONAR BRM: [ESTADO/IMSI/TELEFONO]
+Valor: IMSI
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CPKO25
+Argumento 4:=CD1
+Argumento 5:=10
+Argumento 6:=12
+Argumento 7:=NA
+Argumento 8:=NA
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CPKO25_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO25
+-----------------------------------------------------------
+NumeroCaso = CPKO25
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO25.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_Login
+CPKO25Param=NA
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-11
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_ConsultaPorServicio
+CPKO25Param=1
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-4
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_PostVenta
+CPKO25Param=NA
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-4
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_CambioSIM
+CPKO25Param=1
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-4
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_BitacoraOperaciones
+CPKO25Param=NA
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-5
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_BuscarPedido
+CPKO25Param=DETALLE
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=6-11
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_EstadoOrden
+CPKO25Param=NA
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-8
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_ValidaInfoPedido
+CPKO25Param=1
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-8
+--------------------------------------------------------------------
+CPKO25Pasos=fBRM_ValidaInfoServicio
+CPKO25Param=1*
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-11
+--------------------------------------------------------------------
+CPKO25Pasos=fSBL_ValidaInfoServicio
+CPKO25Param=1*
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-11
+--------------------------------------------------------------------
+CPKO25Pasos=fKO_ValidaMontoTotal
+CPKO25Param=1
+CPKO25Ejecuta=TRUE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=1-11
+--------------------------------------------------------------------
+CPKO25Pasos=FIN
+CPKO25Param=NA
+CPKO25Ejecuta=FALSE
+CPKO25Cond=NA
+CPKO25ErrorStop=TRUE
+CPKO25ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO25Pasos=UltimaModificacionDP
+CPKO25Param=null
+CPKO25Ejecuta=16/01/2019
+CPKO25Cond=DB
+CPKO25ErrorStop=false
+CPKO25ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO25_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO25_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO25_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 28/02/2019
+Variable1= UltimaModifiacionDP
+Dato DB 28/02/2019 leido del dp = DB 28/02/2019
+--------------------------------------------------------------------
+Dato = USUARIO KO
+Cantidad Variables = 1
+Valor = misanc3
+Variable1= KO_usr1
+Dato misanc3 leido del dp = misanc3
+--------------------------------------------------------------------
+Dato = CONTRASENA KO
+Cantidad Variables = 1
+Valor = asp128
+Variable1= KO_pass1
+Dato asp128 leido del dp = asp128
+--------------------------------------------------------------------
+Dato = SERVICIO A CONSULTAR
+Cantidad Variables = 1
+Valor = 89510221
+Variable1= NumeroServicio1
+Dato 89510221 leido del dp = 89510221
+--------------------------------------------------------------------
+Dato = TIPO DE ACCION
+Cantidad Variables = 1
+Valor = CS
+Variable1= TipoTramite
+Dato CS leido del dp = CS
+--------------------------------------------------------------------
+Dato = NUMERO DE NUEVA SIM
+Cantidad Variables = 3
+Valor = 89506010613114851569
+Variable1= NuevoSIM1
+Dato 89506010613114851569 leido del dp = 89506010613114851569
+Variable2= ValidaDato1_1
+Dato 89506010613114851569 leido del dp = 89506010613114851569
+Variable3= ValidaDato_SBL1_1
+Dato 89506010613114851569 leido del dp = 89506010613114851569
+--------------------------------------------------------------------
+Dato = NUMERO DEL NUEVO IMSI
+Cantidad Variables = 1
+Valor = 712012008895205
+Variable1= ValidaDato_BRM1_1
+Dato 712012008895205 leido del dp = 712012008895205
+--------------------------------------------------------------------
+Dato = EXCENTO DE PAGO SIM
+Cantidad Variables = 1
+Valor = Si
+Variable1= ExcentoPago1
+Dato Si leido del dp = Si
+--------------------------------------------------------------------
+Dato = OBSERVACION PARA EL ESCENARIO
+Cantidad Variables = 1
+Valor = Cambio de SIM para escenario CPKO25 Carilyn
+Variable1= ObservacionCS1
+Dato Cambio de SIM para escenario CPKO25 Carilyn leido del dp = Cambio de SIM para escenario CPKO25 Carilyn
+--------------------------------------------------------------------
+Dato = CANTIDAD DE VALIDACIONES
+Cantidad Variables = 1
+Valor = 1
+Variable1= CantidadVL1
+Dato 1 leido del dp = 1
+--------------------------------------------------------------------
+Dato = VALIDAR CAMPOS: [IMEI/SIM/FACILIDADES/NUMERO/TERMINAL/TIPO_PAGO]
+Cantidad Variables = 1
+Valor = NEW_SIM
+Variable1= ValidaItem1_1
+Dato NEW_SIM leido del dp = NEW_SIM
+--------------------------------------------------------------------
+Dato = CANTIDAD DE VALIDACIONES EN SIEBEL
+Cantidad Variables = 1
+Valor = 1
+Variable1= CantidadVL_SBL1
+Dato 1 leido del dp = 1
+--------------------------------------------------------------------
+Dato = OPCIONES A SELECCIONAR SIEBEL: [ESTADO/IMEI/SIM/IMSI/TIPO_NUMERO]
+Cantidad Variables = 1
+Valor = SIM
+Variable1= ValidaItem_SBL1_1
+Dato SIM leido del dp = SIM
+--------------------------------------------------------------------
+Dato = CANTIDAD VALIDACIONES BRM
+Cantidad Variables = 1
+Valor = 1
+Variable1= CantidadVL_BRM1
+Dato 1 leido del dp = 1
+--------------------------------------------------------------------
+Dato = OPCIONES A SELECCIONAR BRM: [ESTADO/IMSI/TELEFONO]
+Cantidad Variables = 1
+Valor = IMSI
+Variable1= ValidaItem_BRM1_1
+Dato IMSI leido del dp = IMSI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO25_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO25_CD1
+Ambiente = QA
+UltimoPasoOK10
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO25_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO25_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CPKO25_CD1
+Ambiente = QA
+T1_NroPedido=71773
+T1_NroCtaFact=101788448746
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-11
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 12:21:25
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO25_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+Incapaz de matar o no se encontro chrome.exe Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 0
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 1
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: hierarchiesmenu Intento: 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ConsultaPorServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_PostVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_CambioSIM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BitacoraOperaciones
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BuscarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=6-11
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=DETALLE
+-----------------------------------------------------------
+Desde:6 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 12:22:25
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_BuscarPedido
+Cantidad de argumentos:5
+Argumento 0:=CPKO25_CD1_T1
+Argumento 1:=DETALLE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_BuscarPedido
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=71773
+Argumento 2:=DETALLE
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_BuscarPedido
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_EstadoOrden
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=1-8
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:8
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ValidaInfoPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=1-8
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:8
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBRM_ValidaInfoServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=1-11
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1*
+-----------------------------------------------------------
+Desde:1 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 12:23:18
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBRM_ValidaInfoServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO25_CD1_T1
+Argumento 1:=1*
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+Consulta a ejecutar: select n.name as IMSI, b.name as Telefono, a.status as EstadoCuenta, a.account_no Cuenta
+from %1.service_alias_list_t n
+  inner join %1.service_t s on s.poid_id0 = n.obj_id0
+  inner join %1.account_t a on a.poid_id0 = s.account_obj_id0
+  inner join %1.profile_t p on p.account_obj_id0 = a.poid_id0
+  inner join %1.ice_profile_acct_t ip on ip.obj_id0 = p.poid_id0 
+  inner join %1.service_alias_list_t b on n.obj_id0 = b.obj_id0 
+where
+a.account_no  in (
+%2
+) AND n.name != %3 AND ROWNUM = 1
+Order By S.Created_T
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.149.137.201)(PORT=1522)))(CONNECT_DATA=(SID=CERBRM)(SERVER=DEDICATED)))
+Consulta a realizarselect n.name as IMSI, b.name as Telefono, a.status as EstadoCuenta, a.account_no Cuenta
+from pin03.service_alias_list_t n
+  inner join pin03.service_t s on s.poid_id0 = n.obj_id0
+  inner join pin03.account_t a on a.poid_id0 = s.account_obj_id0
+  inner join pin03.profile_t p on p.account_obj_id0 = a.poid_id0
+  inner join pin03.ice_profile_acct_t ip on ip.obj_id0 = p.poid_id0 
+  inner join pin03.service_alias_list_t b on n.obj_id0 = b.obj_id0 
+where
+a.account_no  in (
+'101788448746'
+) AND n.name != '89510221' AND ROWNUM = 1
+Order By S.Created_T
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@3510fcfd
+cols 4
+Resultado de la consulta
+------------------------
+712012008895205/CC/712012008895205/CC/10100/CC/101788448746/CC//FF/
+Cantidad total de filas 1
+conexion no es null oracle.jdbc.driver.T4CConnection@3510fcfd
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+La validacion de IMSI coincide con la informacion de BRM (712012008895205)DATO: -1
+Script a validar:fSBL_ValidaInfoServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=1-11
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1*
+-----------------------------------------------------------
+Desde:1 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 12:23:35
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fSBL_ValidaInfoServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO25_CD1_T1
+Argumento 1:=1*
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+Consulta a ejecutar: SELECT temp.paymnt_type_cd, temp.name, temp.serial_num, temp.status_cd, temp.x_sim, temp.x_imsi, temp.x_imei, temp.last_upd, ROWNUM
+FROM (select prd.paymnt_type_cd AS paymnt_type_cd, prd.name AS name, act.serial_num AS serial_num, act.status_cd AS status_cd, act.x_sim AS x_sim, act.x_imsi AS x_imsi,  act.x_imei AS x_imei, act.last_upd AS last_upd, act.created AS created, ROWNUM AS fila
+  from siebel.s_asset act inner join
+       siebel.s_prod_int prd on prd.row_id = act.prod_id
+where act.prod_id in ('1-144HF', --	Servicio de Telefonia Movil 
+                       '1-78K4K', --	Servicio Telefonia Movil Prepago
+                       '1-T0EVRZ', --	Servicio de Telefonia Movil Hibrido
+                       '1-79Y1L', -- Servicio Datos
+                       '1-7YBJY', -- Servicio Celular Geolocalizacion
+                       '1-6GVRW' -- Servicio Datos Prepago
+                       )
+and serial_num = %1 
+ORDER BY act.created DESC) temp
+WHERE ROWNUM = 1
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.129.23.237)(PORT=1523)))(CONNECT_DATA=(SID=certcrm1)(SERVER=DEDICATED)))
+Consulta a realizarSELECT temp.paymnt_type_cd, temp.name, temp.serial_num, temp.status_cd, temp.x_sim, temp.x_imsi, temp.x_imei, temp.last_upd, ROWNUM
+FROM (select prd.paymnt_type_cd AS paymnt_type_cd, prd.name AS name, act.serial_num AS serial_num, act.status_cd AS status_cd, act.x_sim AS x_sim, act.x_imsi AS x_imsi,  act.x_imei AS x_imei, act.last_upd AS last_upd, act.created AS created, ROWNUM AS fila
+  from siebel.s_asset act inner join
+       siebel.s_prod_int prd on prd.row_id = act.prod_id
+where act.prod_id in ('1-144HF', --	Servicio de Telefonia Movil 
+                       '1-78K4K', --	Servicio Telefonia Movil Prepago
+                       '1-T0EVRZ', --	Servicio de Telefonia Movil Hibrido
+                       '1-79Y1L', -- Servicio Datos
+                       '1-7YBJY', -- Servicio Celular Geolocalizacion
+                       '1-6GVRW' -- Servicio Datos Prepago
+                       )
+and serial_num = '89510221' 
+ORDER BY act.created DESC) temp
+WHERE ROWNUM = 1
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@fbd41d66
+cols 9
+Resultado de la consulta
+------------------------
+Prepago/CC/Servicio Telefonia Movil Prepago/CC/89510221/CC/Activo/CC/89506010613114851569/CC/712012008895205/CC/2019-05-28 18:13:18.0/CC/1/CC//FF/
+Cantidad total de filas 1
+conexion no es null oracle.jdbc.driver.T4CConnection@fbd41d66
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+La validacion de SIM coincide con la informacion de SIEBEL (89506010613114851569)-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO25_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=10
+-----------------------------------------------------------
+NumeroCaso = CPKO25_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO25_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=10
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO25_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=10
+Se actualizara con: Ult Tramite=NA-Ult Paso=10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ValidaMontoTotal
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=10
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=1-11
+Argumento 6:=na
+Argumento 7:=CPKO25_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:10
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 12:23:51
+-------------------------------------------------
+Inicio de Paso: 11
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ValidaMontoTotal
+Cantidad de argumentos:5
+Argumento 0:=CPKO25_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso11
+-----------------------------------------------------------
+NO Coincide la suma: 0.00 valor: -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ValidaMontoTotal
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problemas al validar el monto Total del pedido
+Argumento 1:=QA
+Argumento 2:=CPKO25_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fKO_ValidaMontoTotal
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problemas al validar el monto Total del pedido
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  LeerDatosSalida; ;OK;
+Paso    1  -  fKO_Login; ;OK;
+Paso    2  -  fKO_ConsultaPorServicio; ;NE;
+Paso    3  -  fKO_PostVenta; ;NE;
+Paso    4  -  fKO_CambioSIM; ;NE;
+Paso    5  -  fKO_BitacoraOperaciones; ;NE;
+Paso    6  -  fKO_BuscarPedido; ;OK;
+Paso    7  -  fKO_EstadoOrden; ;NE;
+Paso    8  -  fKO_ValidaInfoPedido; ;NE;
+Paso    9  -  fBRM_ValidaInfoServicio; ;OK;
+Paso   10  -  fSBL_ValidaInfoServicio; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;10;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    0  -  LeerDatosSalida;T1_NroPedido;71773;
+Paso    0  -  LeerDatosSalida;T1_NroCtaFact;101788448746;
+Paso   10  -  DB_SQL;Fila:1;Prepago/CC/Servicio Telefonia Movil Prepago/CC/89510221/CC/Activo/CC/89506010613114851569/CC/712012008895205/CC/2019-05-28 18:13:18.0/CC/1/CC//FF/;
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------Resultados Consola CMD----------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ .
+E:\Program Files\Java
+Este archivo fue creado por SOIN para uso del ICE con RFT 
+RFT version 8.5 sobre windows 7
+Version de bat de fecha 21/08/2017 modificado por SS
+E:\Ambiente\PROD\workspace_Carolina\
+.
+Parametros a utilizar...
+Usuario       = usrrft1
+Clave         = 20RftUsr117
+Ambiente      = QA
+Caso          = CPKO25
+Conjunto      = CD1
+Paso Desde    = 10
+Paso Hasta    = 12
+Usuario ALT   = NA
+Clave ALT     = NA
+Log           = E:\Ambiente\PROD\workspace_Carolina\Resultados\GUI\Log_CPKO25.txt
+DataStore     = "E:\Ambiente\PROD\workspace_Carolina\RFT_ICE"
+.
+REVISE LOS PARAMETROS ANTES DE CONTINUAR
+Inicializando RFT Playback...
+ECHO is off.
+RFT playback completo su ejecucion.
+ERROR: Input redirection is not supported, exiting the process immediately.
+2019-05-28 12:20:53.976:INFO::main: Logging initialized @40265ms
+2019-05-28 12:20:55.701:INFO:oejs.Server:main: jetty-9.3.9.v20160517
+2019-05-28 12:20:56.264:INFO:oejw.StandardDescriptorProcessor:main: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-05-28 12:20:56.279:WARN:oejs.SecurityHandler:main: ServletContext@o.e.j.w.WebAppContext@-50a8c7c9{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,STARTING} has uncovered http methods for path: /
+2019-05-28 12:20:56.326:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@-50a8c7c9{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,AVAILABLE}
+Exception occurred during playback of script [Scripts.CasosPrueba.LeerDatosUSR_CSV] [RationalTestScriptError on line 0 of script Scripts.CasosPrueba.LeerDatosUSR_CSV:  [com.rational.test.ft.UserStoppedScriptError] - CRFCN0515E: stop() method called.].
+2019-05-28 12:24:03.121:INFO:oejs.AbstractConnector:main: Stopped ServerConnector@17d3211b{HTTP/1.1,[http/1.1]}{0.0.0.0:9100}
+2019-05-28 12:24:03.136:INFO:oejsh.ContextHandler:main: Stopped o.e.j.w.WebAppContext@-50a8c7c9{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,UNAVAILABLE}
+
+ OUTPUTSTREAM: java.io.BufferedOutputStream@15c56d6

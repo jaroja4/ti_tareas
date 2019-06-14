@@ -1,0 +1,49 @@
+
+-----------------------------------------------------------------------------------------
+Informe de Errores del Caso Prueba y Conj Datos: CP12_CD1 Modo:Real
+Hora de Inicio: 2019/01/24 13:52:27
+
+-----------------------------------------------------------------------------------------
+>>> Motivo por el cual se detuvo la ejecucion <<<
+Tipo Parada         = Bug
+Mensaje de Parada   = Mensaje diferente al deseado
+Parada en paso	    = 59
+-----------------------------------------------------------------------------------------
+
+
+Informe de Bugs
+-----------------------------------------------------------------------------------------
+'Paso   44  -  AceptarVtnasSBL'                    'La cuenta sólo puede tener un perfil de facturación (SBL-APS-00802)'
+'Paso   44  -  AceptarVtnasSBL'                    'La cuenta sólo puede tener un perfil de facturación (SBL-APS-00802)'
+'Paso   44  -  AceptarVtnasSBL'                    'La cuenta sólo puede tener un perfil de facturación (SBL-APS-00802)'
+'Paso   59  -  fValidarMensaje'                    'Mensaje diferente al deseado'
+
+
+Informe de re-ejecuciones por causa de Error
+-----------------------------------------------------------------------------------------
+Parada en paso	    = 44
+Script              = ValidarMensaje
+Detalle Error       = 
+
+
+-----------------------------------------------------------------------------------------
+
+Informe de Errores imprevistos de sistema
+-----------------------------------------------------------------------------------------
+'Paso   41  -  Accion'                             'Excepción en Método'          'Script=Vista360 Línea=45 Método=setText Error=CRFCN0557E: Activation failed when running under a Terminal Services environment. This may be caused by using a minimized terminal window - try playing back without minimizing the terminal window (it does not need to be full-screen). Clase=com.rational.test.ft.WindowActivateFailedException Objeto=TextGuiTestObject(Name: <b>Identificación</b>, Map: Identificación)'
+
+'Paso   41  -  Accion'                             'Excepción en Método'          'Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)'
+
+'Paso   42  -  Accion'                             'Excepción en Método'          'Script=ValidarUnPerfil Línea=35 Método=PerformAction Error=
+Click(); Error:(-1016) - Failed to create object "Siebel Power Communications.Accounts Screen.ICE SIS OM Customer Account Portal Resume View.CMU Billing Profile List Applet-Hibrido" of class "SiebApplet". Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebButtonTestObject(Name: <b>NuevoPerfilCtaCliente2</b>, Map: NewRecord)'
+
+'Paso   50  -  Accion'                             'Excepción en Método'          'Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)'
+
+'Paso   56  -  Accion'                             'Excepción en Método'          'Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)'
+
+
+Hora de Finalizacion de la Ejecucion: 2019/01/24 14:17:54
+-----------------------------------------------------------------------------------------

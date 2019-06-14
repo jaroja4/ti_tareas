@@ -1,0 +1,127 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CD1 copiado a CPKO14_CD1
+Proceso completado correctamente
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: USUARIO KO
+Valor: misanc3
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA KO
+Valor: asp128
+Accion: Valor Actualizado...
+
+Descripcion: IDENTIFICACION DEL CLIENTE
+Valor: 306240197
+Accion: Valor Actualizado...
+
+Descripcion: CATEGORIA CREDITICIA DEL CLIENTE
+Valor: !A
+Accion: Valor Actualizado...
+
+Descripcion: NOMBRE DEL TIPO DE OFERTA COMERCIAL A SELECCIONAR
+Valor: Oferta Kolbi Masiva
+Accion: Valor Actualizado...
+
+Descripcion: NOMBRE DEL GRUPO DE PROMOCION A SELECCIONAR
+Valor: Planes 4G K
+Accion: Valor Actualizado...
+
+Descripcion: NOMBRE DEL PLAN POSTPAGO A ELEGIR
+Valor: PLAN 4G K5 24 M
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SIM CORRECTO
+Valor: 89506010613112099898
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SERVICIO
+Valor: 89467555
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE NUMERO DE TELEFONO: [Especial/Siguiente/Pruebas/Especifico/Portabilidad]
+Valor: Siguiente
+Accion: Valor Actualizado...
+
+Descripcion: IMEI CORRECTO
+Valor: 303124165784222
+Accion: Valor Actualizado...
+
+Descripcion: OBSERVACIONES DE LA ORDEN
+Valor: Configuracion del escenario CPKO13 de venta postpago
+Accion: Valor Actualizado...
+
+Descripcion: TIPO PAGO TERMINAL - OPCIONES A SELECCIONAR: [RED/Nomina/NA]
+Valor: NA
+Accion: Valor Actualizado...
+
+Descripcion: TIPO PAGO DEPOSITO DE GARANTIA - OPCIONES A SELECCIONAR: [RED/Nomina/NA]
+Valor: Nomina
+Accion: Valor Actualizado...
+
+Descripcion: CANTIDAD DE CUOTAS
+Valor: 1
+Accion: Valor Actualizado...
+
+Descripcion: VERSION DE SOFTWARE
+Valor: 11111111
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SERIE
+Valor: 111
+Accion: Valor Actualizado...
+
+Descripcion: NOMBRE DE LA FACILIDAD A SELECCIONAR
+Valor: Kolbi Favorito Ilimitado Beneficio
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO FAVORITO
+Valor: 89788333
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+** Inserccion de Datos detenida: La fila (NUMERO FAVORITO) no se encuentra en el datapool de USR  **
+DATOS
+ 
+
+----------------------Resultados Consola CMD---------------------- 
+.
+E:\Program Files\Java
+Este archivo fue creado por SOIN para uso del ICE con RFT 
+RFT version 8.5 sobre windows 7
+Version de bat de fecha 21/08/2017 modificado por SS
+E:\Ambiente\QA\workspace_Francisco\
+.
+Parametros a utilizar...
+Usuario       = usrrft1
+Clave         = 20RftUsr117
+Ambiente      = QA
+Caso          = CPKO14
+Conjunto      = CD1
+Paso Desde    = A
+Paso Hasta    = 50
+Usuario ALT   = NA
+Clave ALT     = NA
+Log           = E:\Ambiente\QA\workspace_Francisco\Resultados\GUI\Log_CPKO14.txt
+DataStore     = "E:\Ambiente\QA\workspace_Francisco\RFT_ICE"
+.
+REVISE LOS PARAMETROS ANTES DE CONTINUAR
+Inicializando RFT Playback...
+ECHO is off.
+RFT playback completo su ejecucion.
+ERROR: Input redirection is not supported, exiting the process immediately.
+2019-04-02 15:20:45.034:INFO::main: Logging initialized @7060ms
+2019-04-02 15:20:45.278:INFO:oejs.Server:main: jetty-9.3.9.v20160517
+2019-04-02 15:20:45.494:INFO:oejw.StandardDescriptorProcessor:main: NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-04-02 15:20:45.510:WARN:oejs.SecurityHandler:main: ServletContext@o.e.j.w.WebAppContext@1905967f{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,STARTING} has uncovered http methods for path: /
+2019-04-02 15:20:45.537:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@1905967f{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,AVAILABLE}
+2019-04-02 15:20:45.599:INFO:oejs.AbstractConnector:main: Started ServerConnector@fa02db8a{HTTP/1.1,[http/1.1]}{0.0.0.0:9100}
+2019-04-02 15:20:45.601:INFO:oejs.Server:main: Started @7628ms
+2019-04-02 15:20:54.249:INFO:oejs.AbstractConnector:main: Stopped ServerConnector@fa02db8a{HTTP/1.1,[http/1.1]}{0.0.0.0:9100}
+2019-04-02 15:20:54.254:INFO:oejsh.ContextHandler:main: Stopped o.e.j.w.WebAppContext@1905967f{/,file:///E:/Program%20Files/IBM/SDP/FunctionalTester/WebConfiguration/,UNAVAILABLE}
+
+ OUTPUTSTREAM: java.io.BufferedOutputStream@44f192

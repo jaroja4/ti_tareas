@@ -1,0 +1,2309 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP08
+-----------------------------------------------------------
+NumeroCaso = CP08
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP08.rftdp
+false
+false
+--------------------------------------------------------------------
+CP08Pasos=fLogin
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Siempre
+--------------------------------------------------------------------
+CP08Pasos=fVista360
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-5
+--------------------------------------------------------------------
+CP08Pasos=fBuscarActivo
+CP08Param=DP
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-5
+--------------------------------------------------------------------
+CP08Pasos=fBuscarCtaFact
+CP08Param=DP
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-5
+--------------------------------------------------------------------
+CP08Pasos=fNuevaPostvta
+CP08Param=1
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fBuscarPedidoVenta
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-17
+--------------------------------------------------------------------
+CP08Pasos=fValidarAgencia
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fIngresarAutenticacion
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fValidarNuevaAccion
+CP08Param=1
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fValidarMotivoPedido
+CP08Param=1
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fEnviarPedido
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fValidarMensaje
+CP08Param=DPM0012
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fValorarTodo
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fCheckPagoFact
+CP08Param=validafalse
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fEnviarPedido
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fEsperaEstado
+CP08Param=Completar
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fValidarBtonValorarTodo
+CP08Param=false
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fVista360
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-22
+--------------------------------------------------------------------
+CP08Pasos=fBuscarActivo
+CP08Param=DP
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-22
+--------------------------------------------------------------------
+CP08Pasos=fBuscarCtaFact
+CP08Param=DP
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-22
+--------------------------------------------------------------------
+CP08Pasos=fBuscarProductoActivo
+CP08Param=3
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-22
+--------------------------------------------------------------------
+CP08Pasos=fValidarActivoEstadoyMotivoenCtaFact
+CP08Param=1
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fVista360
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-25
+--------------------------------------------------------------------
+CP08Pasos=fBuscarActivo
+CP08Param=DP
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=1-25
+--------------------------------------------------------------------
+CP08Pasos=fValidarActivoEstadoenCtaCte
+CP08Param=2
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=fLogout
+CP08Param=NA
+CP08Ejecuta=TRUE
+CP08Cond=NA
+CP08ErrorStop=TRUE
+CP08ReEjec=Nunca
+--------------------------------------------------------------------
+CP08Pasos=FIN
+CP08Param=null
+CP08Ejecuta=null
+CP08Cond=null
+CP08ErrorStop=false
+CP08ReEjec=null
+--------------------------------------------------------------------
+CP08Pasos=UltimaModificacionDP
+CP08Param=null
+CP08Ejecuta=VC 12/09/2018
+CP08Cond=null
+CP08ErrorStop=false
+CP08ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP08_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP08_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = JH 2018/04/24
+Variable1= UltimaModifiacionDP
+Dato JH 2018/04/24 leido del dp = JH 2018/04/24
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DEL CLIENTE
+Cantidad Variables = 1
+Valor = 121044088
+Variable1= Identificacion
+Dato 121044088 leido del dp = 121044088
+--------------------------------------------------------------------
+Dato = NUMERO DEL SERVICIO DEL ACTIVO A SUSPENDER
+Cantidad Variables = 1
+Valor = 89666222
+Variable1= NumeroServicio
+Dato 89666222 leido del dp = 89666222
+--------------------------------------------------------------------
+Dato = CANAL UTILIZADO
+Cantidad Variables = 1
+Valor = Agencia ICE
+Variable1= Canal
+Dato Agencia ICE leido del dp = Agencia ICE
+--------------------------------------------------------------------
+Dato = AGENCIA ICE
+Cantidad Variables = 1
+Valor = Enrute directo
+Variable1= Tipo
+Dato Enrute directo leido del dp = Enrute directo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP08_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP08_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Laura\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP08_CD1.rftdp
+DPC_CP08_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:39:38
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+usrrft1
+20RftUsr117
+Primera expresion true
+Segunda expresion false
+Segunda sub expresion1 false
+Segunda sub expresion2 false
+iNroPaso e iNroPasoDsede1-1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 23
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5040
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-2084
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3660
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-4236
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-540
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-3888
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-2996
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-3560
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-4484
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5244
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-4376
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-5472
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5260
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-7364
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-9080
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-11872
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9488
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11892
+Proceso: java.exe
+Se descarta el proceso:java.exe-8924
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-11476
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10108
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9680
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10852
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 23
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5040
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-2084
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3660
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-4236
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-540
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-3888
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-2996
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-3560
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-4484
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5244
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-4376
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-5472
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5260
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-7364
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-9080
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-11872
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9488
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11892
+Proceso: java.exe
+Se descarta el proceso:java.exe-8924
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-11476
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10108
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9644
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-7284
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 23
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5040
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-2084
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3660
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-4236
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-540
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-3888
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-2996
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-3560
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-4484
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5244
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-4376
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-5472
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5260
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-7364
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-9080
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-11872
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9488
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11892
+Proceso: java.exe
+Se descarta el proceso:java.exe-8924
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-11476
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10108
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9076
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6380
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 23
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5040
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-2084
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3660
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-4236
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-540
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-3888
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-2996
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-3560
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-4484
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5244
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-4376
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-5472
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5260
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-7364
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-9080
+Proceso: wuauclt.exe
+Se descarta el proceso:wuauclt.exe-11872
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9488
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-11892
+Proceso: java.exe
+Se descarta el proceso:java.exe-8924
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-11476
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-10108
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-3796
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-3352
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+El process Id de Siebel es: 10200
+Mensaje DialogoExplorer existe?:true
+Mensaje de sesión ya abierta existe?:true
+Mensaje DialogoExplorer existe?:true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:4
+Argumento 0:=DPM0029
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=BrowserScript
+-----------------------------------------------------------
+Tipo: BrowserScript
+Existe Mensaje BrowserScript: true
+Mensaje del código: *Se ha excedido el tiempo de espera de la sesión porque estuvo inactivo demasiado tiempo. Vuelva a iniciar sesión para reanudarla. Si tenía abierto un archivo adjunto de Siebel, puede que los cambios se hayan perdido. Guarde el archivo localmente, ciérrelo y vuelva a adjuntarlo en el registro adecuado.*
+Mensaje de la pantalla: *Text*
+El mensaje No Coincide false
+Mensaje del código: *Se ha excedido el tiempo de espera de la sesión porque estuvo inactivo demasiado tiempo. Vuelva a iniciar sesión para reanudarla. Si tenía abierto un archivo adjunto de Siebel, puede que los cambios se hayan perdido. Guarde el archivo localmente, ciérrelo y vuelva a adjuntarlo en el registro adecuado.*
+Mensaje de la pantalla: *Text*
+Resultado: false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:false
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:40:09
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fVista360
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Vista360
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=121044088
+Argumento 2:=Cliente
+-----------------------------------------------------------
+Clase de cuenta ingresada :Cliente
+Vista actual: All Accounts across Organizations
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Vista360
+Resultado:121044088
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:41:59
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarActivo
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=DP
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+NroServicio: 89666222
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarActivo
+Cantidad de argumentos:2
+Argumento 0:=89666222
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarActivo
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:42:36
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarCtaFact
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=DP
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+NroServicio: 89666222
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarCtaFact
+Cantidad de argumentos:3
+Argumento 0:=89666222
+Argumento 1:=null
+Argumento 2:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarCtaFact
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroCtaFact
+Argumento 4:=101785905688
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato T1_NroCtaFact con 101785905688
+Grabar Dato Salida - Variable y Valor: T1_NroCtaFact=101785905688
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+NroCtaFact: 101785905688
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=4
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=4
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fNuevaPostvta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:43:22
+-------------------------------------------------
+Inicio de Paso: 5
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fNuevaPostvta
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso5
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.NuevaPostvta
+Cantidad de argumentos:6
+Argumento 0:=null
+Argumento 1:=Suspensión
+Argumento 2:=Robo
+Argumento 3:=Servicio de Telefonia Movil
+Argumento 4:=null
+Argumento 5:=NA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProductoActivo
+Cantidad de argumentos:6
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=Si
+Argumento 5:=null
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 2 of 2, ClassName=SiebApplet, IsPopupApplet=false, UIName=Activos instalados, RepositoryName=SIS OM Products & Services Root List Applet (Service) - Tiny}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 2 of 2
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 2 of 2
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *2*
+Total: *2*
+Desde: *1*
+Desde: 1 Subtotal: 2 Total: 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-2-2
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 2 Total= 2
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Producto: PLAN 4G K2 12 M
+Producto: Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProductoActivo
+Resultado:Encontrado
+-----------------------------------------------------------
+Mensaje a validar: NA
+NroPedido:1-1785907646
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.NuevaPostvta
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroPedido
+Argumento 4:=1-1785907646
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato T1_NroPedido con 1-1785907646
+Grabar Dato Salida - Variable y Valor: T1_NroPedido=1-1785907646
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=5
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=5
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=4
+Se actualizara con: Ult Tramite=NA-Ult Paso=5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=1-17
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:17
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:44:40
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVenta
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+NroPedido: 1-1785907646
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVenta
+Cantidad de argumentos:2
+Argumento 0:=1-1785907646
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVenta
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=6
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=6
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=5
+Se actualizara con: Ult Tramite=NA-Ult Paso=6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarAgencia
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:45:20
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarAgencia
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarAgencia
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=Venta
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarAgencia
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=7
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=7
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=6
+Se actualizara con: Ult Tramite=NA-Ult Paso=7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fIngresarAutenticacion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:45:25
+-------------------------------------------------
+Inicio de Paso: 8
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fIngresarAutenticacion
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso8
+-----------------------------------------------------------
+PasofIngresarAutenticacion
+DP Usado: CP08_CD1_T1QA
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarAutenticacion
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=Enrute directo
+Argumento 2:=Agencia ICE
+Argumento 3:=Venta
+-----------------------------------------------------------
+[[Reconocimiento Ambiguo]]0{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=87, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=87,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+[[Reconocimiento Ambiguo]]1{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=855, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=855,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+Resultado:OK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarAutenticacion
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=8
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=8
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=7
+Se actualizara con: Ult Tramite=NA-Ult Paso=8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarNuevaAccion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:45:56
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarNuevaAccion
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarNuevaAccion
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Nuevo
+Argumento 2:=Venta
+-----------------------------------------------------------
+Accion deseado y en SBL = Nuevo-Suspensión
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarNuevaAccion
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=9
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=9
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=8
+Se actualizara con: Ult Tramite=NA-Ult Paso=9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMotivoPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:46:02
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMotivoPedido
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarNuevaAccion
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Robo
+Argumento 2:=Venta
+-----------------------------------------------------------
+Accion deseado y en SBL = Robo-Suspensión
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarNuevaAccion
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=10
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=10
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=9
+Se actualizara con: Ult Tramite=NA-Ult Paso=10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:46:09
+-------------------------------------------------
+Inicio de Paso: 11
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso11
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=Venta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=11
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=11
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=10
+Se actualizara con: Ult Tramite=NA-Ult Paso=11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=DPM0012
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:46:55
+-------------------------------------------------
+Inicio de Paso: 12
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=DPM0012
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso12
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=DPM0012
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=HTML
+Argumento 4:=QA
+-----------------------------------------------------------
+Tipo: HTML
+Existe Mensaje HTML: true
+Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)
+Mensaje del código: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Mensaje de la pantalla: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+El mensaje Coincide
+Mensaje del código: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Mensaje de la pantalla: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Resultado: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:true
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=12
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=12
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=11
+Se actualizara con: Ult Tramite=NA-Ult Paso=12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:46:58
+-------------------------------------------------
+Inicio de Paso: 13
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValorarTodo
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso13
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValorarTodo
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=Venta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+Tramite Venta
+cantidad de intentos1
+Mensaje de la pantalla: *Text*
+Resultado NOK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValorarTodo
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=13
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=13
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=12
+Se actualizara con: Ult Tramite=NA-Ult Paso=13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fCheckPagoFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=validafalse
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:47:06
+-------------------------------------------------
+Inicio de Paso: 14
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fCheckPagoFact
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=validafalse
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso14
+-----------------------------------------------------------
+Se procesa la opción: validafalse
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CheckPagoFact
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=false
+Argumento 2:=Valida
+Argumento 3:=NA
+-----------------------------------------------------------
+La opcion a procesar es valida
+Se procesa la opción valida
+Coincide Valor deseado y real : false-false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CheckPagoFact
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=14
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=14
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=13
+Se actualizara con: Ult Tramite=NA-Ult Paso=14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:47:10
+-------------------------------------------------
+Inicio de Paso: 15
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso15
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=Venta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=15
+-----------------------------------------------------------
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=15
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=14
+Se actualizara con: Ult Tramite=NA-Ult Paso=15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fEsperaEstado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=16
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP08_CD1_T1
+Argumento 8:=Completar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:16 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 16:48:03
+-------------------------------------------------
+Inicio de Paso: 16
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEsperaEstado
+Cantidad de argumentos:5
+Argumento 0:=CP08_CD1_T1
+Argumento 1:=Completar
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso16
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EsperaEstado
+Cantidad de argumentos:3
+Argumento 0:=Completar
+Argumento 1:=null
+Argumento 2:=Venta
+-----------------------------------------------------------
+Reintentos Maximos60
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 2
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 3
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 4
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 5
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 6
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 7
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 8
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 9
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 10
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 11
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 12
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 13
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 14
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 15
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 16
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 17
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 18
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 19
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 20
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 21
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 22
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 23
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 24
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 25
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 26
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 27
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 28
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 29
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 30
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 31
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 32
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 33
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 34
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 35
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 36
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 37
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 38
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 39
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 40
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 41
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 42
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 43
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 44
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 45
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 46
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 47
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 48
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 49
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 50
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 51
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 52
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 53
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 54
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 55
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 56
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 57
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 58
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 59
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 60
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 61
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EsperaEstado
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=xDefecto
+Argumento 1:=true
+Argumento 2:=CP08_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fEsperaEstado
+-----------------------------------------------------------
+Mensaje parametrico =Problema al esperar estado
+----------------------------------------------------------
+Mensaje de Error: Problema al esperar estado
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLogin; ;OK;
+Paso    2  -  fVista360; ;OK;
+Paso    3  -  fBuscarActivo; ;OK;
+Paso    4  -  fBuscarCtaFact; ;OK;
+Paso    5  -  fNuevaPostvta; ;OK;
+Paso    6  -  fBuscarPedidoVenta; ;OK;
+Paso    7  -  fValidarAgencia; ;OK;
+Paso    8  -  fIngresarAutenticacion; ;OK;
+Paso    9  -  fValidarNuevaAccion; ;OK;
+Paso   10  -  fValidarMotivoPedido; ;OK;
+Paso   11  -  fEnviarPedido; ;OK;
+Paso   12  -  fValidarMensaje; ;OK;
+Paso   13  -  fValorarTodo; ;OK;
+Paso   14  -  fCheckPagoFact; ;OK;
+Paso   15  -  fEnviarPedido; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    3  -  fBuscarActivo;NroServicio;89666222;
+Paso    4  -  GrabarDatosSalida;T1_NroCtaFact;101785905688;
+Paso    4  -  fBuscarCtaFact;NroCtaFact;101785905688;
+Paso    5  -  fNuevaPostvta;NroPedido;1-1785907646;
+Paso    5  -  GrabarDatosSalida;T1_NroPedido;1-1785907646;
+Paso   10  -  ValidarNuevaAccion;Accion;Suspensión;
+ 
+ 

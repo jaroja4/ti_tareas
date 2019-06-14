@@ -1,0 +1,1682 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CP19_CD1 ya existia - No se copia
+Proceso completado correctamente
+-> CP19_CD1_T1:  Tramite/Postventa
+-> CP19_CD1_T1:  CategoriaCrediticia1/C
+-> CP19_CD1_T1:  Comentario/Configuracion del escenario CP19
+-> CP19_CD1_T1:  TipoCedula/Física
+-> CP19_CD1_T1:  LOV1/ICE_DATE_IN
+-> CP19_CD1_T1:  LOV_Accion1/Setear
+-> CP19_CD1_T1:  LOV_VAL1/1
+-> CP19_CD1_T1:  LOV_LIC1/Postpago
+-> CP19_CD1_T1:  Tempo_Prod1/Habilitador Descuento Masivo
+-> CP19_CD1_T1:  Tempo_Accion1/Encender
+-> CP19_CD1_T1:  CatCrediticia/B
+-> CP19_CD1_T1:  TipoCuenta/Física
+-> CP19_CD1_T1:  PROD1/No Caller Id
+-> CP19_CD1_T1:  PROD_Accion1/seleccionar
+-> CP19_CD1_T1:  PROD2/Internacional MIDA
+-> CP19_CD1_T1:  PROD_Accion2/validatrue
+-> CP19_CD1_T1:  SIM Incorrecta/80808
+-> CP19_CD1_T1:  IMEI_incorrecto_NV/AE324234
+-> CP19_CD1_T1:  ObservacionesCM/Observaciones requeridas para el CP19
+-> CP19_CD1_T1:  PROD3/Listar
+-> CP19_CD1_T1:  PROD_Marcado3/true
+-> CP19_CD1_T1:  PROD_Habilitado3/false
+-> CP19_CD1_T1:  ClaseCuenta/Cliente
+-> CP19_CD1_T1:  Subtramite1/Modificación
+-> CP19_CD1_T1:  Motivo1/Cambio de SIM
+-> CP19_CD1_T1:  Servicio/Servicio de Telefonia Movil
+-> CP19_CD1_T1:  Msj1/DPM0045
+-> CP19_CD1_T1:  LOV2/ICE_DATE_IN
+-> CP19_CD1_T1:  LOV_Accion2/Consultar
+-> CP19_CD1_T1:  LOV_VAL2/1
+-> CP19_CD1_T1:  LOV_LIC2/Postpago
+-> CP19_CD1_T1:  LOV3/ICE_DATE_IN
+-> CP19_CD1_T1:  LOV_Accion3/Consultar
+-> CP19_CD1_T1:  LOV_VAL3/1
+-> CP19_CD1_T1:  LOV_LIC3/Postpago
+-> CP19_CD1_T1:  ASRM_EstadoNro1/CADUCIR
+-> CP19_CD1_T1:  ASRM_usr/NA |  ASRM_pass/NA | 
+-> CP19_CD1_T1:  PROD6/Servicio Telefonia Movil Prepago
+-> CP19_CD1_T1:  BuscaDesdeIni6/Si
+-> CP19_CD1_T1:  PROD_Padre4/Servicio Telefonia Movil Prepago
+-> CP19_CD1_T1:  PROD_Accion4/No Encontrar
+-> CP19_CD1_T1:  PROD_Padre5/Servicio Telefonia Movil Prepago
+-> CP19_CD1_T1:  PROD5/Internacional MIDA
+-> CP19_CD1_T1:  PROD_Accion5/Encontrar
+-> CP19_CD1_T1:  BuscaDesdeIni7/Si
+-> CP19_CD1_T1:  PROD8/Servicio Telefonia Movil Prepago
+-> CP19_CD1_T1:  BuscaDesdeIni8/Si
+-> CP19_CD1_T1:  PROD9/No Caller Id
+-> CP19_CD1_T1:  BuscaDesdeIni9/Si
+-> CP19_CD1_T1:  DB_Aplic1/USM
+-> CP19_CD1_T1:  DB_SQL1/SQL0004
+-> CP19_CD1_T1:  DB_Validar1/No
+-> CP19_CD1_T1:  DB_CantParam1/4
+-> CP19_CD1_T1:  DB_Param2_1/c_Celular
+-> CP19_CD1_T1:  DB_Param3_1/c_Blackberry
+-> CP19_CD1_T1:  DB_Param4_1/N
+-> CP19_CD1_T1:  USM_usr/USRVALIDACIONESCONS |  AAM_usr/USRVALIDACIONESCONS | 
+-> CP19_CD1_T1:  USM_pass/USRVALIDACIONESCONS |  AAM_pass/USRVALIDACIONESCONS | 
+-> CP19_CD1_T1:  DB_Aplic2/AAM
+-> CP19_CD1_T1:  DB_SQL2/SQL0003
+-> CP19_CD1_T1:  DB_CantParam2/2
+-> CP19_CD1_T1:  DB_Validar2/Si
+-> CP19_CD1_T1:  ObservacionesPedido/Observaciones requeridas para el CP19
+Datapool de datos entrada llenado con exito.
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: MODO DE PAGO [RED/ADM]
+Valor: ADM
+Accion: Valor Actualizado...
+
+Descripcion: IDENTIFICACION CLIENTE
+Valor: 120245876
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DE SERVICIO
+Valor: 89510074
+Accion: Valor Actualizado...
+
+Descripcion: CUENTA DE FACTURACION
+Valor: 101788484697
+Accion: Valor Actualizado...
+
+Descripcion: PLAN PREPAGO A COMPRAR
+Valor: KIT SUPER CHIP KOLBI
+Accion: Valor Actualizado...
+
+Descripcion: IMEI DEL ACTIVO
+Valor: 352214043683409
+Accion: Valor Actualizado...
+
+Descripcion: SIM DEL ACTIVO
+Valor: 89506010613114851767
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO VEP
+Valor: usrrft1
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA VEP
+Valor: 20RftUsr117
+Accion: Valor Actualizado...
+
+Descripcion: USUARIO BRM
+Valor: root.0.0.0.1
+Accion: Valor Actualizado...
+
+Descripcion: CONTRASENA  BRM
+Valor: password
+Accion: Valor Actualizado...
+
+Descripcion: IMSI DEL ACTIVO
+Valor: 712012008895225
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CP19
+Argumento 4:=CD1
+Argumento 5:=A
+Argumento 6:=100
+Argumento 7:=usrrft3
+Argumento 8:=20RftUsr317
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+Usuario Alternativo usrrft3
+Clave Alternativa 20RftUsr317
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CP19_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP19
+-----------------------------------------------------------
+NumeroCaso = CP19
+Path DP Entrada = E:\Ambiente\PROD\workspace_Francisco\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP19.rftdp
+false
+false
+--------------------------------------------------------------------
+CP19Pasos=fLeerVariableCondicionanteDP
+CP19Param=ModoPago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Siempre
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT
+CP19Ejecuta=TRUE
+CP19Cond=ALT
+CP19ErrorStop=TRUE
+CP19ReEjec=1-3
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fRetomarTaskCM
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=7-36
+--------------------------------------------------------------------
+CP19Pasos=fValidarTipoCM
+CP19Param=Pospago a Prepago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMorosidadCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCuentaCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Cuenta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fComprarPlanCM
+CP19Param=LISTAR
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fComprarPlanCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Plan
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=LISTAR
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Facilidades
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarIMEICM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidaSIMActivoCM
+CP19Param=SIM Correcta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarSIMCM
+CP19Param=SIM Incorrecta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0036
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidaSIMActivoCM
+CP19Param=SIM Correcta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarIMEICM
+CP19Param=IMEI_incorrecto_NV
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=IMEI
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0047
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarIMEICM
+CP19Param=IMEI_Correcto
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=IMEI
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCampoCedCM
+CP19Param=false
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCamposRepLegal
+CP19Param=false
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Contrato
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCamposTerminalCM
+CP19Param=true
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAgregarObservaciónCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Terminal
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fPagoREDOnlyCM
+CP19Param=3
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=RED
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Finalizar
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago/Prepago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-40
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarTramite
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=RED Por pagar
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Por Pagar
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVista360
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fBuscarActivo
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fBuscarCtaFact
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fNuevaPostvta
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-46
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-49
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-49
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0046
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-51
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=3
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-54
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-54
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0046
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVEP_Login
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=1-58
+--------------------------------------------------------------------
+CP19Pasos=fVEP_PagarRED
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVEP_Logout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "RED"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Prepago
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "ADM"
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fREDManualCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "ADM"
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-70
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=RED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=TramiteDesc Completo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fASRM_Login
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-68
+--------------------------------------------------------------------
+CP19Pasos=fASRM_ConsultarEstadoServicio
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fASRM_Logout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarActivo
+CP19Param=Desconexión Inactivo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBRM_Login
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-74
+--------------------------------------------------------------------
+CP19Pasos=fBRM_BuscarCliente
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-73
+--------------------------------------------------------------------
+CP19Pasos=fBRM_ValidarFactura
+CP19Param=Cerrado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBRM_Logout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-77
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fCapturarPedidoCM
+CP19Param=Venta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-81
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=TramiteVenta Completo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarActivo
+CP19Param=Venta Activo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVista360
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarActivo
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarCtaFact
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=7
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=8
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fExpandiryBuscarActivo
+CP19Param=5
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=9
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fDB_Validar
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fDB_Validar
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidoVenta
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fValidarObservacion
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fCapturarPedidoCM
+CP19Param=Desconexión
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidoVenta
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fValidarObservacion
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=FIN
+CP19Param=null
+CP19Ejecuta=
+CP19Cond=null
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=UltimaModificacionDP
+CP19Param=null
+CP19Ejecuta=VC 05/04/2019
+CP19Cond=null
+CP19ErrorStop=false
+CP19ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Francisco\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP19_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP19_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = VC 2018/12/19
+Variable1= UltimaModifiacionDP
+Dato VC 2018/12/19 leido del dp = VC 2018/12/19
+--------------------------------------------------------------------
+Dato = MODO DE PAGO [RED/ADM]
+Cantidad Variables = 1
+Valor = ADM
+Variable1= ModoPago
+Dato ADM leido del dp = ADM
+--------------------------------------------------------------------
+Dato = IDENTIFICACION CLIENTE
+Cantidad Variables = 2
+Valor = 120245876
+Variable1= Cedula
+Dato 120245876 leido del dp = 120245876
+Variable2= Identificacion
+Dato 120245876 leido del dp = 120245876
+--------------------------------------------------------------------
+Dato = NUMERO DE SERVICIO
+Cantidad Variables = 4
+Valor = 89510074
+Variable1= NumeroServicio
+Dato 89510074 leido del dp = 89510074
+Variable2= ASRM_NroServ1
+Dato 89510074 leido del dp = 89510074
+Variable3= DB_Param1_1
+Dato 89510074 leido del dp = 89510074
+Variable4= DB_Param1_2
+Dato 89510074 leido del dp = 89510074
+--------------------------------------------------------------------
+Dato = CUENTA DE FACTURACION
+Cantidad Variables = 2
+Valor = 101788484697
+Variable1= NroCuentaFac
+Dato 101788484697 leido del dp = 101788484697
+Variable2= BRM_Cuenta
+Dato 101788484697 leido del dp = 101788484697
+--------------------------------------------------------------------
+Dato = PLAN PREPAGO A COMPRAR
+Cantidad Variables = 2
+Valor = KIT SUPER CHIP KOLBI
+Variable1= Plan
+Dato KIT SUPER CHIP KOLBI leido del dp = KIT SUPER CHIP KOLBI
+Variable2= PROD7
+Dato KIT SUPER CHIP KOLBI leido del dp = KIT SUPER CHIP KOLBI
+--------------------------------------------------------------------
+Dato = IMEI DEL ACTIVO
+Cantidad Variables = 2
+Valor = 352214043683409
+Variable1= IMEI del activo
+Dato 352214043683409 leido del dp = 352214043683409
+Variable2= IMEI_Correcto
+Dato 352214043683409 leido del dp = 352214043683409
+--------------------------------------------------------------------
+Dato = SIM DEL ACTIVO
+Cantidad Variables = 1
+Valor = 89506010613114851767
+Variable1= SIM Correcta
+Dato 89506010613114851767 leido del dp = 89506010613114851767
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = USUARIO BRM
+Cantidad Variables = 1
+Valor = root.0.0.0.1
+Variable1= BRM_usr
+Dato root.0.0.0.1 leido del dp = root.0.0.0.1
+--------------------------------------------------------------------
+Dato = CONTRASENA  BRM
+Cantidad Variables = 1
+Valor = password
+Variable1= BRM_pass
+Dato password leido del dp = password
+--------------------------------------------------------------------
+Dato = IMSI DEL ACTIVO
+Cantidad Variables = 1
+Valor = 712012008895225
+Variable1= DB_Param2_2
+Dato 712012008895225 leido del dp = 712012008895225
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Francisco\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP19_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CP19_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP19_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP19_CD1.rftdp
+DPC_CP19_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP19_CD1_T1
+Argumento 8:=ModoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:44:37
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CP19_CD1_T1
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CP19_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=CP19_CD1
+Argumento 4:=ADM
+-----------------------------------------------------------
+FileName=DPC_CP19_CD1
+DP Salida en DP=E:\Ambiente\PROD\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CP19_CD1.rftdp
+Se Crea: Variable=ModoPago- con Valor=ADM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CP19_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP19_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 1 Ultimo paso OK: 1
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fLogin
+false
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-3
+Argumento 6:=alt
+Argumento 7:=CP19_CD1_T1
+Argumento 8:=ALT
+-----------------------------------------------------------
+Desde:1 Hasta:3
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:44:38
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP19_CD1_T1
+Argumento 1:=ALT
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+usrrft3
+20RftUsr317
+Primera expresion true
+Segunda expresion false
+Segunda sub expresion1 true
+Segunda sub expresion2 false
+iNroPaso e iNroPasoDsede2-1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft3
+Argumento 2:=20RftUsr317
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+El process Id de Siebel es: 7896
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=Login Línea=0 Error=Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarIE
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=null
+-----------------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=CerrarIE Línea=0 Error=Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fLogin Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Login;2;RE-CP;
+DATOS
+Paso    0  -  CasosPrueba;Usuario Alternativo ;usrrft3;
+Paso    0  -  CasosPrueba;Clave Alternativa ;20RftUsr317;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+ 
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------Resultados Consola CMD----------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ 
+.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ERROR: Input redirection is not supported, exiting the process immediately.
+The process tried to write to a nonexistent pipe.
+2019-05-28 16:44:20.945:INFO:oejs.Server:jetty-8.1.16.v20140903
+2019-05-28 16:44:21.118:INFO:oejw.StandardDescriptorProcessor:NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-05-28 16:44:21.181:WARN:oejuc.AbstractLifeCycle:FAILED SelectChannelConnector@0.0.0.0:9100: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.sys.TestContextClient.becomeAClient(TestContextClient.java:294)
+	at com.rational.test.ft.sys.TestContextClient.create(TestContextClient.java:77)
+	at com.rational.test.ft.application.rational_ft_impl.initTheSession(rational_ft_impl.java:1995)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:253)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+2019-05-28 16:44:21.187:WARN:oejuc.AbstractLifeCycle:FAILED org.eclipse.jetty.server.Server@f56192b: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.sys.TestContextClient.becomeAClient(TestContextClient.java:294)
+	at com.rational.test.ft.sys.TestContextClient.create(TestContextClient.java:77)
+	at com.rational.test.ft.application.rational_ft_impl.initTheSession(rational_ft_impl.java:1995)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:253)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+com.rational.test.ft.sys.InvalidSpyMemReference: Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4
+	at libreria.Accion.onUnhandledException(Accion.java:609)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1094)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.PasosFunc.fLogin.testMain(fLogin.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.CasosPrueba.testMain(CasosPrueba.java:507)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.LeerDatosUSR_CSV.testMain(LeerDatosUSR_CSV.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:984)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:868)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.application.ScriptPlayback.runScript(ScriptPlayback.java:881)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:759)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+com.rational.test.ft.sys.InvalidSpyMemReference: Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4
+	at libreria.Accion.onUnhandledException(Accion.java:609)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1094)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at libreria.Accion.onUnhandledException(Accion.java:640)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1094)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.PasosFunc.fLogin.testMain(fLogin.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.CasosPrueba.testMain(CasosPrueba.java:507)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.LeerDatosUSR_CSV.testMain(LeerDatosUSR_CSV.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:984)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:868)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.application.ScriptPlayback.runScript(ScriptPlayback.java:881)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:759)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+CRFCN0019E: RationalTestScriptException on line 0 of script Scripts.Comun.Login - com.rational.test.ft.sys.InvalidSpyMemReference: Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4.
+	at libreria.Accion.onUnhandledException(Accion.java:609)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1094)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.CasosPrueba.testMain(CasosPrueba.java:507)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.LeerDatosUSR_CSV.testMain(LeerDatosUSR_CSV.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:984)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:868)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.application.ScriptPlayback.runScript(ScriptPlayback.java:881)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:759)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+CRFCN0019E: RationalTestScriptException on line 0 of script Scripts.PasosFunc.fLogin - com.rational.test.ft.sys.InvalidSpyMemReference: Invalid Spy Memory reference: Heap#=5 blockId=0x00081c9e uid=0x00008ee4.
+	at com.rational.test.ft.script.RationalTestScript.logException(RationalTestScript.java:1309)
+	at com.rational.test.ft.script.RationalTestScript.unhandledException(RationalTestScript.java:2116)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1103)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.CasosPrueba.testMain(CasosPrueba.java:507)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:970)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:562)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:494)
+	at com.rational.test.ft.script.RationalTestScript.callScript(RationalTestScript.java:408)
+	at Scripts.CasosPrueba.LeerDatosUSR_CSV.testMain(LeerDatosUSR_CSV.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.script.RationalTestScript.runMainInner(RationalTestScript.java:1046)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:984)
+	at com.rational.test.ft.script.RationalTestScript.runMain(RationalTestScript.java:868)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.sys.FtReflection.invokeMethod2Ext(FtReflection.java:1252)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1452)
+	at com.rational.test.ft.sys.FtReflection.invokeMethodExt(FtReflection.java:1805)
+	at com.rational.test.ft.application.ScriptPlayback.runScript(ScriptPlayback.java:881)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:759)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+2019-05-28 16:44:54.122:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/E:/Program%20Files%20(x86)/IBM/SDP/FunctionalTester/WebConfiguration/}
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ OUTPUTSTREAM: java.io.BufferedOutputStream@16a2c7b

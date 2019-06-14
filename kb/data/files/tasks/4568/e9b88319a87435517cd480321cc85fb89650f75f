@@ -1,0 +1,35 @@
+﻿;db parametros de configuracion 27/12/2016/Carlos E. Chacón Calvo- Jairo León Gonzales.
+
+;host= 10.149.20.26
+
+[BITACORA]
+
+host= localhost
+
+username= Admin
+
+password= mMt2fFZkLEUpDBMN
+db
+name= CONTROLACCESOCDC_DBP
+port=8000
+
+;sql server
+hostsql= 10.129.20.196
+
+dbnamesql= siscondbp
+
+[PORTAL]
+host= 10.129.20.177
+
+username= operti
+
+password= SanPedro1
+
+dbname= kanboard
+
+port= 3306
+
+jsonrpcURL= http://10.129.20.177/kanboard/jsonrpc.php
+
+token= anNvbnJwYzo2ZmZhNWVmMzczM2U5YzBiOGJhMDA2ZmI5ODkzMzFhOTRiOWU4NzRkYTk5OWYwZjhkNzJmMTljMzNkZjg
+postmantoken= 1ec2b092-199a-ee41-b698-37096a6c36f7

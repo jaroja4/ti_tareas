@@ -1,0 +1,2105 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO06
+-----------------------------------------------------------
+NumeroCaso = CPKO06
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO06.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_Login
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-16
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_BuscarCliente
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-3
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_NuevaVenta
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_BuscarPedido
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=4-18
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_ConsultarMorosidad
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-9
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_SeleccionarPlan
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-9
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_PersonalizaPlan
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-9
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_SeleccionarTerminal
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-9
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_CotizarPedido
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-14
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_IngresarSIM
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-13
+--------------------------------------------------------------------
+CPKO06Pasos=fASRM_EstadoServicio_SQL
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-13
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_IngresarNumeroServicio
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-13
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_IngresarIMEI
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-13
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_IngresarVersionSerie
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=1-13
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_FinalizarOrden
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_BotonDetallePedido
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_EsperaEstadoPedido
+CPKO06Param=NA
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO06Pasos=fKO_ValidaInfoPedido
+CPKO06Param=1
+CPKO06Ejecuta=TRUE
+CPKO06Cond=NA
+CPKO06ErrorStop=TRUE
+CPKO06ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO06Pasos=FIN
+CPKO06Param=null
+CPKO06Ejecuta=
+CPKO06Cond=null
+CPKO06ErrorStop=
+CPKO06ReEjec=null
+--------------------------------------------------------------------
+CPKO06Pasos=Ultima modificacion
+CPKO06Param=null
+CPKO06Ejecuta=22/11/2018
+CPKO06Cond=DB
+CPKO06ErrorStop=
+CPKO06ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO06_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO06_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 16/11/2018
+Variable1= UltimaModifiacionDP
+Dato DB 16/11/2018 leido del dp = DB 16/11/2018
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DEL CLIENTE
+Cantidad Variables = 1
+Valor = 408980452
+Variable1= Identificacion
+Dato 408980452 leido del dp = 408980452
+--------------------------------------------------------------------
+Dato = NOMBRE DEL TIPO DE OFERTA COMERCIAL A SELECCIONAR
+Cantidad Variables = 1
+Valor = Oferta Kolbi Masiva
+Variable1= OfertaKO1
+Dato Oferta Kolbi Masiva leido del dp = Oferta Kolbi Masiva
+--------------------------------------------------------------------
+Dato = NOMBRE DEL GRUPO DE PROMOCION A SELECCIONAR
+Cantidad Variables = 1
+Valor = Planes Fusion K
+Variable1= GrupoPromocion1
+Dato Planes Fusion K leido del dp = Planes Fusion K
+--------------------------------------------------------------------
+Dato = NOMBRE DEL PLAN A ELEGIR
+Cantidad Variables = 1
+Valor = Plan Fusion k1 24 M
+Variable1= Plan1
+Dato Plan Fusion k1 24 M leido del dp = Plan Fusion k1 24 M
+--------------------------------------------------------------------
+Dato = NOMBRE DE TERMINAL
+Cantidad Variables = 2
+Valor = SAMSUNG GALAXY J7 BLANCO
+Variable1= Terminal1
+Dato SAMSUNG GALAXY J7 BLANCO leido del dp = SAMSUNG GALAXY J7 BLANCO
+Variable2= ValidaDato1_6
+Dato SAMSUNG GALAXY J7 BLANCO leido del dp = SAMSUNG GALAXY J7 BLANCO
+--------------------------------------------------------------------
+Dato = NUMERO DE SIM CORRECTO
+Cantidad Variables = 2
+Valor = 89506010613112298276
+Variable1= SIM Correcta
+Dato 89506010613112298276 leido del dp = 89506010613112298276
+Variable2= ValidaDato1_1
+Dato 89506010613112298276 leido del dp = 89506010613112298276
+--------------------------------------------------------------------
+Dato = NUMERO SERVICIO
+Cantidad Variables = 3
+Valor = 10558877
+Variable1= NumeroServicio
+Dato 10558877 leido del dp = 10558877
+Variable2= ValidaDato1_2
+Dato 10558877 leido del dp = 10558877
+Variable3= NroServicioASRM1
+Dato 10558877 leido del dp = 10558877
+--------------------------------------------------------------------
+Dato = TIPO DE NUMERO DE TELEFONO: Especial/Siguiente/Pruebas/Especifico
+Cantidad Variables = 1
+Valor = Pruebas
+Variable1= TipoNumero
+Dato Pruebas leido del dp = Pruebas
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 2
+Valor = 352214043681809
+Variable1= IMEI1
+Dato 352214043681809 leido del dp = 352214043681809
+Variable2= ValidaDato1_3
+Dato 352214043681809 leido del dp = 352214043681809
+--------------------------------------------------------------------
+Dato = OBSERVACIONES DE LA ORDEN
+Cantidad Variables = 1
+Valor = Pruebas CPKO16
+Variable1= ObservacionTP1
+Dato Pruebas CPKO16 leido del dp = Pruebas CPKO16
+--------------------------------------------------------------------
+Dato = VERSION DE SOFTWARE
+Cantidad Variables = 1
+Valor = cpko06ver
+Variable1= Version
+Dato cpko06ver leido del dp = cpko06ver
+--------------------------------------------------------------------
+Dato = NUMERO DE SERIE
+Cantidad Variables = 1
+Valor = cpko06ser
+Variable1= Serie
+Dato cpko06ser leido del dp = cpko06ser
+--------------------------------------------------------------------
+Dato = NOMBRE DE LA FACILIDAD A SELECCIONAR
+Cantidad Variables = 2
+Valor = Activacion no Identificador de Llamadas Control
+Variable1= PersonalizaOpcion1
+Dato Activacion no Identificador de Llamadas Control leido del dp = Activacion no Identificador de Llamadas Control
+Variable2= ValidaDato1_4
+Dato Activacion no Identificador de Llamadas Control leido del dp = Activacion no Identificador de Llamadas Control
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CPKO06_CD1
+Path DP Condicionates = E:\Ambiente\QA\workspace_Juliana\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CPKO06_CD1.rftdp
+DPC_CPKO06_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-16
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:16
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:49:53
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+"System Idle Process","0","Services","0","4 K"
+"System","4","Services","0","260 K"
+"smss.exe","304","Services","0","1,016 K"
+"csrss.exe","416","Services","0","4,200 K"
+"csrss.exe","468","Console","1","3,460 K"
+"wininit.exe","476","Services","0","4,056 K"
+"winlogon.exe","504","Console","1","5,716 K"
+"services.exe","568","Services","0","8,064 K"
+"lsass.exe","576","Services","0","16,060 K"
+"svchost.exe","648","Services","0","12,016 K"
+"svchost.exe","692","Services","0","9,072 K"
+"LogonUI.exe","776","Console","1","24,868 K"
+"dwm.exe","784","Console","1","27,880 K"
+"vmacthlp.exe","796","Services","0","4,128 K"
+"svchost.exe","856","Services","0","19,564 K"
+"kavfs.exe","920","Services","0","35,016 K"
+"svchost.exe","972","Services","0","56,516 K"
+"kavfswp.exe","1000","Services","0","49,912 K"
+"svchost.exe","1008","Services","0","13,480 K"
+"conhost.exe","240","Services","0","2,808 K"
+"svchost.exe","424","Services","0","18,592 K"
+"svchost.exe","580","Services","0","10,764 K"
+"spoolsv.exe","1200","Services","0","15,596 K"
+"kavfswp.exe","1272","Services","0","67,608 K"
+"svchost.exe","1284","Services","0","8,040 K"
+"conhost.exe","1292","Services","0","2,808 K"
+"kavfsscs.exe","1316","Services","0","5,576 K"
+"nscp.exe","1360","Services","0","22,020 K"
+"svchost.exe","1484","Services","0","18,188 K"
+"VGAuthService.exe","1544","Services","0","10,600 K"
+"vmtoolsd.exe","1672","Services","0","19,592 K"
+"ManagementAgentHost.exe","1732","Services","0","9,572 K"
+"svchost.exe","2016","Services","0","237,384 K"
+"svchost.exe","1760","Services","0","4,740 K"
+"dllhost.exe","2296","Services","0","10,940 K"
+"WmiPrvSE.exe","2408","Services","0","33,132 K"
+"msdtc.exe","2588","Services","0","6,988 K"
+"klnagent.exe","4104","Services","0","31,068 K"
+"GoogleCrashHandler.exe","5700","Services","0","1,168 K"
+"GoogleCrashHandler64.exe","6060","Services","0","848 K"
+"csrss.exe","4988","RDP-Tcp#5","4","18,452 K"
+"winlogon.exe","4764","RDP-Tcp#5","4","5,200 K"
+"dwm.exe","5192","RDP-Tcp#5","4","44,748 K"
+"taskhostex.exe","5000","RDP-Tcp#5","4","8,340 K"
+"rdpclip.exe","5616","RDP-Tcp#5","4","9,148 K"
+"explorer.exe","356","RDP-Tcp#5","4","80,852 K"
+"rdpinput.exe","4440","RDP-Tcp#5","4","3,936 K"
+"vmtoolsd.exe","3852","RDP-Tcp#5","4","10,548 K"
+"kavtray.exe","1576","RDP-Tcp#5","4","2,832 K"
+"jusched.exe","4892","RDP-Tcp#5","4","8,516 K"
+"javaw.exe","3372","RDP-Tcp#5","4","56,696 K"
+"jucheck.exe","3596","RDP-Tcp#5","4","12,488 K"
+"csrss.exe","1748","RDP-Tcp#9","5","46,296 K"
+"winlogon.exe","3396","RDP-Tcp#9","5","5,320 K"
+"dwm.exe","3052","RDP-Tcp#9","5","117,732 K"
+"rdpclip.exe","4428","RDP-Tcp#9","5","9,212 K"
+"taskhostex.exe","3700","RDP-Tcp#9","5","26,268 K"
+"explorer.exe","5076","RDP-Tcp#9","5","86,524 K"
+"rdpinput.exe","4596","RDP-Tcp#9","5","3,936 K"
+"notepad.exe","5204","RDP-Tcp#9","5","9,908 K"
+"vmtoolsd.exe","5620","RDP-Tcp#9","5","10,544 K"
+"kavtray.exe","808","RDP-Tcp#9","5","2,192 K"
+"jusched.exe","2212","RDP-Tcp#9","5","8,556 K"
+"chrome.exe","3424","RDP-Tcp#9","5","90,796 K"
+"chrome.exe","4552","RDP-Tcp#9","5","6,224 K"
+"chrome.exe","1880","RDP-Tcp#9","5","6,392 K"
+"chrome.exe","5460","RDP-Tcp#9","5","91,240 K"
+"chrome.exe","4316","RDP-Tcp#9","5","80,236 K"
+"chrome.exe","5556","RDP-Tcp#9","5","68,988 K"
+"chrome.exe","1684","RDP-Tcp#9","5","83,332 K"
+"iexplore.exe","3084","RDP-Tcp#9","5","30,420 K"
+"iexplore.exe","5972","RDP-Tcp#9","5","113,268 K"
+"chrome.exe","3952","RDP-Tcp#9","5","17,660 K"
+"eclipse.exe","5220","RDP-Tcp#9","5","3,388 K"
+"taskeng.exe","1756","Services","0","4,764 K"
+"javaw.exe","5392","RDP-Tcp#9","5","371,808 K"
+"csrss.exe","3408","RDP-Tcp#15","6","20,864 K"
+"winlogon.exe","4420","RDP-Tcp#15","6","5,272 K"
+"dwm.exe","3356","RDP-Tcp#15","6","47,068 K"
+"taskhostex.exe","896","RDP-Tcp#15","6","8,188 K"
+"rdpclip.exe","5160","RDP-Tcp#15","6","6,496 K"
+"explorer.exe","2928","RDP-Tcp#15","6","76,456 K"
+"ServerManager.exe","2256","RDP-Tcp#15","6","126,988 K"
+"WmiPrvSE.exe","1844","Services","0","12,988 K"
+"cmd.exe","4532","RDP-Tcp#5","4","3,352 K"
+"conhost.exe","5200","RDP-Tcp#5","4","3,444 K"
+"java.exe","3560","RDP-Tcp#5","4","136,176 K"
+"vmtoolsd.exe","4992","RDP-Tcp#15","6","10,480 K"
+"kavtray.exe","1972","RDP-Tcp#15","6","5,836 K"
+"jusched.exe","5416","RDP-Tcp#15","6","4,704 K"
+"TrustedInstaller.exe","5560","Services","0","5,016 K"
+"TiWorker.exe","3704","Services","0","10,044 K"
+"playerhook32.exe","3960","RDP-Tcp#5","4","4,468 K"
+"conhost.exe","3928","RDP-Tcp#5","4","3,356 K"
+"tasklist.exe","4968","RDP-Tcp#5","4","5,912 K"
+"conhost.exe","2884","RDP-Tcp#5","4","3,388 K"
+num: 96
+Proceso: System Idle Process
+Se descarta el proceso:System Idle Process-0
+Proceso: System
+Se descarta el proceso:System-4
+Proceso: smss.exe
+Se descarta el proceso:smss.exe-304
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-416
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-468
+Proceso: wininit.exe
+Se descarta el proceso:wininit.exe-476
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-504
+Proceso: services.exe
+Se descarta el proceso:services.exe-568
+Proceso: lsass.exe
+Se descarta el proceso:lsass.exe-576
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-648
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-692
+Proceso: LogonUI.exe
+Se descarta el proceso:LogonUI.exe-776
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-784
+Proceso: vmacthlp.exe
+Se descarta el proceso:vmacthlp.exe-796
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-856
+Proceso: kavfs.exe
+Se descarta el proceso:kavfs.exe-920
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-972
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1000
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1008
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-240
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-424
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-580
+Proceso: spoolsv.exe
+Se descarta el proceso:spoolsv.exe-1200
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1272
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1284
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-1292
+Proceso: kavfsscs.exe
+Se descarta el proceso:kavfsscs.exe-1316
+Proceso: nscp.exe
+Se descarta el proceso:nscp.exe-1360
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1484
+Proceso: VGAuthService.exe
+Se descarta el proceso:VGAuthService.exe-1544
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1672
+Proceso: ManagementAgentHost.exe
+Se descarta el proceso:ManagementAgentHost.exe-1732
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-2016
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1760
+Proceso: dllhost.exe
+Se descarta el proceso:dllhost.exe-2296
+Proceso: WmiPrvSE.exe
+Se descarta el proceso:WmiPrvSE.exe-2408
+Proceso: msdtc.exe
+Se descarta el proceso:msdtc.exe-2588
+Proceso: klnagent.exe
+Se descarta el proceso:klnagent.exe-4104
+Proceso: GoogleCrashHandler.exe
+Se descarta el proceso:GoogleCrashHandler.exe-5700
+Proceso: GoogleCrashHandler64.exe
+Se descarta el proceso:GoogleCrashHandler64.exe-6060
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-4988
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-4764
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5192
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-5000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5616
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-356
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-4440
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-3852
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1576
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-4892
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-3372
+Proceso: jucheck.exe
+Se descarta el proceso:jucheck.exe-3596
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-1748
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-3396
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3052
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-4428
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-3700
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-5076
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-4596
+Proceso: notepad.exe
+Se descarta el proceso:notepad.exe-5204
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-5620
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-808
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-2212
+Proceso: chrome.exe
+chrome.exe-3424
+chrome-3424
+El proceso chrome.exe-3424fue removido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BuscarCliente
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-3
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:3
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:51:12
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_BuscarCliente
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_BuscarCliente
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=408980452
+Argumento 2:=null
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_BuscarCliente
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_NuevaVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:51:55
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_NuevaVenta
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_NuevaVenta
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=QA
+Argumento 4:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_NuevaVenta
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroPedido
+Argumento 4:=KO-58761
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato T1_NroPedido con KO-58761
+Grabar Dato Salida - Variable y Valor: T1_NroPedido=KO-58761
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroCtaFact
+Argumento 4:=101783656052
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato T1_NroCtaFact con 101783656052
+Grabar Dato Salida - Variable y Valor: T1_NroCtaFact=101783656052
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BuscarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=4-18
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:4 Hasta:18
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:false
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ConsultarMorosidad
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=false
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=1-9
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:9
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:53:01
+-------------------------------------------------
+Inicio de Paso: 5
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ConsultarMorosidad
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso5
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_ConsultarMorosidad
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=!A
+Argumento 2:=null
+-----------------------------------------------------------
+Categoria indicada: !A
+Categoria cliente: D
+null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ConsultarMorosidad
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=5
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=5
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_SeleccionarPlan
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=1-9
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:9
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:53:33
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_SeleccionarPlan
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_SeleccionarPlan
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=Oferta Kolbi Masiva
+Argumento 2:=Planes Fusion K
+Argumento 3:=Plan Fusion k1 24 M
+-----------------------------------------------------------
+Buscar oferta: Oferta Kolbi Masiva
+Buscar Tipo de plan: planes fusion k
+Planes 4G K
+Planes Conectados
+Planes Conversones
+Planes Conversones K
+Planes Fusion K
+Buscar Plan: Plan Fusion k1 24 M
+ PLAN 4G K1 12 M ¢8000 Detalle 
+ INCLUYE 35 Minutos 4.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 30 SMS 
+ PLAN 4G K1 24 M ¢8000 Detalle 
+ INCLUYE 35 Minutos 4.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 30 SMS 
+ PLAN 4G K2 12 M ¢12000 Detalle 
+ INCLUYE 150 Minutos 6.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 150 SMS 
+ PLAN 4G K2 24 M ¢12000 Detalle 
+ INCLUYE 150 Minutos 6.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 150 SMS 
+ PLAN 4G K3 12 M ¢18000 Detalle 
+ INCLUYE 300 Minutos 8.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 300 SMS 
+ PLAN 4G K3 24 M ¢18000 Detalle 
+ INCLUYE 300 Minutos 8.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 300 SMS 
+ PLAN 4G K4 12 M ¢26000 Detalle 
+ INCLUYE 800 Minutos 12.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 600 SMS 
+ PLAN 4G K4 24 M ¢26000 Detalle 
+ INCLUYE 800 Minutos 12.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 600 SMS 
+ PLAN 4G K5 12 M ¢36000 Detalle 
+ INCLUYE 1500 Minutos 15.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 1300 SMS 
+ PLAN 4G K5 24 M ¢36000 Detalle 
+ INCLUYE 1500 Minutos 15.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 1300 SMS 
+ PLAN 4G K6 24 M ¢48000 Detalle 
+ INCLUYE 3000 Minutos 25.0 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 2500 SMS 
+ PLAN CONECTADO 3 24 M KOLBI ¢16000 Detalle 
+ INCLUYE 130 Minutos 4 GB de Descarga 4 Mbps Velocidad 3G N/A Velocidad 4G 1000 SMS 
+ PLAN CONECTADO 4 12 M KOLBI ¢24000 Detalle 
+ INCLUYE 360 Minutos 5 GB de Descarga 5 Mbps Velocidad 3G N/A Velocidad 4G 1500 SMS 
+ PLAN CONVERSON 2 24 M KOLBI ¢10000 Detalle 
+ INCLUYE 300 Minutos 3 GB de Descarga N/A Velocidad 3G N/A Velocidad 4G 400 SMS 
+ PLAN CONVERSON K1 12 M ¢7000 Detalle 
+ INCLUYE 120 Minutos 500 MB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 50 SMS 
+ PLAN CONVERSON K1 24 M ¢7000 Detalle 
+ INCLUYE 120 Minutos 500 MB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 50 SMS 
+ PLAN CONVERSON K2 12 M ¢15000 Detalle 
+ INCLUYE 400 Minutos 500 MB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 300 SMS 
+ PLAN CONVERSON K2 24 M ¢15000 Detalle 
+ INCLUYE 400 Minutos 500 MB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 300 SMS 
+ PLAN FUSION k1 12 M ¢8000 Detalle 
+ INCLUYE 35 Minutos 2.5 GB de Descarga 6 Mbps Velocidad 3G 12 Mbps Velocidad 4G 30 SMS 
+ PLAN FUSION k1 24 M ¢8000 Detalle 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_SeleccionarPlan
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=6
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=6
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=5
+Se actualizara con: Ult Tramite=NA-Ult Paso=6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_PersonalizaPlan
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=1-9
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:9
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:53:50
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_PersonalizaPlan
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_PersonalizaPlan
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Activacion no Identificador de Llamadas Control
+Argumento 2:=null
+-----------------------------------------------------------
+ Facilidades Telefonia Movil Hib 
+Activacion Llamadas Internacionales Control
+Activacion no Identificador de Llamadas Control
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=7
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=7
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=6
+Se actualizara con: Ult Tramite=NA-Ult Paso=7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_SeleccionarTerminal
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=1-9
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:9
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:54:23
+-------------------------------------------------
+Inicio de Paso: 8
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_SeleccionarTerminal
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso8
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_SeleccionarTerminal
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=SAMSUNG GALAXY J7 BLANCO
+Argumento 2:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_SeleccionarTerminal
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=8
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=8
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=7
+Se actualizara con: Ult Tramite=NA-Ult Paso=8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_CotizarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=1-14
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:14
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:54:55
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_CotizarPedido
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_CotizarPedido
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=null
+Argumento 2:=QA
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_CotizarPedido
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=9
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=9
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=8
+Se actualizara con: Ult Tramite=NA-Ult Paso=9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_IngresarSIM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:55:13
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_IngresarSIM
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_IngresarSIM
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=89506010613112298276
+Argumento 2:=null
+Argumento 3:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_IngresarSIM
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=10
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=10
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=9
+Se actualizara con: Ult Tramite=NA-Ult Paso=10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fASRM_EstadoServicio_SQL
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:55:23
+-------------------------------------------------
+Inicio de Paso: 11
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fASRM_EstadoServicio_SQL
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso11
+-----------------------------------------------------------
+Consulta a ejecutar: UPDATE RM1_RESOURCE SET RESOURCE_STATUS='RESERVADO', LAST_ACTIVITY_NAME='RESERVAR', last_activity_date=sysdate where RESOURCE_VALUE =%1
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.149.127.207)(PORT=1521)))(CONNECT_DATA=(SID=ICESRM)(SERVER=DEDICATED)))
+Consulta a realizarUPDATE RM1_RESOURCE SET RESOURCE_STATUS='RESERVADO', LAST_ACTIVITY_NAME='RESERVAR', last_activity_date=sysdate where RESOURCE_VALUE ='10558877'
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@7138b252
+conexion no es null oracle.jdbc.driver.T4CConnection@7138b252
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=11
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=11
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=10
+Se actualizara con: Ult Tramite=NA-Ult Paso=11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_IngresarNumeroServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:55:40
+-------------------------------------------------
+Inicio de Paso: 12
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_IngresarNumeroServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso12
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_IngresarNumeroServicio
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=10558877
+Argumento 2:=Pruebas
+Argumento 3:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_IngresarNumeroServicio
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=12
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=12
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=11
+Se actualizara con: Ult Tramite=NA-Ult Paso=12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_IngresarIMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:56:02
+-------------------------------------------------
+Inicio de Paso: 13
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_IngresarIMEI
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso13
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_IngresarIMEI
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=352214043681809
+Argumento 2:=null
+Argumento 3:=null
+-----------------------------------------------------------
+Esta correcto: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_IngresarIMEI
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=13
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=13
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=12
+Se actualizara con: Ult Tramite=NA-Ult Paso=13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_IngresarVersionSerie
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:56:10
+-------------------------------------------------
+Inicio de Paso: 14
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_IngresarVersionSerie
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso14
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_IngresarVersionSerie
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=cpko06ver
+Argumento 3:=cpko06ser
+Argumento 4:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_IngresarVersionSerie
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=14
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=14
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=13
+Se actualizara con: Ult Tramite=NA-Ult Paso=14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_FinalizarOrden
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:56:18
+-------------------------------------------------
+Inicio de Paso: 15
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_FinalizarOrden
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso15
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_FinalizarOrden
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=Pruebas CPKO16
+Argumento 2:=Nomina
+Argumento 3:=RED
+Argumento 4:=1
+-----------------------------------------------------------
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: payWarrantyType Intento: 0
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: payWarrantyType Intento: 1
+No se pudo encontrar el objeto HTML por el metodo buscarObjetoPorCodigoRetorna - Objeto: payWarrantyType Intento: 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_FinalizarOrden
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=15
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=15
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=14
+Se actualizara con: Ult Tramite=NA-Ult Paso=15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_BotonDetallePedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=16
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:16 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:57:09
+-------------------------------------------------
+Inicio de Paso: 16
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_BotonDetallePedido
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+Encontrado boton detalle para ir a detalle pedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_BotonDetallePedido
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=16
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 16
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=16
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=15
+Se actualizara con: Ult Tramite=NA-Ult Paso=16
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_EsperaEstadoPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=17
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:17 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 08:57:18
+-------------------------------------------------
+Inicio de Paso: 17
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_EsperaEstadoPedido
+Cantidad de argumentos:5
+Argumento 0:=CPKO06_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso17
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=17
+-----------------------------------------------------------
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 17
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO06_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=17
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO06_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=16
+Se actualizara con: Ult Tramite=NA-Ult Paso=17
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_ValidaInfoPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=18
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPKO06_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:18 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/30 09:01:07
+-------------------------------------------------
+Inicio de Paso: 18
+-------------------------------------------------
+NO Coincide: TERMINAL-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ValidaInfoPedido
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problemas al agregando las Facilidades
+Argumento 1:=QA
+Argumento 2:=CPKO06_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fKO_ValidaInfoPedido
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problemas al agregando las Facilidades
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fKO_Login; ;OK;
+Paso    2  -  fKO_BuscarCliente; ;OK;
+Paso    3  -  fKO_NuevaVenta; ;OK;
+Paso    4  -  fKO_BuscarPedido; ;NE;
+Paso    5  -  fKO_ConsultarMorosidad; ;OK;
+Paso    6  -  fKO_SeleccionarPlan; ;OK;
+Paso    7  -  fKO_PersonalizaPlan; ;OK;
+Paso    8  -  fKO_SeleccionarTerminal; ;OK;
+Paso    9  -  fKO_CotizarPedido; ;OK;
+Paso   10  -  fKO_IngresarSIM; ;OK;
+Paso   11  -  fASRM_EstadoServicio_SQL; ;OK;
+Paso   12  -  fKO_IngresarNumeroServicio; ;OK;
+Paso   13  -  fKO_IngresarIMEI; ;OK;
+Paso   14  -  fKO_IngresarVersionSerie; ;OK;
+Paso   15  -  fKO_FinalizarOrden; ;OK;
+Paso   16  -  fKO_BotonDetallePedido; ;OK;
+Paso   17  -  fKO_EsperaEstadoPedido; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    3  -  GrabarDatosSalida;T1_NroPedido;KO-58761;
+Paso    3  -  GrabarDatosSalida;T1_NroCtaFact;101783656052;
+Paso    3  -  fKO_NuevaVenta;NroPedido;KO-58761;
+ 

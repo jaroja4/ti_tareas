@@ -1,0 +1,1193 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP19
+-----------------------------------------------------------
+NumeroCaso = CP19
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP19.rftdp
+false
+false
+--------------------------------------------------------------------
+CP19Pasos=fLeerVariableCondicionanteDP
+CP19Param=ModoPago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Siempre
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT
+CP19Ejecuta=TRUE
+CP19Cond=ALT
+CP19ErrorStop=TRUE
+CP19ReEjec=1-3
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fRetomarTaskCM
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=7-36
+--------------------------------------------------------------------
+CP19Pasos=fValidarTipoCM
+CP19Param=Pospago a Prepago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMorosidadCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCuentaCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Cuenta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fComprarPlanCM
+CP19Param=LISTAR
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fComprarPlanCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Plan
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarFacilidadesCM
+CP19Param=LISTAR
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Facilidades
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarIMEICM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidaSIMActivoCM
+CP19Param=SIM Correcta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarSIMCM
+CP19Param=SIM Incorrecta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0036
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidaSIMActivoCM
+CP19Param=SIM Correcta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarIMEICM
+CP19Param=IMEI_incorrecto_NV
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=IMEI
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0047
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fIngresarIMEICM
+CP19Param=IMEI_Correcto
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=IMEI
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCampoCedCM
+CP19Param=false
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCamposRepLegal
+CP19Param=false
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Contrato
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarCamposTerminalCM
+CP19Param=true
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fAgregarObservaciónCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Terminal
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fPagoREDOnlyCM
+CP19Param=3
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=RED
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fNextCM
+CP19Param=Finalizar
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago/Prepago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-40
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarTramite
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=RED Por pagar
+CP19Ejecuta=FALSE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Por Pagar
+CP19Ejecuta=FALSE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVista360
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fBuscarActivo
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fBuscarCtaFact
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-44
+--------------------------------------------------------------------
+CP19Pasos=fNuevaPostvta
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-46
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-49
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-49
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0046
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=ALT+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-51
+--------------------------------------------------------------------
+CP19Pasos=fAdministrarLOV
+CP19Param=3
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA+CierreIE
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-54
+--------------------------------------------------------------------
+CP19Pasos=fNuevoCambioModalidad
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-54
+--------------------------------------------------------------------
+CP19Pasos=fValidarMensaje
+CP19Param=DPM0046
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVEP_Login
+CP19Param=NA
+CP19Ejecuta=FALSE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=1-58
+--------------------------------------------------------------------
+CP19Pasos=fVEP_PagarRED
+CP19Param=NA
+CP19Ejecuta=FALSE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVEP_Logout
+CP19Param=NA
+CP19Ejecuta=FALSE
+CP19Cond=Condicionado: %ModoPago% == "VEP"
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogin
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Prepago
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "ADM"
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fREDManualCM
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=Condicionado: %ModoPago% == "ADM"
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-70
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=RED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=TramiteDesc Completo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fASRM_Login
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-68
+--------------------------------------------------------------------
+CP19Pasos=fASRM_ConsultarEstadoServicio
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fASRM_Logout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarActivo
+CP19Param=Desconexión Inactivo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBRM_Login
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-74
+--------------------------------------------------------------------
+CP19Pasos=fBRM_BuscarCliente
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-73
+--------------------------------------------------------------------
+CP19Pasos=fBRM_ValidarFactura
+CP19Param=Cerrado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBRM_Logout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-77
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fCapturarPedidoCM
+CP19Param=Venta
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-81
+--------------------------------------------------------------------
+CP19Pasos=fEsperaEventoCM
+CP19Param=TramiteVenta Completo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarPedidosCM
+CP19Param=ValidarRED Pagado
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fValidarActivo
+CP19Param=Venta Activo
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fVista360
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarActivo
+CP19Param=DP
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarCtaFact
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=7
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=8
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fExpandiryBuscarActivo
+CP19Param=5
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarProductoActivo
+CP19Param=9
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=false
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fDB_Validar
+CP19Param=1
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fDB_Validar
+CP19Param=2
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidoVenta
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fValidarObservacion
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidosCM
+CP19Param=Postpago
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fCapturarPedidoCM
+CP19Param=Desconexión
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fBuscarPedidoVenta
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=1-97
+--------------------------------------------------------------------
+CP19Pasos=fValidarObservacion
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=fLogout
+CP19Param=NA
+CP19Ejecuta=TRUE
+CP19Cond=NA
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=FIN
+CP19Param=null
+CP19Ejecuta=
+CP19Cond=null
+CP19ErrorStop=TRUE
+CP19ReEjec=Nunca
+--------------------------------------------------------------------
+CP19Pasos=UltimaModificacionDP
+CP19Param=null
+CP19Ejecuta=VC 06/11/2018
+CP19Cond=null
+CP19ErrorStop=false
+CP19ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP19_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP19_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = VC 2018/10/23
+Variable1= UltimaModifiacionDP
+Dato VC 2018/10/23 leido del dp = VC 2018/10/23
+--------------------------------------------------------------------
+Dato = MODO DE PAGO RED/ADM
+Cantidad Variables = 1
+Valor = ADM
+Variable1= ModoPago
+Dato ADM leido del dp = ADM
+--------------------------------------------------------------------
+Dato = IDENTIFICACION CLIENTE
+Cantidad Variables = 2
+Valor = 121044088
+Variable1= Cedula
+Dato 121044088 leido del dp = 121044088
+Variable2= Identificacion
+Dato 121044088 leido del dp = 121044088
+--------------------------------------------------------------------
+Dato = NUMERO DE SERVICIO
+Cantidad Variables = 4
+Valor = 89775995
+Variable1= NumeroServicio
+Dato 89775995 leido del dp = 89775995
+Variable2= ASRM_NroServ1
+Dato 89775995 leido del dp = 89775995
+Variable3= DB_Param1_1
+Dato 89775995 leido del dp = 89775995
+Variable4= DB_Param1_2
+Dato 89775995 leido del dp = 89775995
+--------------------------------------------------------------------
+Dato = CUENTA DE FACTURACION
+Cantidad Variables = 2
+Valor = 101785917281
+Variable1= NroCuentaFac
+Dato 101785917281 leido del dp = 101785917281
+Variable2= BRM_Cuenta
+Dato 101785917281 leido del dp = 101785917281
+--------------------------------------------------------------------
+Dato = PLAN PREPAGO A COMPRAR
+Cantidad Variables = 2
+Valor = SUPER CHIP KOLBI
+Variable1= Plan
+Dato SUPER CHIP KOLBI leido del dp = SUPER CHIP KOLBI
+Variable2= PROD7
+Dato SUPER CHIP KOLBI leido del dp = SUPER CHIP KOLBI
+--------------------------------------------------------------------
+Dato = IMEI DEL ACTIVO
+Cantidad Variables = 2
+Valor = 352214043658542
+Variable1= IMEI del activo
+Dato 352214043658542 leido del dp = 352214043658542
+Variable2= IMEI_Correcto
+Dato 352214043658542 leido del dp = 352214043658542
+--------------------------------------------------------------------
+Dato = SIM DEL ACTIVO
+Cantidad Variables = 1
+Valor = 89506010511110617952
+Variable1= SIM Correcta
+Dato 89506010511110617952 leido del dp = 89506010511110617952
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = USUARIO BRM
+Cantidad Variables = 1
+Valor = root.0.0.0.1
+Variable1= BRM_usr
+Dato root.0.0.0.1 leido del dp = root.0.0.0.1
+--------------------------------------------------------------------
+Dato = CONTRASENA  BRM
+Cantidad Variables = 1
+Valor = password
+Variable1= BRM_pass
+Dato password leido del dp = password
+--------------------------------------------------------------------
+Dato = IMSI DEL ACTIVO
+Cantidad Variables = 1
+Valor = 712012004061795
+Variable1= DB_Param2_2
+Dato 712012004061795 leido del dp = 712012004061795
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Laura\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP19_CD1
+Ambiente = QA
+UltimoPasoOK1
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP19_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CP19_CD1
+Ambiente = QA
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=2
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP19_CD1_T1
+Argumento 8:=ModoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:2
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/29 10:53:12
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CP19_CD1_T1
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CP19_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=CP19_CD1
+Argumento 4:=ADM
+-----------------------------------------------------------
+FileName=DPC_CP19_CD1
+DP Salida en DP=E:\Ambiente\PROD\workspace_Laura\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CP19_CD1.rftdp
+Se lee: Variable=ModoPago-Valor Anterior=ADM
+Se actualizara con: ADM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: 2
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=2
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-3
+Argumento 6:=alt
+Argumento 7:=CP19_CD1_T1
+Argumento 8:=ALT
+-----------------------------------------------------------
+Desde:1 Hasta:3
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:2
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/29 10:53:12
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP19_CD1_T1
+Argumento 1:=ALT
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+usrrft3
+20RftUsr317
+Primera expresion false
+Segunda expresion false
+Segunda sub expresion1 true
+Segunda sub expresion2 false
+iNroPaso e iNroPasoDsede2-2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft3
+Argumento 2:=20RftUsr317
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 15
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 15
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 15
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 15
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-2000
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5208
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5668
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-1212
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4800
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-5560
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1872
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-1176
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-3132
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-5424
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-5932
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-4532
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-5544
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6232
+Proceso: authmansvr.exe
+Se descarta el proceso:authmansvr.exe-8024
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+El process Id de Siebel es: 13904
+Mensaje DialogoExplorer existe?:true
+[[Reconocimiento Ambiguo]]0{.window=2753536, .class=Html.Dialog, .caption=Message from webpage, .visible=true, .bounds=java.awt.Rectangle[x=560,y=353,width=486,height=204]}
+##################################################################
+getThrowableclassname Script=Login Línea=106 Método=getProperty Error=CRFCP0048E: Property .text was not found. 
+Script playback cannot be completed. Clase=com.rational.test.ft.PropertyNotFoundException Objeto=TopLevelTestObject(Ref:RemoteProxyReference{testContext:a1f005082f56, objectId:18, testObjectClass:TopLevelTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=Login Línea=106 Método=getProperty Error=CRFCP0048E: Property .text was not found. 
+Script playback cannot be completed. Clase=com.rational.test.ft.PropertyNotFoundException Objeto=TopLevelTestObject(Ref:RemoteProxyReference{testContext:a1f005082f56, objectId:18, testObjectClass:TopLevelTestObject})
+##################################################################
+##################################################################
+getThrowableclassname Script=Login Línea=106 Método=getProperty Error=CRFCP0048E: Property .text was not found. 
+Script playback cannot be completed. Clase=com.rational.test.ft.PropertyNotFoundException Objeto=TopLevelTestObject(Ref:RemoteProxyReference{testContext:a1f005082f56, objectId:18, testObjectClass:TopLevelTestObject})
+##################################################################
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fLogin Línea=117 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fLogin Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Login;2;RE-CP;
+Paso    2  -  LeerDatosEntrada; ;OK;
+Paso    2  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    2  -  LeerDatosSalida; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+DATOS
+Paso    2  -  CasosPrueba;Usuario Alternativo ;usrrft3;
+Paso    2  -  CasosPrueba;Clave Alternativa ;20RftUsr317;
+Paso    2  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;1;
+Paso    2  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+ 
+ 

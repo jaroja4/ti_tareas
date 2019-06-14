@@ -1,0 +1,584 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO09
+-----------------------------------------------------------
+NumeroCaso = CPKO09
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO09.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO09Pasos=fLeerVariableCondicionanteDP
+CPKO09Param=TipoPago
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_Login
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-23
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ConsultaPorServicio
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-4
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_NuevoTramite
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_BuscarPedido
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=5-15
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ConsultarMorosidad
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SeleccionarPlan
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SincronizarPlan
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_SeleccionarTerminal
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-12
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_CotizarPedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-15
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_IngresarIMEI
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-14
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_IngresarVersionSerie
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=1-14
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_FinalizarOrden
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EstadoOrden
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_Login
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_PagarREDNew
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fVEP_Logout
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EstadoOrden
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="VEP"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_BuscarPedido
+CPKO09Param=0
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_OpcionesDeOrden
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=Condicionado: %TipoPago%=="ADM"
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_EsperaEstadoPedido
+CPKO09Param=NA
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO09Pasos=fKO_ValidaInfoPedido
+CPKO09Param=1
+CPKO09Ejecuta=TRUE
+CPKO09Cond=NA
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO09Pasos=FIN
+CPKO09Param=null
+CPKO09Ejecuta=null
+CPKO09Cond=null
+CPKO09ErrorStop=TRUE
+CPKO09ReEjec=null
+--------------------------------------------------------------------
+CPKO09Pasos=UltimaModificacionDP
+CPKO09Param=null
+CPKO09Ejecuta=22/11/2018
+CPKO09Cond=DB
+CPKO09ErrorStop=null
+CPKO09ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO09_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO09_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 16/11/2018
+Variable1= UltimaModifiacionDP
+Dato DB 16/11/2018 leido del dp = DB 16/11/2018
+--------------------------------------------------------------------
+Dato = TIPO DE PAGO A REALIZAR (ADM/VEP)
+Cantidad Variables = 1
+Valor = VEP
+Variable1= TipoPago
+Dato VEP leido del dp = VEP
+--------------------------------------------------------------------
+Dato = NUMERO_DEL_SERVICIO
+Cantidad Variables = 2
+Valor = 10161819
+Variable1= NumeroServicio1
+Dato 10161819 leido del dp = 10161819
+Variable2= NumeroServicio
+Dato 10161819 leido del dp = 10161819
+--------------------------------------------------------------------
+Dato = CATEGORIA CREDITICIA DEL CLIENTE
+Cantidad Variables = 1
+Valor = B
+Variable1= CategoriaCrediticia1
+Dato B leido del dp = B
+--------------------------------------------------------------------
+Dato = NOMBRE DEL TIPO DE OFERTA COMERCIAL A SELECCIONAR
+Cantidad Variables = 1
+Valor = Oferta Kolbi Masiva
+Variable1= OfertafKO1
+Dato Oferta Kolbi Masiva leido del dp = Oferta Kolbi Masiva
+--------------------------------------------------------------------
+Dato = NOMBRE DEL GRUPO DE PROMOCION A SELECCIONAR
+Cantidad Variables = 1
+Valor = Planes 4G K
+Variable1= GrupoPromocion1
+Dato Planes 4G K leido del dp = Planes 4G K
+--------------------------------------------------------------------
+Dato = NOMBRE DEL PLAN A ELEGIR
+Cantidad Variables = 1
+Valor = PLAN 4G K3 24 M
+Variable1= Plan1
+Dato PLAN 4G K3 24 M leido del dp = PLAN 4G K3 24 M
+--------------------------------------------------------------------
+Dato = NOMBRE DE TERMINAL
+Cantidad Variables = 2
+Valor = SAMSUNG GALAXY S9 NEGRO
+Variable1= Terminal1
+Dato SAMSUNG GALAXY S9 NEGRO leido del dp = SAMSUNG GALAXY S9 NEGRO
+Variable2= ValidaDato1_3
+Dato SAMSUNG GALAXY S9 NEGRO leido del dp = SAMSUNG GALAXY S9 NEGRO
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 2
+Valor = 352214043681049
+Variable1= IMEI1
+Dato 352214043681049 leido del dp = 352214043681049
+Variable2= ValidaDato1_1
+Dato 352214043681049 leido del dp = 352214043681049
+--------------------------------------------------------------------
+Dato = OBSERVACIONES DE LA ORDEN
+Cantidad Variables = 1
+Valor = Prueba CPKO09
+Variable1= ObservacionTP1
+Dato Prueba CPKO09 leido del dp = Prueba CPKO09
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = VERSION DEL SOFTWARE
+Cantidad Variables = 1
+Valor = 1111
+Variable1= Serie
+Dato 1111 leido del dp = 1111
+--------------------------------------------------------------------
+Dato = NUMERO DE SERIE
+Cantidad Variables = 1
+Valor = 111111111
+Variable1= Version
+Dato 111111111 leido del dp = 111111111
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+UltimoPasoOK3
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO09_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CPKO09_CD1
+Ambiente = QA
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=4
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=TipoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:4
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/22 11:56:29
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CPKO09_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=CPKO09_CD1
+Argumento 4:=VEP
+-----------------------------------------------------------
+FileName=DPC_CPKO09_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPKO09_CD1.rftdp
+Se lee: Variable=TipoPago-Valor Anterior=VEP
+Se actualizara con: VEP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+DATO: 4
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=4
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-23
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:23
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:4
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/22 11:56:29
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:OK
+-----------------------------------------------------------
+DATO: 4
+Script a validar:fKO_ConsultaPorServicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=4
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:4
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/22 11:56:56
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_ConsultaPorServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=10161819
+Argumento 2:=null
+-----------------------------------------------------------
+Servicio: 10161819 - Cliente:  MARIA PIA CAMPOS ROJAS 
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_ConsultaPorServicio
+Resultado:Servicio: 10161819 - Cliente:  MARIA PIA CAMPOS ROJAS 
+-----------------------------------------------------------
+DATO: 4
+Script a validar:fKO_NuevoTramite
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=4
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CPKO09_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:4
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/22 11:57:22
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_NuevoTramite
+Cantidad de argumentos:5
+Argumento 0:=CPKO09_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_NuevoTramite
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP
+Argumento 2:=10161819
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+[onObjectNotFound]TestObjectMethodState {OBJECT_NOT_FOUND,testObjectClassName=GuiTestObject(Name: <b>link_cambioPlan</b>, Map: CambioPlan),method=click,signature=null,args=null}
+[onObjectNotFound]TestObjectMethodState {OBJECT_NOT_FOUND,testObjectClassName=GuiTestObject(Name: <b>link_cambioPlan</b>, Map: CambioPlan),method=click,signature=null,args=null}
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fKO_NuevoTramite Línea=49 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fKO_NuevoTramite Línea=0 Error=CRFCN0018E: The 0 line of the 0 script contains an exception.
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fKO_Login; ;OK;
+Paso    3  -  fKO_ConsultaPorServicio; ;OK;
+KomercialICE.KO_NuevoTramite;4;RE-CP;
+Paso    4  -  LeerDatosEntrada; ;OK;
+Paso    4  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    4  -  LeerDatosSalida; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fKO_Login; ;OK;
+Paso    3  -  fKO_ConsultaPorServicio; ;OK;
+DATOS
+Paso    4  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;3;
+Paso    4  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+ 
+ 

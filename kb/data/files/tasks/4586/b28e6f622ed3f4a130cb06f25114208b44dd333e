@@ -1,0 +1,33 @@
+Llenar la platilla del sitio colaborativo:
+
+http://adminst.digital.ice/SiteDirectory/datisp/infra/opera/BRM/Lists/Asignacin%20de%20Recursos/Asignacin%20de%20Recursos.aspx?RootFolder=%2FSiteDirectory%2Fdatisp%2Finfra%2Fopera%2FBRM%2FLists%2FAsignacin%20de%20Recursos%2FA%C3%91O%202018&FolderCTID=0x012000F256F0A5CD157C4F81AB3A8E901E1B0B&View=%7B277910B5-AA88-4D4D-A6FB-77016C37AFC7%7D
+
+Validación de puertos   
+
+Validar Pipeline
+
+Espacio de FileSystem D
+esde putty escribir el comando bdf no puede estar a mas de 80% de uso
+
+
+Ejecutar el siguiente script en la base de datos de BRM:
+
+select account_no from Billinfo_t bi
+
+inner join account_t ac
+
+on ac.POID_ID0 = bi.ACCOUNT_OBJ_ID0
+
+where ACTG_NEXT_T = 9999
+
+and billing_status = 0
+
+and bi.ACTG_CYCLE_DOM = xx
+
+and ROWNUM<=100
+
+
+Donde 9999 es la fecha del ciclo a facturar a las cero horas, cero minutos, cero segundos en formato timestamp.
+
+Donde xx es el ciclo del Dom a facturar.
+En el Customer Center:

@@ -1,0 +1,56 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CD1 copiado a CP08_CD2
+Error al procesar el conjunto de datos
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+No pueden existir detalles iguales en el datapool
+** Existen Descricpiones iguales en el datapool  **
+DATOS
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------Resultados Consola CMD----------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ 
+.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ERROR: Input redirection is not supported, exiting the process immediately.
+The process tried to write to a nonexistent pipe.
+2019-03-27 07:53:35.747:INFO:oejs.Server:jetty-8.1.16.v20140903
+2019-03-27 07:53:35.867:INFO:oejw.StandardDescriptorProcessor:NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-03-27 07:53:35.952:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:9100
+Mar 27, 2019 7:53:42 AM Scripts.Utilitarios.CopiarDatapool testMain
+SEVERE: E:\Ambiente\QA\workspace_Juliana\ArchivosCSV\CP08_CD2.csv: The process cannot access the file because it is being used by another process.
+
+Error al copiar el archivo. E:\Ambiente\QA\workspace_Juliana\ArchivosCSV\CP08_CD2.csv: The process cannot access the file because it is being used by another process.
+
+Se present¢ un error a la hora de generar el CSV.
+2019-03-27 07:53:43.757:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/E:/Program%20Files%20(x86)/IBM/SDP/FunctionalTester/WebConfiguration/}
+2019-03-27 07:53:43.807:WARN:oejut.QueuedThreadPool:4 threads could not be stopped
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ OUTPUTSTREAM: java.io.BufferedOutputStream@1b9f88b

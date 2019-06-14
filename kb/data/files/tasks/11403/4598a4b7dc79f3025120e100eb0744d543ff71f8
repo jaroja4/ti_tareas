@@ -1,0 +1,3327 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP26
+-----------------------------------------------------------
+NumeroCaso = CP26
+Path DP Entrada = E:\Ambiente\PROD\workspace_Luis\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP26.rftdp
+false
+false
+--------------------------------------------------------------------
+CP26Pasos=fLeerVariableCondicionanteDP
+CP26Param=ModoPago
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Siempre
+--------------------------------------------------------------------
+CP26Pasos=fREMO_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-4
+--------------------------------------------------------------------
+CP26Pasos=fREMO_AdministrarMorosidad
+CP26Param=Consultar TRUE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fREMO_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA+CierreIE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-13
+--------------------------------------------------------------------
+CP26Pasos=fVista360
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-7
+--------------------------------------------------------------------
+CP26Pasos=fNuevoPedidoPortInSimple
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPIenLista
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-11
+--------------------------------------------------------------------
+CP26Pasos=fValidarServicioPedPIenLista
+CP26Param=TRUE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fObtenerMorosidadenListaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarMorosidadenLista
+CP26Param=TRUE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-13
+--------------------------------------------------------------------
+CP26Pasos=fCompraPlanCategoriaCatalogoNew
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fREMO_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-16
+--------------------------------------------------------------------
+CP26Pasos=fREMO_AdministrarMorosidad
+CP26Param=Setear FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fREMO_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-110
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPIenLista
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-20
+--------------------------------------------------------------------
+CP26Pasos=fObtenerMorosidadenListaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarMorosidadenLista
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-23
+--------------------------------------------------------------------
+CP26Pasos=fASRM_ConsultarEstadoServicio
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPIenLista
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-27
+--------------------------------------------------------------------
+CP26Pasos=fPortarServicio
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-26
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0028
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarIdServicioPedPIenLista
+CP26Param=False
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-65
+--------------------------------------------------------------------
+CP26Pasos=fCompraPlanCategoriaCatalogoNew
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fCompraPlanCategoriaCatalogoNew
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-31
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0044
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarAgencia
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarAutenticacion
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarTipoPedido
+CP26Param=Valor
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-37
+--------------------------------------------------------------------
+CP26Pasos=fASRM_ModificarEstadoSIM
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarSIM
+CP26Param=SIM Incorrecta
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-39
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0002
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-42
+--------------------------------------------------------------------
+CP26Pasos=fASRM_ModificarEstadoSIM
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarSIM
+CP26Param=SIM Correcta
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarIdServicio
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarTipoPedido
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarNroOrden
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarBtonNumDisp
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarBtonLiberarNumero
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-50
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0006
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSeleccionarTerminal
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-53
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0006
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarIMEI
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-56
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-56
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0006
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarIMEI
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-59
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-59
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0006
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fIngresarIMEI
+CP26Param=3
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-62
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-62
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0012
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValorarTodo
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-65
+--------------------------------------------------------------------
+CP26Pasos=fCrearRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-65
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0022
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-110
+--------------------------------------------------------------------
+CP26Pasos=fGenerarCtaFact
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=13
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-77
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=14
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-77
+--------------------------------------------------------------------
+CP26Pasos=fValidarCamposTerminal
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSetEnvioInfo
+CP26Param=Setear False
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSetLineaPrivada
+CP26Param=Setear False
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizar_SRV_MOV_POS_Inicio
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-77
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizar_SRV_MOV_POS_Seleccion
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizar_SRV_MOV_POS_Validacion
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizar_SRV_MOV_POS_Seleccion
+CP26Param=3
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizar_Fin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-83
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=5
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-83
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=6
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=7
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarIdServicio
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarBtonNumDisp
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fCrearRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-85
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0012
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValorarTodo
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-87
+--------------------------------------------------------------------
+CP26Pasos=fValidarPrecio
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fPersonalizarFavoritoNew
+CP26Param=FavVoz
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-93
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=8
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-93
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=9
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-93
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=10
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-93
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=12
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fCrearRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-95
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0012
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValorarTodo
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-97
+--------------------------------------------------------------------
+CP26Pasos=fCrearRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Crear
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidacPostREDPendPago
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstadoRED
+CP26Param=Por pagar+REDValido
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarBtnAnularRED
+CP26Param=TRUE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fAnularRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Anular
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarGenCtaFact
+CP26Param=TRUE
+CP26Ejecuta=FALSE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fCrearRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Crear
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstadoRED
+CP26Param=Por pagar+REDValido
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=1-113
+--------------------------------------------------------------------
+CP26Pasos=fVEP_PagarRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-119
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-119
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Pagar
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstadoRED
+CP26Param=Pagado
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidacPostREDPagado
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=1-122
+--------------------------------------------------------------------
+CP26Pasos=fVEP_ReversarRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-131
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-131
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Crear
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstadoRED
+CP26Param=Por pagar
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidaRedReversado
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=1-131
+--------------------------------------------------------------------
+CP26Pasos=fVEP_PagarRED
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVEP_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "VEP"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-148
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-148
+--------------------------------------------------------------------
+CP26Pasos=fAdministrarRED
+CP26Param=Pagar
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=Condicionado: %ModoPago% == "ADM"
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstadoRED
+CP26Param=Pagado
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidacPostREDPagado
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-139
+--------------------------------------------------------------------
+CP26Pasos=fValidarMensaje
+CP26Param=DPM0015
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fCrearLE
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-141
+--------------------------------------------------------------------
+CP26Pasos=fAgregarNum_a_LE
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarProducto
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-146
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=8
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-146
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=9
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-146
+--------------------------------------------------------------------
+CP26Pasos=fExpandiryBuscar
+CP26Param=10
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-146
+--------------------------------------------------------------------
+CP26Pasos=fAsociarListaEspecial
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEnviarPedido
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstado
+CP26Param=Abierto
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-151
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-151
+--------------------------------------------------------------------
+CP26Pasos=fEsperaEstado
+CP26Param=Completar
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fATV_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-154
+--------------------------------------------------------------------
+CP26Pasos=fATV_ValidarPosibMultas
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fATV_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-157
+--------------------------------------------------------------------
+CP26Pasos=fASRM_ConsultarEstadoServicio
+CP26Param=2
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fASRM_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSIPV_Login
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-161
+--------------------------------------------------------------------
+CP26Pasos=fSIPV_ValidarCedula
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSIPV_ValidarRebajaIMEI
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fSIPV_Logout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogin
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-179
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoVentaPI
+CP26Param=Frontal
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-164
+--------------------------------------------------------------------
+CP26Pasos=fValidarCamposServicio
+CP26Param=1
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVista360
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-171
+--------------------------------------------------------------------
+CP26Pasos=fBuscarActivo
+CP26Param=DP
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-171
+--------------------------------------------------------------------
+CP26Pasos=fValidarUnPerfil
+CP26Param=Cliente
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarCtaFact
+CP26Param=DP
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-171
+--------------------------------------------------------------------
+CP26Pasos=fValidarUnPerfil
+CP26Param=Fact
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarPedido_enListaPeds
+CP26Param=FALSE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarPedido_enListaPedsPI
+CP26Param=TRUE
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fVista360
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-179
+--------------------------------------------------------------------
+CP26Pasos=fBuscarActivo
+CP26Param=DP
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-179
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoenCtaCte
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarCtaFact
+CP26Param=DP
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=1-179
+--------------------------------------------------------------------
+CP26Pasos=fValidarActivoenCtaFact_TipoPed
+CP26Param=PortIn
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fValidarActivoenCtaFact_Accion
+CP26Param=Venta
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fBuscarPedidoenCtaFac
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=fLogout
+CP26Param=NA
+CP26Ejecuta=TRUE
+CP26Cond=NA
+CP26ErrorStop=TRUE
+CP26ReEjec=Nunca
+--------------------------------------------------------------------
+CP26Pasos=FIN
+CP26Param=
+CP26Ejecuta=
+CP26Cond=null
+CP26ErrorStop=
+CP26ReEjec=null
+--------------------------------------------------------------------
+CP26Pasos=UltimaModificacionDP
+CP26Param=VC
+CP26Ejecuta=23/10/2018
+CP26Cond=null
+CP26ErrorStop=false
+CP26ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP26_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP26_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = VC 2018/10/23
+Variable1= UltimaModifiacionDP
+Dato VC 2018/10/23 leido del dp = VC 2018/10/23
+--------------------------------------------------------------------
+Dato = MODO DE PAGO RED/ADM
+Cantidad Variables = 1
+Valor = ADM
+Variable1= ModoPago
+Dato ADM leido del dp = ADM
+--------------------------------------------------------------------
+Dato = USUARIO REMO
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= REMO_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CLAVE REMO
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= REMO_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DEL CLIENTE
+Cantidad Variables = 1
+Valor = 121870429
+Variable1= Identificacion
+Dato 121870429 leido del dp = 121870429
+--------------------------------------------------------------------
+Dato = PLAN A COMPRAR
+Cantidad Variables = 2
+Valor = PLAN 4G K6 12 M
+Variable1= Plan1
+Dato PLAN 4G K6 12 M leido del dp = PLAN 4G K6 12 M
+Variable2= Plan2
+Dato PLAN 4G K6 12 M leido del dp = PLAN 4G K6 12 M
+--------------------------------------------------------------------
+Dato = NUMERO DE SERVICIO
+Cantidad Variables = 4
+Valor = 89774994
+Variable1= NumeroServicio
+Dato 89774994 leido del dp = 89774994
+Variable2= NroServicio1
+Dato 89774994 leido del dp = 89774994
+Variable3= ASRM_NroServ1
+Dato 89774994 leido del dp = 89774994
+Variable4= ASRM_NroServ2
+Dato 89774994 leido del dp = 89774994
+--------------------------------------------------------------------
+Dato = TERMINAL A COMPRAR
+Cantidad Variables = 3
+Valor = IPHONE 7 PLUS 32GB ORO ROSA
+Variable1= NombreTerminal
+Dato IPHONE 7 PLUS 32GB ORO ROSA leido del dp = IPHONE 7 PLUS 32GB ORO ROSA
+Variable2= VCT_Prod1
+Dato IPHONE 7 PLUS 32GB ORO ROSA leido del dp = IPHONE 7 PLUS 32GB ORO ROSA
+Variable3= PROD14
+Dato IPHONE 7 PLUS 32GB ORO ROSA leido del dp = IPHONE 7 PLUS 32GB ORO ROSA
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 4
+Valor = 352214043683110
+Variable1= IMEI1
+Dato 352214043683110 leido del dp = 352214043683110
+Variable2= IMEI2
+Dato 352214043683110 leido del dp = 352214043683110
+Variable3= IMEI3
+Dato 352214043683110 leido del dp = 352214043683110
+Variable4= IMEI_SIPV
+Dato 352214043683110 leido del dp = 352214043683110
+--------------------------------------------------------------------
+Dato = SIM CORRECTA
+Cantidad Variables = 4
+Valor = 89506010613114851460
+Variable1= SIM Correcta
+Dato 89506010613114851460 leido del dp = 89506010613114851460
+Variable2= NroSIM1
+Dato 89506010613114851460 leido del dp = 89506010613114851460
+Variable3= NroSIM2
+Dato 89506010613114851460 leido del dp = 89506010613114851460
+Variable4= SIM Incorrecta
+Dato 89506010613114851460 leido del dp = 89506010613114851460
+--------------------------------------------------------------------
+Dato = ID CTA REASIGNACION DEUDA
+Cantidad Variables = 1
+Valor = 140310036
+Variable1= CtaDestinoId
+Dato 140310036 leido del dp = 140310036
+--------------------------------------------------------------------
+Dato = CANAL UTILIZADO
+Cantidad Variables = 1
+Valor = Agencia ICE
+Variable1= Canal
+Dato Agencia ICE leido del dp = Agencia ICE
+--------------------------------------------------------------------
+Dato = TIPO AUTENTICACION
+Cantidad Variables = 1
+Valor = Enrute directo
+Variable1= Tipo
+Dato Enrute directo leido del dp = Enrute directo
+--------------------------------------------------------------------
+Dato = NUMERO FAVORITO
+Cantidad Variables = 1
+Valor = 29653223
+Variable1= LETel1
+Dato 29653223 leido del dp = 29653223
+--------------------------------------------------------------------
+Dato = USUARIO ATV
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= ATV_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CLAVE ATV
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= ATV_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+--------------------------------------------------------------------
+Dato = USUARIO SIPV
+Cantidad Variables = 1
+Valor = C110440882
+Variable1= SIPV_usr
+Dato C110440882 leido del dp = C110440882
+--------------------------------------------------------------------
+Dato = CLAVE SIPV
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= SIPV_pass
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = USUARIO VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CLAVE VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP26_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP26_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP26_CD1.rftdp
+DPC_CP26_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=ModoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:51:21
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CP26_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=ModoPago
+Argumento 2:=QA
+Argumento 3:=CP26_CD1
+Argumento 4:=ADM
+-----------------------------------------------------------
+FileName=DPC_CP26_CD1
+DP Salida en DP=E:\Ambiente\PROD\workspace_Luis\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CP26_CD1.rftdp
+Se Crea: Variable=ModoPago- con Valor=ADM
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fREMO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-4
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:4
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:51:21
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fREMO_Login
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.REMO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+Se abre REMO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Resultado:Resultado OK
+-----------------------------------------------------------
+El Process Id de REMO es: 9984
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Cantidad de argumentos:1
+Argumento 0:=OK
+-----------------------------------------------------------
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Resultado:Resultado OK
+-----------------------------------------------------------
+Hace el login a REMO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.REMO_Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fREMO_AdministrarMorosidad
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=Consultar TRUE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:51:37
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fREMO_AdministrarMorosidad
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=Consultar TRUE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+Accion a ejecutar:*consultar*
+Morosidad Esperada:*true*
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.REMO_AdministrarMorosidad
+Cantidad de argumentos:6
+Argumento 0:=null
+Argumento 1:=consultar
+Argumento 2:=true
+Argumento 3:=121870429
+Argumento 4:=NA
+Argumento 5:=NA
+-----------------------------------------------------------
+consultartrue
+Fila=2
+Col=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.REMO_AdministrarMorosidad
+Resultado:Resultado 22135051
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fREMO_Logout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:52:00
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fREMO_Logout
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.REMO_Logout
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+Saliendo del sistema REMO:
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.REMO_Logout
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=4
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=4
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA+CierreIE
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:52:09
+-------------------------------------------------
+Inicio de Paso: 5
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA+CierreIE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso5
+-----------------------------------------------------------
+usrrft1
+20RftUsr117
+Primera expresion true
+Segunda expresion false
+Segunda sub expresion1 false
+Segunda sub expresion2 false
+iNroPaso e iNroPasoDsede5-1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+num: 30
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5556
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-6040
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-2072
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-6216
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-6280
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6348
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-6648
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6804
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-6816
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6840
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-6900
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-7120
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-4716
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6152
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-7640
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8440
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8456
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8504
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8872
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8884
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8908
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-9172
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-2720
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9684
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6560
+Proceso: java.exe
+Se descarta el proceso:java.exe-9016
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-9756
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-8036
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-9384
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6756
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 30
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5556
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-6040
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-2072
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-6216
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-6280
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6348
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-6648
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6804
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-6816
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6840
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-6900
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-7120
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-4716
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6152
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-7640
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8440
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8456
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8504
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8872
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8884
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8908
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-9172
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-2720
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9684
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6560
+Proceso: java.exe
+Se descarta el proceso:java.exe-9016
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-9756
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-8036
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-1884
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-5316
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+num: 30
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5556
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-6040
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-2072
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-6216
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-6280
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6348
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-6648
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6804
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-6816
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6840
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-6900
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-7120
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-4716
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6152
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-7640
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8440
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8456
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8504
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8872
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8884
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8908
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-9172
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-2720
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9684
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6560
+Proceso: java.exe
+Se descarta el proceso:java.exe-9016
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-9756
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-8036
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-3912
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-9828
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=OK
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar soffice. Exit code: 1n
+num: 30
+Proceso: taskhost.exe
+Se descarta el proceso:taskhost.exe-5556
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-6040
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-2072
+Proceso: wfshell.exe
+Se descarta el proceso:wfshell.exe-6216
+Proceso: vdaredirector.exe
+Se descarta el proceso:vdaredirector.exe-6280
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-6348
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-6648
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6804
+Proceso: concentr.exe
+Se descarta el proceso:concentr.exe-6816
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6840
+Proceso: receiver.exe
+Se descarta el proceso:receiver.exe-6900
+Proceso: selfserviceplugin.exe
+Se descarta el proceso:selfserviceplugin.exe-7120
+Proceso: wfcrun32.exe
+Se descarta el proceso:wfcrun32.exe-4716
+Proceso: selfservice.exe
+Se descarta el proceso:selfservice.exe-6152
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-7640
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8440
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8456
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8504
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8872
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8884
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-8908
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-9172
+Proceso: chrome.exe
+Se descarta el proceso:chrome.exe-2720
+Proceso: cmd.exe
+Se descarta el proceso:cmd.exe-9684
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-6560
+Proceso: java.exe
+Se descarta el proceso:java.exe-9016
+Proceso: playerhook64.exe
+Se descarta el proceso:playerhook64.exe-9756
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-8036
+Proceso: processutil.exe
+Se descarta el proceso:processutil.exe-8380
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-8680
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+El process Id de Siebel es: 6916
+Mensaje DialogoExplorer existe?:false
+Mensaje de sesión ya abierta existe?:false
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:4
+Argumento 0:=DPM0029
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=BrowserScript
+-----------------------------------------------------------
+Tipo: BrowserScript
+Existe Mensaje BrowserScript: false
+Resultado: No Existe
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:No Existe
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=5
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=5
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=4
+Se actualizara con: Ult Tramite=NA-Ult Paso=5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=1-7
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:7
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:52:33
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fVista360
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Vista360
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=121870429
+Argumento 2:=Cliente
+-----------------------------------------------------------
+Clase de cuenta ingresada :Cliente
+Vista actual: All Accounts across Organizations
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=SiebScreenView.Goto("All Account List View", "L2"), L2 view repository name "All Account List View" is not valid; Clase=com.rational.test.ft.Domain.Siebel.SiebelItemNotFoundException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+Vista actual: ICE SIS OM Customer Account Portal Resume View
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+##################################################################
+getThrowableclassname Script=Vista360 Línea=70 Método=Goto Error=
+IsExists("All Account List View", "L2"); Error:(-1023) - System error. Debug info: No L2 ScreenViews object found. Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebScreenViewsTestObject(Name: <b>SiebScreenViews</b>, Map: TabsCliente)
+##################################################################
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Vista360
+Resultado:121870429
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=6
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=6
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=5
+Se actualizara con: Ult Tramite=NA-Ult Paso=6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fNuevoPedidoPortInSimple
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:53:53
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fNuevoPedidoPortInSimple
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.NuevoPedidoPortInSimple
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=null
+-----------------------------------------------------------
+1-1785904634
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.NuevoPedidoPortInSimple
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroPedido
+Argumento 4:=1-1785904634
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato T1_NroPedido con 1-1785904634
+Grabar Dato Salida - Variable y Valor: T1_NroPedido=1-1785904634
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=7
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=7
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=6
+Se actualizara con: Ult Tramite=NA-Ult Paso=7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVentaPIenLista
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=1-11
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=Frontal
+-----------------------------------------------------------
+Desde:1 Hasta:11
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:54:11
+-------------------------------------------------
+Inicio de Paso: 8
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVentaPIenLista
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=Frontal
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso8
+-----------------------------------------------------------
+NroPedido: 1-1785904634
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVentaPIenLista
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=1-1785904634
+Argumento 2:=QA
+Argumento 3:=Frontal
+-----------------------------------------------------------
+Se ingreso a QA Frontal
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVentaPIenLista
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=8
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=8
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=7
+Se actualizara con: Ult Tramite=NA-Ult Paso=8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarServicioPedPIenLista
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=TRUE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:54:41
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarServicioPedPIenLista
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=TRUE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarServicioPedPIenLista
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=TRUE
+-----------------------------------------------------------
+EstadoPedPI true
+Estado deseado y en SBL = TRUE-true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarServicioPedPIenLista
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=9
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=9
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=8
+Se actualizara con: Ult Tramite=NA-Ult Paso=9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fObtenerMorosidadenListaPI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:54:43
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fObtenerMorosidadenListaPI
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ObtenerMorosidadenListaPI
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+##################################################################
+getThrowableclassname Script=ObtenerMorosidadenListaPI Línea=33 Método=PerformAction Error=
+Click(); Error:(-1016) - Failed to create object "Siebel Power Communications.Port Order Screen.ICE Order Entry - All Orders View (Port).Order Entry - Order List Applet (Port)" of class "SiebApplet". Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebButtonTestObject(Name: <b>MorosidadenListaPI</b>, Map: ConsultaMorosidad)
+##################################################################
+Reintento 0 para detectar el objeto.
+##################################################################
+getThrowableclassname Script=ObtenerMorosidadenListaPI Línea=33 Método=PerformAction Error=
+Click(); Error:(-1016) - Failed to create object "Siebel Power Communications.Port Order Screen.ICE Order Entry - All Orders View (Port).Order Entry - Order List Applet (Port)" of class "SiebApplet". Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebButtonTestObject(Name: <b>MorosidadenListaPI</b>, Map: ConsultaMorosidad)
+##################################################################
+Reintento 1 para detectar el objeto.
+##################################################################
+getThrowableclassname Script=ObtenerMorosidadenListaPI Línea=33 Método=PerformAction Error=
+Click(); Error:(-1016) - Failed to create object "Siebel Power Communications.Port Order Screen.ICE Order Entry - All Orders View (Port).Order Entry - Order List Applet (Port)" of class "SiebApplet". Clase=com.rational.test.ft.Domain.Siebel.SiebelMethodExecutionFailureException Objeto=siebel.SiebButtonTestObject(Name: <b>MorosidadenListaPI</b>, Map: ConsultaMorosidad)
+##################################################################
+Reintento 2 para detectar el objeto.
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ObtenerMorosidadenListaPI
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=10
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=10
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=9
+Se actualizara con: Ult Tramite=NA-Ult Paso=10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fValidarMorosidadenLista
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=TRUE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:55:08
+-------------------------------------------------
+Inicio de Paso: 11
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMorosidadenLista
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=TRUE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso11
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMorosidadenLista
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=TRUE
+-----------------------------------------------------------
+Cliente moroso?:true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMorosidadenLista
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=11
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=11
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=10
+Se actualizara con: Ult Tramite=NA-Ult Paso=11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fBuscarPedidoVentaPI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=Frontal
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:55:12
+-------------------------------------------------
+Inicio de Paso: 12
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVentaPI
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=Frontal
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso12
+-----------------------------------------------------------
+NroPedido: 1-1785904634
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVentaPI
+Cantidad de argumentos:4
+Argumento 0:=1-1785904634
+Argumento 1:=null
+Argumento 2:=QA
+Argumento 3:=Frontal
+-----------------------------------------------------------
+Se ingreso a QA Frontal
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVentaPI
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=12
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=12
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=11
+Se actualizara con: Ult Tramite=NA-Ult Paso=12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fCompraPlanCategoriaCatalogoNew
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:55:58
+-------------------------------------------------
+Inicio de Paso: 13
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fCompraPlanCategoriaCatalogoNew
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso13
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarCategoriasPlan
+Cantidad de argumentos:12
+Argumento 0:=null
+Argumento 1:=PLAN 4G K6 12 M
+Argumento 2:=QA
+Argumento 3:=null
+Argumento 4:=null
+Argumento 5:=null
+Argumento 6:=null
+Argumento 7:=null
+Argumento 8:=null
+Argumento 9:=null
+Argumento 10:=null
+Argumento 11:=null
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Catalogo\\QA\\-DP_Categorias.rftdp
+argu[1]=4
+argu[2]=Catalogo Kolbi Productos
+argu[3]=Planes PostPago
+argu[4]=Planes 4G K
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarCategoriasPlan
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CompraPlanCategoriaCatalogoNew
+Cantidad de argumentos:12
+Argumento 0:=OK
+Argumento 1:=PLAN 4G K6 12 M
+Argumento 2:=PortIn
+Argumento 3:=False
+Argumento 4:=4
+Argumento 5:=Catalogo Kolbi Productos
+Argumento 6:=Planes PostPago
+Argumento 7:=Planes 4G K
+Argumento 8:=Planes 4G K 12 M
+Argumento 9:=null
+Argumento 10:=null
+Argumento 11:=null
+-----------------------------------------------------------
+Se procesa: Tipo= T0 Categoria= Catalogo Kolbi Productos
+Opción tipo categoria T0 true
+Se procesa: Tipo= T0 Categoria= Catalogo Kolbi Productos
+Se procesa: Tipo= T2 Categoria= Planes PostPago
+Opción tipo categoria T2 true
+Opción tipo categoria T2 existe
+Cols 1
+*Planes PostPago*
+Se procesa: Tipo= T2 Categoria= Planes 4G K
+Opción tipo categoria T2 true
+Opción tipo categoria T2 existe
+Cols 1
+*Planes 4G K*
+Se procesa: Tipo= T2 Categoria= Planes 4G K 12 M
+Opción tipo categoria T2 true
+Opción tipo categoria T2 existe
+Cols 1
+*Planes 4G K 12 M*
+Avanza al siguiente conjunto de productos
+[[Reconocimiento Ambiguo]]0{dataSrc=, borderColorDark=, aria-describedby=, aria-disabled=, oncontextmenu=null Object, borderColorLight=, aria-hidden=, onfocusin=null Object, ondeactivate=null Object, onkeypress=null Object, onmouseleave=null Object, bgColor=, aria-invalid=, onmouseup=null Object, onlosecapture=null Object, onmove=null Object, onbeforeeditfocus=null Object, borderColor=, height=, .disabled=false, ondragenter=null Object, dataFormatAs=, ondragend=null Object, onbeforeactivate=null Object, .bounds=java.awt.Rectangle[x=20,y=518,width=1020,height=16], aria-valuemax=, onmovestart=null Object, ondblclick=null Object, onpage=null Object, rules=, dataFld=, aria-relevant=, .title=, onrowsdelete=null Object, onreadystatechange=null Object, .offsetTop=64, hideFocus=false, onclick=null Object, onmoveend=null Object, onbeforecut=null Object, .offsetHeight=16, language=, ondragleave=null Object, aria-setsize=0, onbeforepaste=null Object, aria-owns=, cellPadding=0, .contentText=Ítems   Sin registros , .id=, aria-valuenow=, aria-activedescendant=, .caption=, .screenTop=518, dataPageSize=0, id=, aria-valuemin=, class=, onmouseout=null Object, onrowsinserted=null Object, .width=100%, aria-selected=, implementation=null Object, onactivate=null Object, aria-controls=, onfocus=null Object, lang=, disabled=false, aria-pressed=, dir=, onmouseover=null Object, tabIndex=0, .offsetLeft=3, onscroll=null Object, ondataavailable=null Object, aria-checked=, ondatasetchanged=null Object, .className=, onrowexit=null Object, .hasScript=false, ondrag=null Object, onselectstart=null Object, aria-required=, background=, ondragover=null Object, aria-labelledby=, onbeforeupdate=null Object, onkeyup=null Object, align=center, onfocusout=null Object, onerrorupdate=null Object, onpropertychange=null Object, title=, onhelp=null Object, onkeydown=null Object, border=0, oncopy=null Object, onmousemove=null Object, summary=, .text=Ítems Sin registros, ondatasetcomplete=null Object, ondragstart=null Object, onresize=null Object, frame=, oncut=null Object, aria-flowto=, aria-live=, onresizestart=null Object, onmousedown=null Object, aria-posinset=0, aria-secret=, onresizeend=null Object, width=100%, onpaste=null Object, onbeforedeactivate=null Object, onfilterchange=null Object, onmousewheel=null Object, aria-busy=, onlayoutcomplete=null Object, aria-readonly=, aria-haspopup=, oncellchange=null Object, aria-multiselectable=, .hasFocus=false, onbeforecopy=null Object, aria-expanded=, .tag=TABLE, .offsetWidth=1020, aria-level=0, style=, onmouseenter=null Object, cols=0, .border=0, .screenLeft=20, .class=Html.TABLE, accessKey=, role=, ondrop=null Object, onrowenter=null Object, onafterupdate=null Object, cellSpacing=0, contentEditable=inherit, oncontrolselect=null Object, onblur=null Object}
+[[Reconocimiento Ambiguo]]1{dataSrc=, borderColorDark=, aria-describedby=, aria-disabled=, oncontextmenu=null Object, borderColorLight=, aria-hidden=, onfocusin=null Object, ondeactivate=null Object, onkeypress=null Object, onmouseleave=null Object, bgColor=, aria-invalid=, onmouseup=null Object, onlosecapture=null Object, onmove=null Object, onbeforeeditfocus=null Object, borderColor=, height=, .disabled=false, ondragenter=null Object, dataFormatAs=, ondragend=null Object, onbeforeactivate=null Object, .bounds=java.awt.Rectangle[x=1046,y=690,width=360,height=21], aria-valuemax=, onmovestart=null Object, ondblclick=null Object, onpage=null Object, rules=, dataFld=, aria-relevant=, .title=, onrowsdelete=null Object, onreadystatechange=null Object, .offsetTop=235, hideFocus=false, onclick=null Object, onmoveend=null Object, onbeforecut=null Object, .offsetHeight=22, language=, ondragleave=null Object, aria-setsize=0, onbeforepaste=null Object, aria-owns=, cellPadding=2, .contentText=  Sin registros   , .id=, aria-valuenow=, aria-activedescendant=, .caption=, .screenTop=690, dataPageSize=0, id=, aria-valuemin=, class=, onmouseout=null Object, onrowsinserted=null Object, .width=100%, aria-selected=, implementation=null Object, onactivate=null Object, aria-controls=, onfocus=null Object, lang=, disabled=false, aria-pressed=, dir=, onmouseover=null Object, tabIndex=0, .offsetLeft=3, onscroll=null Object, ondataavailable=null Object, aria-checked=, ondatasetchanged=null Object, .className=, onrowexit=null Object, .hasScript=false, ondrag=null Object, onselectstart=null Object, aria-required=, background=, ondragover=null Object, aria-labelledby=, onbeforeupdate=null Object, onkeyup=null Object, align=center, onfocusout=null Object, onerrorupdate=null Object, onpropertychange=null Object, title=, onhelp=null Object, onkeydown=null Object, border=0, oncopy=null Object, onmousemove=null Object, summary=, .text=Sin registros, ondatasetcomplete=null Object, ondragstart=null Object, onresize=null Object, frame=, oncut=null Object, aria-flowto=, aria-live=, onresizestart=null Object, onmousedown=null Object, aria-posinset=0, aria-secret=, onresizeend=null Object, width=100%, onpaste=null Object, onbeforedeactivate=null Object, onfilterchange=null Object, onmousewheel=null Object, aria-busy=, onlayoutcomplete=null Object, aria-readonly=, aria-haspopup=, oncellchange=null Object, aria-multiselectable=, .hasFocus=false, onbeforecopy=null Object, aria-expanded=, .tag=TABLE, .offsetWidth=360, aria-level=0, style=, onmouseenter=null Object, cols=0, .border=0, .screenLeft=1046, .class=Html.TABLE, accessKey=, role=, ondrop=null Object, onrowenter=null Object, onafterupdate=null Object, cellSpacing=0, contentEditable=inherit, oncontrolselect=null Object, onblur=null Object}
+[[Reconocimiento Ambiguo]]2{onfocus=null Object, aria-labelledby=, nofocusrect=null Object, aria-secret=, onbeforedeactivate=null Object, onpropertychange=null Object, onclick=HandleAppletClick("ICE Port Order Catalog Product Catalog SubCategory List Applet"), onrowexit=null Object, disabled=false, aria-describedby=, hideFocus=false, ondragover=null Object, onblur=null Object, .screenTop=503, aria-activedescendant=, aria-owns=, onkeyup=null Object, language=, onbeforecopy=null Object, onmousewheel=null Object, class=, onresize=null Object, aria-relevant=, aria-flowto=, onscroll=null Object, aria-pressed=, .offsetHeight=12, aria-valuemax=, onkeydown=null Object, dataFld=, onerrorupdate=null Object, .hasScript=true, onfocusin=null Object, ondragleave=null Object, lang=, ondrag=null Object, aria-valuemin=, aria-invalid=, aria-multiselectable=, onfocusout=null Object, .offsetTop=49, aria-hidden=, .text=, onmouseenter=null Object, ondatasetcomplete=null Object, onbeforecut=null Object, onmouseover=null Object, aria-haspopup=, onresizeend=null Object, onmousemove=null Object, onrowenter=null Object, aria-live=, ondeactivate=null Object, oncontrolselect=null Object, .id=s_S_A1_div, oncellchange=null Object, aria-posinset=0, .disabled=false, ondragend=null Object, onresizestart=null Object, .screenLeft=20, aria-level=0, oncopy=null Object, dataSrc=, noWrap=false, ondrop=null Object, onlayoutcomplete=null Object, .tag=DIV, onfilterchange=null Object, aria-disabled=, contentEditable=inherit, onhelp=null Object, .title=, onmove=null Object, style=, aria-checked=, onmovestart=null Object, ondatasetchanged=null Object, .hasFocus=false, onkeypress=null Object, aria-expanded=, onmouseout=null Object, aria-selected=, .offsetLeft=3, aria-setsize=0, oncontextmenu=HandleContextMenu("ICE Port Order Catalog Product Catalog SubCategory List Applet"), onmousedown=null Object, ondataavailable=null Object, onpage=null Object, onmoveend=null Object, onrowsinserted=null Object, ondragstart=null Object, aria-required=, aria-busy=, aria-valuenow=, onbeforeeditfocus=null Object, onselectstart=null Object, onrowsdelete=null Object, onactivate=null Object, onreadystatechange=null Object, ondragenter=null Object, .offsetWidth=1020, tabIndex=0, role=, align=, onlosecapture=null Object, id=s_S_A1_div, .className=, onbeforeactivate=null Object, onbeforeupdate=null Object, onmouseleave=null Object, onafterupdate=null Object, .contentText=, aria-readonly=, onmouseup=null Object, .bounds=java.awt.Rectangle[x=20,y=503,width=1020,height=12], .class=Html.DIV, implementation=null Object, title=, dir=, ondblclick=null Object, accessKey=, onbeforepaste=null Object, oncut=null Object, onpaste=null Object, aria-controls=, dataFormatAs=}
+[[Reconocimiento Ambiguo]]3{onfocus=null Object, aria-labelledby=, nofocusrect=null Object, aria-secret=, onbeforedeactivate=null Object, onpropertychange=null Object, onclick=HandleAppletClick("Quote Catalog Product Catalog Category Form Applet"), onrowexit=null Object, disabled=false, aria-describedby=, hideFocus=false, ondragover=null Object, onblur=null Object, .screenTop=481, aria-activedescendant=, aria-owns=, onkeyup=null Object, language=, onbeforecopy=null Object, onmousewheel=null Object, class=, onresize=null Object, aria-relevant=, aria-flowto=, onscroll=null Object, aria-pressed=, .offsetHeight=23, aria-valuemax=, onkeydown=null Object, dataFld=, onerrorupdate=null Object, .hasScript=true, onfocusin=null Object, ondragleave=null Object, lang=, ondrag=null Object, aria-valuemin=, aria-invalid=, aria-multiselectable=, onfocusout=null Object, .offsetTop=27, aria-hidden=, .text=Planes 4G K 12 M, onmouseenter=null Object, ondatasetcomplete=null Object, onbeforecut=null Object, onmouseover=null Object, aria-haspopup=, onresizeend=null Object, onmousemove=null Object, onrowenter=null Object, aria-live=, ondeactivate=null Object, oncontrolselect=null Object, .id=s_S_A5_div, oncellchange=null Object, aria-posinset=0, .disabled=false, ondragend=null Object, onresizestart=null Object, .screenLeft=20, aria-level=0, oncopy=null Object, dataSrc=, noWrap=false, ondrop=null Object, onlayoutcomplete=null Object, .tag=DIV, onfilterchange=null Object, aria-disabled=, contentEditable=inherit, onhelp=null Object, .title=, onmove=null Object, style=, aria-checked=, onmovestart=null Object, ondatasetchanged=null Object, .hasFocus=false, onkeypress=null Object, aria-expanded=, onmouseout=null Object, aria-selected=, .offsetLeft=3, aria-setsize=0, oncontextmenu=HandleContextMenu("Quote Catalog Product Catalog Category Form Applet"), onmousedown=null Object, ondataavailable=null Object, onpage=null Object, onmoveend=null Object, onrowsinserted=null Object, ondragstart=null Object, aria-required=, aria-busy=, aria-valuenow=, onbeforeeditfocus=null Object, onselectstart=null Object, onrowsdelete=null Object, onactivate=null Object, onreadystatechange=null Object, ondragenter=null Object, .offsetWidth=1020, tabIndex=0, role=, align=, onlosecapture=null Object, id=s_S_A5_div, .className=, onbeforeactivate=null Object, onbeforeupdate=null Object, onmouseleave=null Object, onafterupdate=null Object, .contentText=
+Planes 4G K 12 M, aria-readonly=, onmouseup=null Object, .bounds=java.awt.Rectangle[x=20,y=481,width=1020,height=23], .class=Html.DIV, implementation=null Object, title=, dir=, ondblclick=null Object, accessKey=, onbeforepaste=null Object, oncut=null Object, onpaste=null Object, aria-controls=, dataFormatAs=}
+[[Reconocimiento Ambiguo]]4{onfocus=null Object, aria-labelledby=, nofocusrect=null Object, aria-secret=, onbeforedeactivate=null Object, onpropertychange=null Object, onclick=HandleAppletClick("ICE COM ActiveX Placeholder Applet - Port"), onrowexit=null Object, disabled=false, aria-describedby=, hideFocus=false, ondragover=null Object, onblur=null Object, .screenTop=457, aria-activedescendant=, aria-owns=, onkeyup=null Object, language=, onbeforecopy=null Object, onmousewheel=null Object, class=, onresize=null Object, aria-relevant=, aria-flowto=, onscroll=null Object, aria-pressed=, .offsetHeight=27, aria-valuemax=, onkeydown=null Object, dataFld=, onerrorupdate=null Object, .hasScript=true, onfocusin=null Object, ondragleave=null Object, lang=, ondrag=null Object, aria-valuemin=, aria-invalid=, aria-multiselectable=, onfocusout=null Object, .offsetTop=3, aria-hidden=, .text=, onmouseenter=null Object, ondatasetcomplete=null Object, onbeforecut=null Object, onmouseover=null Object, aria-haspopup=, onresizeend=null Object, onmousemove=null Object, onrowenter=null Object, aria-live=, ondeactivate=null Object, oncontrolselect=null Object, .id=s_S_A7_div, oncellchange=null Object, aria-posinset=0, .disabled=false, ondragend=null Object, onresizestart=null Object, .screenLeft=20, aria-level=0, oncopy=null Object, dataSrc=, noWrap=false, ondrop=null Object, onlayoutcomplete=null Object, .tag=DIV, onfilterchange=null Object, aria-disabled=, contentEditable=inherit, onhelp=null Object, .title=, onmove=null Object, style=, aria-checked=, onmovestart=null Object, ondatasetchanged=null Object, .hasFocus=false, onkeypress=null Object, aria-expanded=, onmouseout=null Object, aria-selected=, .offsetLeft=3, aria-setsize=0, oncontextmenu=HandleContextMenu("ICE COM ActiveX Placeholder Applet - Port"), onmousedown=null Object, ondataavailable=null Object, onpage=null Object, onmoveend=null Object, onrowsinserted=null Object, ondragstart=null Object, aria-required=, aria-busy=, aria-valuenow=, onbeforeeditfocus=null Object, onselectstart=null Object, onrowsdelete=null Object, onactivate=null Object, onreadystatechange=null Object, ondragenter=null Object, .offsetWidth=1020, tabIndex=0, role=, align=, onlosecapture=null Object, id=s_S_A7_div, .className=, onbeforeactivate=null Object, onbeforeupdate=null Object, onmouseleave=null Object, onafterupdate=null Object, .contentText=, aria-readonly=, onmouseup=null Object, .bounds=java.awt.Rectangle[x=20,y=457,width=1020,height=27], .class=Html.DIV, implementation=null Object, title=, dir=, ondblclick=null Object, accessKey=, onbeforepaste=null Object, oncut=null Object, onpaste=null Object, aria-controls=, dataFormatAs=}
+No hay más productos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CompraPlanCategoriaCatalogoNew
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=13
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=13
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=12
+Se actualizara con: Ult Tramite=NA-Ult Paso=13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fREMO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=1-16
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:16
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:58:12
+-------------------------------------------------
+Inicio de Paso: 14
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fREMO_Login
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso14
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.REMO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+Se abre REMO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Resultado:Resultado OK
+-----------------------------------------------------------
+El Process Id de REMO es: 7328
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Cantidad de argumentos:1
+Argumento 0:=OK
+-----------------------------------------------------------
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.AdministrarVtanaIEnoPredeterminado
+Resultado:Resultado OK
+-----------------------------------------------------------
+Hace el login a REMO
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.REMO_Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=14
+-----------------------------------------------------------
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP26_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=14
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Luis\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP26_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=13
+Se actualizara con: Ult Tramite=NA-Ult Paso=14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fREMO_AdministrarMorosidad
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP26_CD1_T1
+Argumento 8:=Setear FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/27 14:58:30
+-------------------------------------------------
+Inicio de Paso: 15
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fREMO_AdministrarMorosidad
+Cantidad de argumentos:5
+Argumento 0:=CP26_CD1_T1
+Argumento 1:=Setear FALSE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso15
+-----------------------------------------------------------
+Accion a ejecutar:*setear*
+Morosidad Esperada:*false*
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.REMO_AdministrarMorosidad
+Cantidad de argumentos:6
+Argumento 0:=null
+Argumento 1:=setear
+Argumento 2:=false
+Argumento 3:=121870429
+Argumento 4:=140310036
+Argumento 5:=Fisica
+-----------------------------------------------------------
+setearfalse
+Fila=2
+Col=4
+Id Servicio a reasignar 22135051
+Identificador*22135051*
+Cedula*121870429*
+22135051*22135051*
+121870429*121870429*
+0
+Se reasigna la deuda 22135051
+##################################################################
+getThrowableclassname Script=REMO_AdministrarMorosidad Línea=281 Método=click Error=Window is disabled Clase=com.rational.test.ft.WindowActivateFailedException Objeto=GuiTestObject(Name: <b>Consultas</b>, Map: ConsultasActuator)
+##################################################################
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=fREMO_AdministrarMorosidad Línea=0 Error="Stop button was hit"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=CasosPrueba Línea=0 Error="Stop button was hit"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Excepción no esperada=Script=LeerDatosUSR_CSV Línea=0 Error="Stop button was hit"
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+Paso    2  -  fREMO_Login; ;OK;
+Paso    3  -  fREMO_AdministrarMorosidad; ;OK;
+Paso    4  -  fREMO_Logout; ;OK;
+Paso    5  -  fLogin; ;OK;
+Paso    6  -  fVista360; ;OK;
+Paso    7  -  fNuevoPedidoPortInSimple; ;OK;
+Paso    8  -  fBuscarPedidoVentaPIenLista; ;OK;
+Paso    9  -  fValidarServicioPedPIenLista; ;OK;
+Paso   10  -  fObtenerMorosidadenListaPI; ;OK;
+Paso   11  -  fValidarMorosidadenLista; ;OK;
+Paso   12  -  fBuscarPedidoVentaPI; ;OK;
+Paso   13  -  fCompraPlanCategoriaCatalogoNew; ;OK;
+Paso   14  -  fREMO_Login; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    7  -  fNuevoPedidoPortInSimple;NroPedido;1-1785904634;
+Paso    7  -  GrabarDatosSalida;T1_NroPedido;1-1785904634;
+Paso    9  -  ValidarServicioPedPIenLista;EstadoPedPI;true;
+ 
+ 

@@ -1,0 +1,388 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO16
+-----------------------------------------------------------
+NumeroCaso = CPKO16
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO16.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_Login
+CPKO16Param=NA
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=1-5
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_ConsultaPorServicio
+CPKO16Param=1
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=1-4
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_PostVenta
+CPKO16Param=NA
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=1-4
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_CambioFacilidades
+CPKO16Param=1
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=1-4
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_BitacoraOperaciones
+CPKO16Param=NA
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO16Pasos=fKO_ValidaInfoPedido
+CPKO16Param=1
+CPKO16Ejecuta=TRUE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO16Pasos=BRM_Login
+CPKO16Param=NA
+CPKO16Ejecuta=FALSE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO16Pasos=BRM_BuscaCliente
+CPKO16Param=NA
+CPKO16Ejecuta=FALSE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO16Pasos=BRM_ValidarProductos
+CPKO16Param=1
+CPKO16Ejecuta=FALSE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO16Pasos=BRM_Logout
+CPKO16Param=NA
+CPKO16Ejecuta=FALSE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO16Pasos=FIN
+CPKO16Param=NA
+CPKO16Ejecuta=FALSE
+CPKO16Cond=NA
+CPKO16ErrorStop=TRUE
+CPKO16ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO16Pasos=UltimaModificacionDP
+CPKO16Param=null
+CPKO16Ejecuta=22/11/2018
+CPKO16Cond=DB
+CPKO16ErrorStop=false
+CPKO16ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO16_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO16_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO16_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 16/11/2018
+Variable1= UltimaModifiacionDP
+Dato DB 16/11/2018 leido del dp = DB 16/11/2018
+--------------------------------------------------------------------
+Dato = SERVICIO A CONSULTAR
+Cantidad Variables = 1
+Valor = 89650555
+Variable1= NumeroServicio1
+Dato 89650555 leido del dp = 89650555
+--------------------------------------------------------------------
+Dato = CANTIDAD DE FACILIDADES
+Cantidad Variables = 1
+Valor = 1
+Variable1= CantidadCF1
+Dato 1 leido del dp = 1
+--------------------------------------------------------------------
+Dato = OBSERVACIONES
+Cantidad Variables = 1
+Valor = Prueba CPKO-16
+Variable1= ObservacionCF1
+Dato Prueba CPKO-16 leido del dp = Prueba CPKO-16
+--------------------------------------------------------------------
+Dato = NOMBRE DE LA FACILIDAD A SELECCIONAR
+Cantidad Variables = 2
+Valor = Activacion Detalle de llamadas
+Variable1= ItemCF1_1
+Dato Activacion Detalle de llamadas leido del dp = Activacion Detalle de llamadas
+Variable2= ValidaDato1_1
+Dato Activacion Detalle de llamadas leido del dp = Activacion Detalle de llamadas
+--------------------------------------------------------------------
+Dato = USUARIO DE SISTEMA BRM
+Cantidad Variables = 1
+Valor = root.0.0.0.1
+Variable1= BRM_usr
+Dato root.0.0.0.1 leido del dp = root.0.0.0.1
+--------------------------------------------------------------------
+Dato = CONTRASENA DE SISTEMA BRM
+Cantidad Variables = 1
+Valor = password
+Variable1= BRM_pass
+Dato password leido del dp = password
+--------------------------------------------------------------------
+Dato = CUENTA A BUSCAR EN BRM
+Cantidad Variables = 1
+Valor = 101784000762
+Variable1= BRM_Cuenta
+Dato 101784000762 leido del dp = 101784000762
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO16_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Juliana\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO16_CD1
+Ambiente = QA
+UltimoPasoOK4
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO16_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+---------------------------------------
+Se leen los datos de salida del tramite
+---------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosSalida
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO16_CD1
+Argumento 2:=QA
+Argumento 3:=T1
+-----------------------------------------------------------
+NumeroCaso = CPKO16_CD1
+Ambiente = QA
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=5
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CPKO16_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:5
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/28 10:42:01
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO16_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+"System Idle Process","0","Services","0","4 K"
+"System","4","Services","0","260 K"
+"smss.exe","300","Services","0","996 K"
+"csrss.exe","412","Services","0","4,092 K"
+"csrss.exe","476","Console","1","3,568 K"
+"wininit.exe","484","Services","0","4,060 K"
+"winlogon.exe","512","Console","1","5,824 K"
+"services.exe","576","Services","0","6,712 K"
+"lsass.exe","584","Services","0","16,012 K"
+"svchost.exe","652","Services","0","11,520 K"
+"svchost.exe","684","Services","0","8,816 K"
+"LogonUI.exe","784","Console","1","26,248 K"
+"vmacthlp.exe","800","Services","0","4,132 K"
+"dwm.exe","808","Console","1","28,608 K"
+"svchost.exe","852","Services","0","19,812 K"
+"kavfs.exe","912","Services","0","28,724 K"
+"svchost.exe","980","Services","0","52,188 K"
+"kavfswp.exe","1008","Services","0","62,900 K"
+"svchost.exe","1016","Services","0","13,560 K"
+"conhost.exe","228","Services","0","2,892 K"
+"svchost.exe","424","Services","0","17,308 K"
+"svchost.exe","384","Services","0","10,876 K"
+"spoolsv.exe","1196","Services","0","15,436 K"
+"kavfswp.exe","1248","Services","0","61,040 K"
+"conhost.exe","1256","Services","0","2,904 K"
+"svchost.exe","1276","Services","0","8,088 K"
+"kavfsscs.exe","1320","Services","0","5,556 K"
+"nscp.exe","1352","Services","0","22,564 K"
+"svchost.exe","1500","Services","0","17,968 K"
+"VGAuthService.exe","1564","Services","0","10,624 K"
+"vmtoolsd.exe","1708","Services","0","18,860 K"
+"ManagementAgentHost.exe","1792","Services","0","9,688 K"
+"svchost.exe","2012","Services","0","244,128 K"
+"svchost.exe","1416","Services","0","4,716 K"
+"WmiPrvSE.exe","2272","Services","0","23,332 K"
+"dllhost.exe","2360","Services","0","10,976 K"
+"msdtc.exe","2624","Services","0","7,080 K"
+"csrss.exe","2320","RDP-Tcp#2","2","25,900 K"
+"winlogon.exe","2504","RDP-Tcp#2","2","6,632 K"
+"dwm.exe","1716","RDP-Tcp#2","2","65,444 K"
+"taskhostex.exe","3232","RDP-Tcp#2","2","27,580 K"
+"rdpclip.exe","3332","RDP-Tcp#2","2","9,504 K"
+"explorer.exe","3444","RDP-Tcp#2","2","95,668 K"
+"rdpinput.exe","3464","RDP-Tcp#2","2","3,980 K"
+"vmtoolsd.exe","4316","RDP-Tcp#2","2","10,596 K"
+"kavtray.exe","4388","RDP-Tcp#2","2","2,288 K"
+"GoogleCrashHandler.exe","4360","Services","0","916 K"
+"GoogleCrashHandler64.exe","3828","Services","0","668 K"
+"klnagent.exe","4268","Services","0","27,008 K"
+"eclipse.exe","6124","RDP-Tcp#2","2","3,552 K"
+"javaw.exe","5968","RDP-Tcp#2","2","383,812 K"
+"csrss.exe","4192","RDP-Tcp#6","3","41,936 K"
+"winlogon.exe","1272","RDP-Tcp#6","3","5,432 K"
+"dwm.exe","3220","RDP-Tcp#6","3","88,328 K"
+"taskhostex.exe","4476","RDP-Tcp#6","3","27,832 K"
+"rdpclip.exe","5620","RDP-Tcp#6","3","10,536 K"
+"rdpinput.exe","4672","RDP-Tcp#6","3","4,896 K"
+"explorer.exe","5580","RDP-Tcp#6","3","114,720 K"
+"vmtoolsd.exe","3436","RDP-Tcp#6","3","11,292 K"
+"kavtray.exe","3720","RDP-Tcp#6","3","3,420 K"
+"jusched.exe","5452","RDP-Tcp#6","3","12,816 K"
+"javaw.exe","5812","RDP-Tcp#2","2","112,836 K"
+"eclipse.exe","1164","RDP-Tcp#6","3","3,624 K"
+"javaw.exe","3848","RDP-Tcp#6","3","354,324 K"
+"javaw.exe","5152","RDP-Tcp#6","3","111,344 K"
+"jucheck.exe","5696","RDP-Tcp#6","3","13,012 K"
+"javaw.exe","7156","RDP-Tcp#2","2","142,516 K"
+"javaw.exe","5144","RDP-Tcp#6","3","57,236 K"
+"csrss.exe","5976","RDP-Tcp#8","4","17,976 K"
+"winlogon.exe","4088","RDP-Tcp#8","4","5,348 K"
+"dwm.exe","2008","RDP-Tcp#8","4","44,444 K"
+"taskhostex.exe","240","RDP-Tcp#8","4","8,112 K"
+"rdpclip.exe","1464","RDP-Tcp#8","4","9,040 K"
+"rdpinput.exe","5872","RDP-Tcp#8","4","3,976 K"
+"explorer.exe","5764","RDP-Tcp#8","4","76,888 K"
+"vmtoolsd.exe","4932","RDP-Tcp#8","4","10,480 K"
+"WmiPrvSE.exe","4280","Services","0","9,528 K"
+"kavtray.exe","6412","RDP-Tcp#8","4","6,628 K"
+"jusched.exe","6196","RDP-Tcp#8","4","4,720 K"
+"javaw.exe","6792","RDP-Tcp#8","4","57,004 K"
+"cmd.exe","4296","RDP-Tcp#8","4","3,420 K"
+"conhost.exe","420","RDP-Tcp#8","4","3,544 K"
+"java.exe","5688","RDP-Tcp#8","4","128,384 K"
+"playerhook32.exe","7084","RDP-Tcp#8","4","4,476 K"
+"conhost.exe","4500","RDP-Tcp#8","4","3,440 K"
+"tasklist.exe","4420","RDP-Tcp#8","4","5,936 K"
+"conhost.exe","2860","RDP-Tcp#8","4","3,452 K"
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problema al ingresar a KO
+Argumento 1:=true
+Argumento 2:=CPKO16_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fKO_Login
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problema al ingresar a KO
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  LeerDatosSalida; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;4;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+ 

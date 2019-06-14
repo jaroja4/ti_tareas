@@ -1,0 +1,151 @@
+LOGANALYZER : SSR 58.1 (58.189.8006),  SDASUPPORT : SSR 58.1 (58.189.8005/IG),  JOBFORMATTER : SSR 58.1 (58.189.8040).
+MCP *SYSTEM/581/180105/ETAIOA/MCP : SSR 58.1 (58.189.8290)
+ANALYZED BY * AT CS6390 (HOSTNAME = TARBACA, SYSTEM SERIAL = 1353) ON 11/02/2018 15:25:18
+
+REQUEST:  "SUMLOG/1353/110218/006791" MSG BOJ BOT EOJ EOT MIX 7536 UNSORTED USERCODE .
+
+SUMLOG #006791 CREATED BY CS6390 (SYSTEM SERIAL = 1353) ON 11/02/2018 12:02:14
+TITLE = *SUMLOG/1353/110218/006791 ON TEL05.
+
+FILE CONTAINS 1785236 RECORDS FROM 11/02/2018 12:02:14 TO 11/02/2018 15:09:02
+
+HWERRORSUPPORT : SSR 58.1 (58.189.8001)
+
+Friday, November 2, 2018
+   12:07:16    BOJ   7536 (PROTELE)SISTI/TIF012P ON TEL01.
+                          UNSAFE CODE COMPILED: 05/27/2018 02:19:08 BY DCALGOL 58.189
+                          RELEASE ID: SISTI:0404(J5188))
+                          TARGET: LEVEL5
+                          QUEUE: 0, ORIGINATING LSN: 14 MCS: 4
+                          STACK NUMBER: 0ABA, PRIORITY: 50, SOURCENAME: PSEUDO00002.
+                          USERCODE: PROTELE.  GROUPCODE: GC_ADMINISTRATIVO.  REALUSERCODE: PROTELE.  REALGROUPCODE: 
+                          GC_ADMINISTRATIVO.
+                          USER RESTRICTIONS: NONSYSTEMUSER
+                          INITIATING MCS: SYSTEM/COMS.
+   12:46:06          7536 MSRDIR85:PK4698 REPLACED (PROTELE)LIBERA ON TEL02
+   12:46:06    EOJ   7536 (PROTELE)SISTI/TIF012P ON TEL01.
+                          RELEASE ID:SISTI:0404(J5188))
+                          TARGET: LEVEL5
+                          USERCODE: PROTELE.  GROUPCODE: GC_ADMINISTRATIVO.  REALUSERCODE: PROTELE.  REALGROUPCODE: 
+                          GC_ADMINISTRATIVO.
+                          MCS NAME: SYSTEM/COMS.
+                          BOT DATE/TIME: 11/02/2018 12:07:16
+                          STACK NUMBER: 0ABA               AVERAGE DISK SECTORS IN USE BY TEMPORARY FILES: 4.
+                          PROCESSOR TIME: 00:19:12.0183    AVERAGE DISK SECTORS IN USE BY PERMANENT FILES: 620497.
+                          I/O       TIME: 00:01:39.0874    NUMBER OF ARRAY RESIZES: 2013.
+                          READYQ    TIME: 00:01:12.0226    AVERAGE MEMORY USAGE: CODE=33037, DATA=75090
+                          INITPBIT  TIME: 00:00:00.2578    MEMORY INTEGRAL: CODE=41333.258, DATA=93945.932
+                          ANSWER    TIME: 00:00:00.3671    INITIAL PBITS: 5544.
+                          ELAPSED   TIME: 00:38:49.7213    MAXIMUM NUMBER OF ASDS USED: 1275.
+                                                           MAXIMUM SAVE MEMORY USED: 14061.
+                                                           LOGICAL I/O : 1 READ, 2474674 WRITES
+                                                           PHYSICAL I/O: 1 READ, 88384 WRITES
+                                                           DMS: 7 BTRS, 2650476 READS, 1183 WRITES
+
+   12:55:19    BOT   7536 (SSWICE)FTP/HELPER/FOR/SERVER/MIX_7512.
+                          CODE COMPILED: 09/29/2017 06:01:39 BY DCALGOL 58.189
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID: IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          TASK TYPE: DEPENDENT TASK (PROCESS), JOB NUMBER: 1695
+                          PROGRAM PRIVILEGES: TASKING
+                          STACK NUMBER: 15F9, PRIORITY: 50
+                          USERCODE: SSWICE.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: SSWICE.  REALGROUPCODE: GC_INSUMOS.
+   12:55:19    EOT   7536 (SSWICE)FTP/HELPER/FOR/SERVER/MIX_7512.
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID:IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          USERCODE: SSWICE.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: SSWICE.  REALGROUPCODE: GC_INSUMOS.
+                          IDENTITY: FTP.
+                          WORKLOAD GROUP: UNISYS_SW1
+                          BOT DATE/TIME: 11/02/2018 12:55:19
+                          STACK NUMBER: 15F9               JOB NUMBER: 1695.
+                          PROCESSOR TIME: 00:00:00.0058    AVERAGE MEMORY USAGE: CODE=184205, DATA=2081
+                          I/O       TIME: 00:00:00.0000    MEMORY INTEGRAL: CODE=1.079, DATA=0.012
+                          READYQ    TIME: 00:00:00.0001    INITIAL PBITS: 19.
+                          INITPBIT  TIME: 00:00:00.0002    MAXIMUM NUMBER OF ASDS USED: 3.
+                          ELAPSED   TIME: 00:00:00.0111    MAXIMUM SAVE MEMORY USED: 2433.
+
+   14:35:05    BOT   7536 (SSWNGN)FTP/HELPER/FOR/SERVER/MIX_7513.
+                          CODE COMPILED: 09/29/2017 06:01:39 BY DCALGOL 58.189
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID: IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          TASK TYPE: DEPENDENT TASK (PROCESS), JOB NUMBER: 1695
+                          PROGRAM PRIVILEGES: TASKING
+                          STACK NUMBER: 056A, PRIORITY: 50
+                          USERCODE: SSWNGN.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: SSWNGN.  REALGROUPCODE: GC_INSUMOS.
+   14:35:05    EOT   7536 (SSWNGN)FTP/HELPER/FOR/SERVER/MIX_7513.
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID:IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          USERCODE: SSWNGN.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: SSWNGN.  REALGROUPCODE: GC_INSUMOS.
+                          IDENTITY: FTP.
+                          WORKLOAD GROUP: UNISYS_SW1
+                          BOT DATE/TIME: 11/02/2018 14:35:05
+                          STACK NUMBER: 056A               JOB NUMBER: 1695.
+                          PROCESSOR TIME: 00:00:00.0078    AVERAGE MEMORY USAGE: CODE=184214, DATA=2296
+                          I/O       TIME: 00:00:00.0000    MEMORY INTEGRAL: CODE=1.447, DATA=0.018
+                          READYQ    TIME: 00:00:00.0001    INITIAL PBITS: 19.
+                          INITPBIT  TIME: 00:00:00.0001    MAXIMUM NUMBER OF ASDS USED: 3.
+                          ELAPSED   TIME: 00:00:00.0136    MAXIMUM SAVE MEMORY USED: 2433.
+
+   14:50:19    BOJ   7536 FTP/SERVER.
+                          CODE COMPILED: 09/29/2017 06:01:39 BY DCALGOL 58.189
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID: IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          QUEUE: 0, ORIGINATING UNIT: 0
+                          STACK NUMBER: 14AE, PRIORITY: 50
+   14:50:19          7536 MSRIPC106:STACK EXTENDED FROM 2228 TO 2482 WORDS.
+   14:50:19          7536 MSRIPC106:STACK EXTENDED FROM 2482 TO 2943 WORDS.
+   14:50:19    EOJ   7536 FTP/SERVER/FOR/PRDMZEXN01.
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID:IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          USERCODE: USRIMS.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: USRIMS.  REALGROUPCODE: GC_INSUMOS.
+                          IDENTITY: FTP.
+                          WORKLOAD GROUP: UNISYS_SW1
+                          BOT DATE/TIME: 11/02/2018 14:50:19
+                          STACK NUMBER: 14AE               AVERAGE DISK SECTORS IN USE BY PERMANENT FILES: 0.
+                          PROCESSOR TIME: 00:00:00.0262    NUMBER OF ARRAY RESIZES: 22.
+                          I/O       TIME: 00:00:00.0089    AVERAGE MEMORY USAGE: CODE=184215, DATA=8706
+                          READYQ    TIME: 00:00:00.0212    MEMORY INTEGRAL: CODE=6.487, DATA=0.307
+                          INITPBIT  TIME: 00:00:00.0092    INITIAL PBITS: 219.
+                          ELAPSED   TIME: 00:00:00.3596    MAXIMUM NUMBER OF ASDS USED: 148.
+                                                           MAXIMUM SAVE MEMORY USED: 7933.
+                                                           LOGICAL I/O : 51 READS
+                                                           PHYSICAL I/O: 2 READS
+
+   15:05:12    BOJ   7536 FTP/SERVER.
+                          CODE COMPILED: 09/29/2017 06:01:39 BY DCALGOL 58.189
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID: IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          QUEUE: 0, ORIGINATING UNIT: 0
+                          STACK NUMBER: 0527, PRIORITY: 50
+   15:05:12          7536 MSRIPC106:STACK EXTENDED FROM 2228 TO 2482 WORDS.
+   15:05:12          7536 MSRIPC106:STACK EXTENDED FROM 2482 TO 2943 WORDS.
+   15:05:12          7536 MSRMLSDISP3:FTP: File Received:  (DESMOV)LU/DM/CTL_CAD_ALC_SNPEDRO1/20181102/000024 ON TEL02
+   15:05:12    EOJ   7536 FTP/SERVER/FOR/PRDMZEXN02.
+                          CODEFILE: *SYSTEM/FTP/SUPPORT.
+                          RELEASE ID:IC FTP-058.1A.8 [58.189.008] (58.189.8054)
+                          TARGET: LEVEL6
+                          USERCODE: DESMOV.  GROUPCODE: GC_INSUMOS.  REALUSERCODE: DESMOV.  REALGROUPCODE: GC_INSUMOS.
+                          IDENTITY: FTP.
+                          WORKLOAD GROUP: UNISYS_SW1
+                          BOT DATE/TIME: 11/02/2018 15:05:12
+                          STACK NUMBER: 0527               AVERAGE DISK SECTORS IN USE BY PERMANENT FILES: 28.
+                          PROCESSOR TIME: 00:00:00.0362    NUMBER OF ARRAY RESIZES: 47.
+                          I/O       TIME: 00:00:00.0149    AVERAGE MEMORY USAGE: CODE=184217, DATA=14410
+                          READYQ    TIME: 00:00:00.0104    MEMORY INTEGRAL: CODE=9.436, DATA=0.738
+                          INITPBIT  TIME: 00:00:00.0067    INITIAL PBITS: 299.
+                          ELAPSED   TIME: 00:00:00.6564    MAXIMUM NUMBER OF ASDS USED: 186.
+                                                           MAXIMUM SAVE MEMORY USED: 36472.
+                                                           LOGICAL I/O : 52 READS
+                                                           PHYSICAL I/O: 2 READS
+
+
+
+NORMAL TERMINATION FOR LOGANALYZER PROGRAM.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

@@ -1,0 +1,101 @@
+ 
+ 
+               ORDEN DE TRABAJO PARA PROCESAMIENTO
+                      DESPUES DE RESPALDOS
+ 
+    TECNOLOGIA DE INFORMACION                            AREA S.I.M.O.
+ 
+        Miercoles                              SOLICITANTE
+        04/07/2018                             Carlos Calderon Bonilla
+ 
+                       TAREAS       HORA
+    JOB      TAREA   ADICIONALES    INICIO   DURACION  OPCIONES    REQUISITO
+ 
+  1 SMO3P700      +2                                   CORRER SOLO         
+  2 SMO3P705      +3                                   CORRER SOLO         
+  3 SMO3P634      +1                                   CORRER SOLO SMO3P700
+  4 SIMO3P6J      +1                                   CORRER SOLO         
+  5 SMO5P201      +1                                   CORRER SOLO         
+  6 SMO5P198      +1                                   CORRER SOLO SMO5P201
+  7 SMO3P563      +1                                   CORRER SOLO         
+  8 SM3P0027                                                               
+  9 SMOAP271                                                       SM3P0027
+ 10 SMO1P328                                                               
+ 11 SMO2P328                                                               
+ 12 SMO3P328                                                               
+ 13 SMO4P328                                                               
+ 14 SMOAP259                                                               
+ 15 SM3P0433                                                               
+ 16 SM3P0663                                                               
+ 17 CELP0036                                                               
+ 18 CELP0043                                                               
+ 19 CELP0158                                                               
+ 
+RESPETAR CONSECUTIVO  UNO POR UNO
+ 
+ 20 SM3P0870 1237                                                          
+ 21 SM3P0932 1238                                                          
+ 22 SM3P1067 1239                                                          
+ 23 SMO5P263 1240                                                          
+ 24 SM3P1107 1241                                                          
+ 25 SMOAP593 990                                                           
+ 26 SMOAP594 991                                                   990     
+ 27 SMOAP602 992                                                   991     
+ 28 CELP0046 1165                                                          
+ 29 CELP0059 1166                                                          
+ 30 CELP0172 1177                                                          
+ 31 CELP0173 1178                                                          
+ 32 SMDIP001 1180                                                          
+ 33 SMO1P675 1184                                                          
+ 34 SMO1P772 1185                                                          
+ 35 SMO2P307 1186                                                          
+ 36 SMO3P345 1187                                                          
+ 37 SMO3P362 1189                                                          
+ 38 SMO3P430 1190                                                          
+ 39 SMO3P431 1191                                                          
+ 40 SMO3P624 1192                                                          
+ 41 SMO3P778 1193                                                          
+ 42 SMO3P934 1194                                                          
+ 43 SMO5P102 1195                                                          
+ 44 SMO5P204 1197                                                          
+ 45 SMO5P213 1198                                                          
+ 46 SMO5P214 1199                                                          
+ 47 SMO5P241 1200                                                          
+ 48 SM3P0596 1202                                                          
+ 49 SM3P0608 1204                                                          
+ 50 SM3P0708 1205                                                          
+ 51 SM3P0727 1206                                                          
+ 52 SM3P0729 1208                                                          
+ 53 SM3P0730 1210                                                          
+ 54 SM3P0731 1211                                                          
+ 55 SM3P0732 1212                                                          
+ 56 SM3P0733 1213                                                          
+ 57 SM3P0786 1214                                                          
+ 58 SM3P0789 1215                                                          
+ 59 SM3P0793 1217                                                          
+ 60 SM3P0920 1218                                                          
+ 61 SM3P0966 1219                                                          
+ 62 SM3P1019 1220                                                          
+ 63 SM3P1057 1222                                                          
+ 64 SM3P1106 1223                                                          
+ 65 SM3P0669 1249                                                          
+ 66 SM3P0731 1250                                                          
+ 67 SM3P0966 1251                                                          
+ 68 SM3P0669 1252                                                          
+ 69 SM3P1019 1253                                                          
+ 70 SM3P0933 1254                                                          
+ 71 SM3P0447 1255                                                          
+ 72 SMO3P806 1256                                                          
+ 73 SMO3P318 1257                                                          
+ 74 SMO3P318 1258                                                          
+ 75 SIMO3P90 1259                                                          
+ 76 SMO3P785 1260                                                          
+ 77 SMO3P786 1261                                                          
+ 78 SMO1P368 1262                                                          
+ 79 SMO1P415 1263                                                          
+ 80 SM3P0786 1264                                                          
+ 81 SMO1P211 1265                                                          
+ 82 SMO1P273 1266                                                          
+ 83 SMO1P274 1267                                                          
+ 84 SMO1P218 1268                                                          
+ 85 SMO1P218 1269                                                          

@@ -1,0 +1,2084 @@
+
+
+--Caso Pedido: 1-8852919442   PLANID: 4163958
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,21)
+ WHERE PLANID = 4163958
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4163958
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8867085384   PLANID: 4166070
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4166070
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4166070
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8874368446   PLANID: 4169665
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4169665
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4169665
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8843382178   PLANID: 4170369
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4170369
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4170369
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-185797   PLANID: 4171017
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4171017
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4171017
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8878593498   PLANID: 4171185
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4171185
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4171185
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8884279392   PLANID: 4173332
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4173332
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4173332
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-189979   PLANID: 4174586
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4174586
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4174586
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+--Caso Pedido: 1-8893523281   PLANID: 4177877
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4177877
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4177877
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8895227036   PLANID: 4178860
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4178860
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4178860
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8883638973   PLANID: 4179969
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,10)
+ WHERE PLANID = 4179969
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4179969
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO';
+
+commit;
+/
+
+
+
+--Caso Pedido: KO-202324   PLANID: 4184380
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4184380
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4184380
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8907655010   PLANID: 4184524
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4184524
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4184524
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8919625491   PLANID: 4190096
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4190096
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4190096
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8915031530   PLANID: 4190118
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4190118
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4190118
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-209216   PLANID: 4190597
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4190597
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4190597
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-210501   PLANID: 4191650
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4191650
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4191650
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-211091   PLANID: 4192174
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4192174
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4192174
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8957043942   PLANID: 4208563
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,11)
+ WHERE PLANID = 4208563
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4208563
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8925892538   PLANID: 4193257
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4193257
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4193257
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-212316   PLANID: 4193323
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4193323
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4193323
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-212918   PLANID: 4193828
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4193828
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4193828
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8929986061   PLANID: 4195156
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4195156
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4195156
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8932818198   PLANID: 4196738
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4196738
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4196738
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8933697293   PLANID: 4197018
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4197018
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4197018
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8934356711   PLANID: 4197085
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4197085
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4197085
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8937095045   PLANID: 4198515
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4198515
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4198515
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-219129   PLANID: 4198622
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4198622
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4198622
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8936668553   PLANID: 4200585
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4200585
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4200585
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-219572   PLANID: 4198925
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4198925
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4198925
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-219623   PLANID: 4198966
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4198966
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4198966
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8941057017   PLANID: 4200492
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4200492
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4200492
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8943671492   PLANID: 4202084
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4202084
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4202084
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8942927601   PLANID: 4202896
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4202896
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4202896
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8931086529   PLANID: 4204306
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4204306
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4204306
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8945980431   PLANID: 4205139
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,24)
+ WHERE PLANID = 4205139
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4205139
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8946922261   PLANID: 4205904
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4205904
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4205904
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8925627333   PLANID: 4207091
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4207091
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4207091
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8940600011   PLANID: 4207372
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4207372
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4207372
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8955427253   PLANID: 4207877
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4207877
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4207877
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8948100578   PLANID: 4208459
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4208459
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4208459
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8957505656   PLANID: 4208889
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4208889
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4208889
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO';
+
+commit;
+/
+
+
+--Caso Pedido: 1-8958594409   PLANID: 4209417
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4209417
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4209417
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8948472747   PLANID: 4210822
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4210822
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4210822
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8940186244   PLANID: 4211808
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4211808
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4211808
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8975788922   PLANID: 4216981
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4216981
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4216981
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8974720246   PLANID: 4218435
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,24)
+ WHERE PLANID = 4218435
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4218435
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8979520284   PLANID: 4219311
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4219311
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4219311
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8981515602   PLANID: 4219577
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4219577
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4219577
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8982993475   PLANID: 4220060
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4220060
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4220060
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8975741985   PLANID: 4220156
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4220156
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4220156
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+--Caso Pedido: 1-8982658169   PLANID: 4221866
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4221866
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4221866
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-8986220268   PLANID: 4221952
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4221952
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4221952
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9001061478   PLANID: 4228873
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4228873
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4228873
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-266364   PLANID: 4238006
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4238006
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4238006
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9154869096   PLANID: 4318614
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,24)
+ WHERE PLANID = 4318614
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4318614
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO';
+
+commit;
+/
+
+
+--Caso Pedido: 1-9026986898   PLANID: 4247247
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,22)
+ WHERE PLANID = 4247247
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4247247
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9017535848   PLANID: 4248356
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4248356
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4248356
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9037742625   PLANID: 4249387
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4249387
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4249387
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: KO-285168   PLANID: 4254560
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4254560
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4254560
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+--Caso Pedido: 1-9059849978   PLANID: 4262125
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4262125
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4262125
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO';
+
+commit;
+/
+
+
+--Caso Pedido: 1-9029384130   PLANID: 4266652
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4266652
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4266652
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9053930188   PLANID: 4268155
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4268155
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4268155
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9048851952   PLANID: 4278032
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,23)
+ WHERE PLANID = 4278032
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4278032
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+--Caso Pedido: 1-9110835138   PLANID: 4292190
+--Se trasladan cuotas vencidas
+update USRATVPRD.AC_DPLANPAGO 
+ set FECHAPAGO=ADD_MONTHS(FECHAPAGO,24)
+ WHERE PLANID = 4292190
+   AND TIPODET = 0 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' 
+   AND trunc(FECHAPAGO) < sysdate ;
+
+--Se actualiza el plan de cuotas
+update USRATVPRD.AC_DPLANPAGO 
+ set  FECHA_BRM = NULL 
+     ,ACCION_BRM = NULL 
+     ,IDEVENT = NULL  
+     ,MSG = NULL 
+     ,PROCESO_COMPRA = NULL 
+     ,BATCHID_COMPRA = NULL 
+     ,CUOTAS_CAMBIOPLAN=0  
+     ,ESTADO=0 
+     ,NUMFACT=NULL 
+     ,FREALPAGO=NULL 
+ WHERE PLANID = 4292190
+   AND TIPODET = 0 
+   AND FECHAPAGO >= sysdate 
+   AND ESTADO = 1
+   AND ACCION_BRM = 'AJUSTADO' ;
+
+commit;
+/
+
+
+
+
+
+
+

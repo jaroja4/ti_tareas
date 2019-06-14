@@ -1,0 +1,119 @@
+Hora de Inicio de la Ejecucion:2019/02/06 08:22:00
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBRM_ValidaInfoServicio
+Cantidad de argumentos:5
+Argumento 0:=CPKO16_CD1_T1
+Argumento 1:=1*
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+Consulta a ejecutar:     select product_t.name
+    from %1.account_t account_t
+    join %1.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join %1.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join %1.purchased_product_t purchased_product_t
+        on purchased_product_t.account_obj_id0 = account_t.poid_id0
+    join %1.product_t product_t
+        on product_t.poid_id0 = purchased_product_t.product_obj_id0
+    where 
+        service_alias_list_t.name  = %2
+UNION
+    select discount_t.name
+    from %1.account_t account_t
+    join %1.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join %1.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join %1.purchased_discount_t purchased_discount_t
+        on purchased_discount_t.account_obj_id0 = account_t.poid_id0
+    join %1.discount_t discount_t
+        on discount_t.poid_id0 = purchased_discount_t.discount_obj_id0
+    where 
+        service_alias_list_t.name = %2
+UNION
+    select event_t.descr
+    from %1.account_t account_t
+    join %1.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join %1.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join %1.event_t event_t
+        on event_t.account_obj_id0 = account_t.poid_id0
+    where 
+        event_t.poid_type = '/event/billing/product/action/purchase'
+        and service_obj_type is null
+        and service_alias_list_t.name = %2
+String de conexión: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.149.137.201)(PORT=1522)))(CONNECT_DATA=(SID=CERBRM)(SERVER=DEDICATED)))
+Consulta a realizar    select product_t.name
+    from pin03.account_t account_t
+    join pin03.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join pin03.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join pin03.purchased_product_t purchased_product_t
+        on purchased_product_t.account_obj_id0 = account_t.poid_id0
+    join pin03.product_t product_t
+        on product_t.poid_id0 = purchased_product_t.product_obj_id0
+    where 
+        service_alias_list_t.name  = '10454748'
+UNION
+    select discount_t.name
+    from pin03.account_t account_t
+    join pin03.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join pin03.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join pin03.purchased_discount_t purchased_discount_t
+        on purchased_discount_t.account_obj_id0 = account_t.poid_id0
+    join pin03.discount_t discount_t
+        on discount_t.poid_id0 = purchased_discount_t.discount_obj_id0
+    where 
+        service_alias_list_t.name = '10454748'
+UNION
+    select event_t.descr
+    from pin03.account_t account_t
+    join pin03.service_t service_t
+        on service_t.account_obj_id0 = account_t.poid_id0
+    join pin03.service_alias_list_t service_alias_list_t
+        on service_alias_list_t.obj_id0 = service_t.poid_id0
+        and service_alias_list_t.rec_id = 1
+    join pin03.event_t event_t
+        on event_t.account_obj_id0 = account_t.poid_id0
+    where 
+        event_t.poid_type = '/event/billing/product/action/purchase'
+        and service_obj_type is null
+        and service_alias_list_t.name = '10454748'
+Se establece la conexión con la base de datos: oracle.jdbc.driver.T4CConnection@402e9d74
+cols 1
+Resultado de la consulta
+------------------------
+4G K2 150 MINUTOS/CC//FF/4G K2 150 MINUTOS CF/CC//FF/4G K2 150 SMS/CC//FF/4G K2 150 SMS CF/CC//FF/4G K2 INTERNET 3.5 GB/CC//FF/4G K2 INTERNET 3.5 GB CF/CC//FF/Descuento Basico  GPRS/CC//FF/Descuento Basico  SMS/CC//FF/Descuento Basico  Segundos/CC//FF/Video llamada/CC//FF//FF/
+Cantidad total de filas 11
+conexion no es null oracle.jdbc.driver.T4CConnection@402e9d74
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.DB_SQL
+Resultado:Resultado OK
+-----------------------------------------------------------
+Error al validar el FACILIDADES del servicio en BRM-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problemas al validar la informacion del pedido en BRM
+Argumento 1:=QA
+Argumento 2:=CPKO16_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fBRM_ValidaInfoServicio
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problemas al validar la informacion del pedido en BRM
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------

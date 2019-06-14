@@ -1,0 +1,4171 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+Ya existe la linea en datapool DatosEntrada - No se genera nueva linea
+Ya existe la linea en datapool DatosSalida - No se genera nueva linea
+Ya existe la linea en datapool Seguimiento - No se genera nueva linea
+Datapool USR ya existia!! No se sobreescribe
+Archivo CSV CP52_CD1 ya existia - No se copia
+Proceso completado correctamente
+-> CP52_CD1_T1:  Accion1/Nuevo
+-> CP52_CD1_T1:  Tramite/PostVenta
+-> CP52_CD1_T1:  Motivo1/Cambio de IMEI |  Motivo2/Cambio de IMEI | 
+-> CP52_CD1_T1:  Subtramite1/Modificación
+-> CP52_CD1_T1:  Msj1/NA
+-> CP52_CD1_T1:  ClaseCuenta/Cliente
+-> CP52_CD1_T1:  Servicio/Servicio de Telefonia Movil
+-> CP52_CD1_T1:  PROD3/Servicio de Telefonia Movil
+-> CP52_CD1_T1:  BuscaDesdeIni3/Si
+-> CP52_CD1_T1:  PROD5/Depósito de garantía
+-> CP52_CD1_T1:  PROD_Padre5/Servicio de Telefonia Movil
+-> CP52_CD1_T1:  PROD_Accion5/No Encontrar
+-> CP52_CD1_T1:  PROD4/Cambio de aparato
+-> CP52_CD1_T1:  PROD_Padre4/Servicio de Telefonia Movil
+-> CP52_CD1_T1:  PROD_Accion4/Encontrar
+-> CP52_CD1_T1:  TipoPerfilCorrecto/Postpago
+-> CP52_CD1_T1:  TerminalCliente/TRUE
+-> CP52_CD1_T1:  IMEI_Lugar2/Servicio
+-> CP52_CD1_T1:  Terminales1/false
+-> CP52_CD1_T1:  TerminalCteCheck1/true
+-> CP52_CD1_T1:  PROD1/Servicio de Telefonia Movil
+-> CP52_CD1_T1:  PROD_Accion1/Encontrar
+-> CP52_CD1_T1:  BuscaDesdeIni1/Si
+-> CP52_CD1_T1:  BRM_Cant1/NA
+-> CP52_CD1_T1:  BRM_Estado1/Not Set
+-> CP52_CD1_T1:  BRM_Operador1/=
+-> CP52_CD1_T1:  BRM_Prod1/Cambio de aparato
+Datapool de datos entrada llenado con exito.
+---------------  Inicio de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+Descripcion: IDENTIFICACION DE LA  CUENTA CLIENTE
+Valor: 703720645
+Accion: Valor Actualizado...
+
+Descripcion: NUMERO DEL ACTIVO PARA EL CAMBIO DE IMEI
+Valor: 89510211
+Accion: Valor Actualizado...
+
+Descripcion: CANAL UTILIZADO
+Valor: Agencia ICE
+Accion: Valor Actualizado...
+
+Descripcion: IMEI ORIGINAL DEL ACTIVO
+Valor: 012449002889827
+Accion: Valor Actualizado...
+
+Descripcion: SIM ORIGINAL DEL ACTIVO
+Valor: 89506010613114851601
+Accion: Valor Actualizado...
+
+Descripcion: NUEVO IMEI CORRECTO
+Valor: 012449002889835
+Accion: Valor Actualizado...
+
+Descripcion: PASSWORD BRM
+Valor: password
+Accion: Valor Actualizado...
+
+Descripcion: USER BRM
+Valor: root.0.0.0.1
+Accion: Valor Actualizado...
+
+Descripcion: CANTIDAD DE PROD DE CAMBIO DE APARATO DE LA CUENTA FACT
+Valor: 1
+Accion: Valor Actualizado...
+
+Descripcion: CUENTA DE FACTURACION DEL ACTIVO
+Valor: 101788440406
+Accion: Valor Actualizado...
+
+Descripcion: TIPO DE AUTENTICACION
+Valor: Enrute directo
+Accion: Valor Actualizado...
+
+---------------  Fin de la actualizacion de los Datos Usuario (RFT_ICE_USR)  ---------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.CasosPrueba.CasosPrueba
+Cantidad de argumentos:10
+Argumento 0:=usrrft1
+Argumento 1:=20RftUsr117
+Argumento 2:=QA
+Argumento 3:=CP52
+Argumento 4:=CD1
+Argumento 5:=A
+Argumento 6:=40
+Argumento 7:=NA
+Argumento 8:=NA
+Argumento 9:=NA
+-----------------------------------------------------------
+Se lee data pool de parametria
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDPParametria
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDPParametria
+Resultado:OK
+-----------------------------------------------------------
+Ubicacion del +-1
+Modo de Ejecución:Real
+------------------------------------------------------------
+Inicio de caso de Prueba y Conjunto de Datos:CP52_CD1
+------------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CP52
+-----------------------------------------------------------
+NumeroCaso = CP52
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CP52.rftdp
+false
+false
+--------------------------------------------------------------------
+CP52Pasos=fLogin
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-29
+--------------------------------------------------------------------
+CP52Pasos=fVista360
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-5
+--------------------------------------------------------------------
+CP52Pasos=fBuscarActivo
+CP52Param=DP
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-5
+--------------------------------------------------------------------
+CP52Pasos=fBuscarCtaFact
+CP52Param=DP
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-5
+--------------------------------------------------------------------
+CP52Pasos=fNuevaPostvta
+CP52Param=1
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fBuscarPedidoVenta
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-28
+--------------------------------------------------------------------
+CP52Pasos=fIngresarAutenticacion
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValidarAccion
+CP52Param=Modificación
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValidarNroServicio_SIM_IMEI
+CP52Param=2
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValidarMotivoPedido
+CP52Param=2
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fIngresarIMEI
+CP52Param=2
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fEnviarPedido
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-13
+--------------------------------------------------------------------
+CP52Pasos=fValidarMensaje
+CP52Param=DPM0012
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValorarTodo
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fEnviarPedido
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-16
+--------------------------------------------------------------------
+CP52Pasos=fValidarMensaje
+CP52Param=DPM0007
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fBuscarProducto
+CP52Param=1
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fTerminalCliente
+CP52Param=1
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fBuscarProducto
+CP52Param=1
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-21
+--------------------------------------------------------------------
+CP52Pasos=fExpandiryBuscar
+CP52Param=4
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-21
+--------------------------------------------------------------------
+CP52Pasos=fValidarAccion
+CP52Param=Nuevo
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fExpandiryBuscar
+CP52Param=5
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-23
+--------------------------------------------------------------------
+CP52Pasos=fValidarGenCtaFact
+CP52Param=FALSE
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValidarBtonLiberarNumero
+CP52Param=FALSE
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValidarBtonNumDisp
+CP52Param=FALSE
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fValorarTodo
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fEnviarPedido
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fEsperaEstado
+CP52Param=Completar
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fLogout
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fBRM_Login
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-33
+--------------------------------------------------------------------
+CP52Pasos=fBRM_BuscarCliente
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=1-32
+--------------------------------------------------------------------
+CP52Pasos=fBRM_ValidarProductos
+CP52Param=1
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=fBRM_Logout
+CP52Param=NA
+CP52Ejecuta=TRUE
+CP52Cond=NA
+CP52ErrorStop=TRUE
+CP52ReEjec=Nunca
+--------------------------------------------------------------------
+CP52Pasos=FIN
+CP52Param=null
+CP52Ejecuta=null
+CP52Cond=null
+CP52ErrorStop=false
+CP52ReEjec=null
+--------------------------------------------------------------------
+CP52Pasos=UltimaModificacionDP
+CP52Param=null
+CP52Ejecuta=VC 04/10/2018
+CP52Cond=null
+CP52ErrorStop=false
+CP52ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CP52_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CP52_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = JH 2018/04/24
+Variable1= UltimaModifiacionDP
+Dato JH 2018/04/24 leido del dp = JH 2018/04/24
+--------------------------------------------------------------------
+Dato = IDENTIFICACION DE LA  CUENTA CLIENTE
+Cantidad Variables = 1
+Valor = 703720645
+Variable1= Identificacion
+Dato 703720645 leido del dp = 703720645
+--------------------------------------------------------------------
+Dato = NUMERO DEL ACTIVO PARA EL CAMBIO DE IMEI
+Cantidad Variables = 1
+Valor = 89510211
+Variable1= NumeroServicio
+Dato 89510211 leido del dp = 89510211
+--------------------------------------------------------------------
+Dato = CANAL UTILIZADO
+Cantidad Variables = 1
+Valor = Agencia ICE
+Variable1= Canal
+Dato Agencia ICE leido del dp = Agencia ICE
+--------------------------------------------------------------------
+Dato = IMEI ORIGINAL DEL ACTIVO
+Cantidad Variables = 1
+Valor = 012449002889827
+Variable1= IMEIValidado2
+Dato 012449002889827 leido del dp = 012449002889827
+--------------------------------------------------------------------
+Dato = SIM ORIGINAL DEL ACTIVO
+Cantidad Variables = 1
+Valor = 89506010613114851601
+Variable1= SIMValidado2
+Dato 89506010613114851601 leido del dp = 89506010613114851601
+--------------------------------------------------------------------
+Dato = NUEVO IMEI CORRECTO
+Cantidad Variables = 1
+Valor = 012449002889835
+Variable1= IMEI2
+Dato 012449002889835 leido del dp = 012449002889835
+--------------------------------------------------------------------
+Dato = PASSWORD BRM
+Cantidad Variables = 1
+Valor = password
+Variable1= BRM_pass
+Dato password leido del dp = password
+--------------------------------------------------------------------
+Dato = USER BRM
+Cantidad Variables = 1
+Valor = root.0.0.0.1
+Variable1= BRM_usr
+Dato root.0.0.0.1 leido del dp = root.0.0.0.1
+--------------------------------------------------------------------
+Dato = CANTIDAD DE PROD DE CAMBIO DE APARATO DE LA CUENTA FACT
+Cantidad Variables = 1
+Valor = 1
+Variable1= BRM_Cant1
+Dato 1 leido del dp = 1
+--------------------------------------------------------------------
+Dato = CUENTA DE FACTURACION DEL ACTIVO
+Cantidad Variables = 1
+Valor = 101788440406
+Variable1= BRM_Cuenta
+Dato 101788440406 leido del dp = 101788440406
+--------------------------------------------------------------------
+Dato = TIPO DE AUTENTICACION
+Cantidad Variables = 1
+Valor = Enrute directo
+Variable1= Tipo
+Dato Enrute directo leido del dp = Enrute directo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP52_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CP52_CD1
+Path DP Condicionates = E:\Ambiente\PROD\workspace_Carolina\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CP52_CD1.rftdp
+DPC_CP52_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLogin
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=1-29
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:29
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:11:44
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogin
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+usrrft1
+20RftUsr117
+Primera expresion true
+Segunda expresion false
+Segunda sub expresion1 false
+Segunda sub expresion2 false
+iNroPaso e iNroPasoDsede1-1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Login
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+Argumento 4:=cerrar
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+El process Id de Siebel es: 7264
+Mensaje DialogoExplorer existe?:false
+Mensaje de sesión ya abierta existe?:false
+Mensaje DialogoExplorer existe?:false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:4
+Argumento 0:=DPM0029
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=BrowserScript
+-----------------------------------------------------------
+Tipo: BrowserScript
+Existe Mensaje BrowserScript: false
+Resultado: No Existe
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:No Existe
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 1 Ultimo paso OK: 1
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fVista360
+false
+Script a validar:fVista360
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:12:19
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fVista360
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Vista360
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=703720645
+Argumento 2:=Cliente
+-----------------------------------------------------------
+Clase de cuenta ingresada :Cliente
+Vista actual: All Accounts across Organizations
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Vista360
+Resultado:703720645
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=2
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=2
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=1
+Se actualizara con: Ult Tramite=NA-Ult Paso=2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 2 Ultimo paso OK: 2
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBuscarActivo
+false
+Script a validar:fBuscarActivo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=3
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:3 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:12:40
+-------------------------------------------------
+Inicio de Paso: 3
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarActivo
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=DP
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso3
+-----------------------------------------------------------
+NroServicio: 89510211
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarActivo
+Cantidad de argumentos:2
+Argumento 0:=89510211
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarActivo
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=3
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=3
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=2
+Se actualizara con: Ult Tramite=NA-Ult Paso=3
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 3 Ultimo paso OK: 3
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBuscarCtaFact
+false
+Script a validar:fBuscarCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=4
+Argumento 4:=true
+Argumento 5:=1-5
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=DP
+-----------------------------------------------------------
+Desde:1 Hasta:5
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:4 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:13:18
+-------------------------------------------------
+Inicio de Paso: 4
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarCtaFact
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=DP
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso4
+-----------------------------------------------------------
+NroServicio: 89510211
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarCtaFact
+Cantidad de argumentos:3
+Argumento 0:=89510211
+Argumento 1:=null
+Argumento 2:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarCtaFact
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroCtaFact
+Argumento 4:=101788440406
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato T1_NroCtaFact con 101788440406
+Grabar Dato Salida - Variable y Valor: T1_NroCtaFact=101788440406
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+NroCtaFact: 101788440406
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=4
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=4
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=3
+Se actualizara con: Ult Tramite=NA-Ult Paso=4
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 4 Ultimo paso OK: 4
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fNuevaPostvta
+false
+Script a validar:fNuevaPostvta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=5
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:5 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:14:10
+-------------------------------------------------
+Inicio de Paso: 5
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fNuevaPostvta
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso5
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.NuevaPostvta
+Cantidad de argumentos:6
+Argumento 0:=null
+Argumento 1:=Modificación
+Argumento 2:=Cambio de IMEI
+Argumento 3:=Servicio de Telefonia Movil
+Argumento 4:=null
+Argumento 5:=NA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProductoActivo
+Cantidad de argumentos:6
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=Si
+Argumento 5:=null
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 2 of 2, ClassName=SiebApplet, IsPopupApplet=false, UIName=Activos instalados, RepositoryName=SIS OM Products & Services Root List Applet (Service) - Tiny}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 2 of 2
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 2 of 2
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *2*
+Total: *2*
+Desde: *1*
+Desde: 1 Subtotal: 2 Total: 2
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-2-2
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 2 Total= 2
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Producto: NUEVO PLAN 4G K1 12 M
+Producto: Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProductoActivo
+Resultado:Encontrado
+-----------------------------------------------------------
+Mensaje a validar: NA
+Mensaje de excepción: CRFCP0050E: No screen point found for the object
+NroPedido:1-1788480066
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.NuevaPostvta
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=T1_NroPedido
+Argumento 4:=1-1788480066
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato T1_NroPedido con 1-1788480066
+Grabar Dato Salida - Variable y Valor: T1_NroPedido=1-1788480066
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=5
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=5
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=4
+Se actualizara con: Ult Tramite=NA-Ult Paso=5
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 5 Ultimo paso OK: 5
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBuscarPedidoVenta
+false
+Script a validar:fBuscarPedidoVenta
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=6
+Argumento 4:=true
+Argumento 5:=1-28
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:28
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:6 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:15:50
+-------------------------------------------------
+Inicio de Paso: 6
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarPedidoVenta
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso6
+-----------------------------------------------------------
+NroPedido: 1-1788480066
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarPedidoVenta
+Cantidad de argumentos:2
+Argumento 0:=1-1788480066
+Argumento 1:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarPedidoVenta
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=6
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=6
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=5
+Se actualizara con: Ult Tramite=NA-Ult Paso=6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 6 Ultimo paso OK: 6
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fIngresarAutenticacion
+false
+Script a validar:fIngresarAutenticacion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=7
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:7 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:16:24
+-------------------------------------------------
+Inicio de Paso: 7
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fIngresarAutenticacion
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso7
+-----------------------------------------------------------
+PasofIngresarAutenticacion
+DP Usado: CP52_CD1_T1QA
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarAutenticacion
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=Enrute directo
+Argumento 2:=Agencia ICE
+Argumento 3:=PostVenta
+-----------------------------------------------------------
+[[Reconocimiento Ambiguo]]0{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=267, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=267,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+[[Reconocimiento Ambiguo]]1{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=66, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=66,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+Resultado:OK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarAutenticacion
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=7
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=7
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=6
+Se actualizara con: Ult Tramite=NA-Ult Paso=7
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 7 Ultimo paso OK: 7
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarAccion
+false
+Script a validar:fValidarAccion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=8
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=Modificación
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:8 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:16:54
+-------------------------------------------------
+Inicio de Paso: 8
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarAccion
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=Modificación
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso8
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarNuevaAccion
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Modificación
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Accion deseado y en SBL = Modificación--
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarNuevaAccion
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=8
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=8
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=7
+Se actualizara con: Ult Tramite=NA-Ult Paso=8
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 8 Ultimo paso OK: 8
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarNroServicio_SIM_IMEI
+false
+Script a validar:fValidarNroServicio_SIM_IMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=9
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:9 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:00
+-------------------------------------------------
+Inicio de Paso: 9
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarNroServicio_SIM_IMEI
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=2
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso9
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarPrecioenPedido
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=PostVenta
+Argumento 2:=89510211
+Argumento 3:=89506010613114851601
+Argumento 4:=012449002889827
+-----------------------------------------------------------
+Precio inicio deseado y en SBL = PostVenta-
+Precio neto deseado y en SBL = 89510211-
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarPrecioenPedido
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=9
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=9
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=8
+Se actualizara con: Ult Tramite=NA-Ult Paso=9
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 9 Ultimo paso OK: 9
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarMotivoPedido
+false
+Script a validar:fValidarMotivoPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=10
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:10 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:05
+-------------------------------------------------
+Inicio de Paso: 10
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMotivoPedido
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=2
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso10
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarNuevaAccion
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Cambio de IMEI
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Accion deseado y en SBL = Cambio de IMEI--
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarNuevaAccion
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=10
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=10
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=9
+Se actualizara con: Ult Tramite=NA-Ult Paso=10
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 10 Ultimo paso OK: 10
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fIngresarIMEI
+false
+Script a validar:fIngresarIMEI
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=11
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=2
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:11 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:09
+-------------------------------------------------
+Inicio de Paso: 11
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fIngresarIMEI
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=2
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso11
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarIMEI
+Cantidad de argumentos:6
+Argumento 0:=Postpago
+Argumento 1:=Servicio
+Argumento 2:=012449002889835
+Argumento 3:=null
+Argumento 4:=PostVenta
+Argumento 5:=NA
+-----------------------------------------------------------
+Postpago-Servicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:6
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=Si
+Argumento 5:=PostVenta
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 1 of 1, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 1 of 1
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 1 of 1
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *1*
+Total: *1*
+Desde: *1*
+Desde: 1 Subtotal: 1 Total: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-1-1
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 1 Total= 1
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Matches: true null Si
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Matches: true null Si
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 0
+Producto Seleccionado: -
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:Encontrado
+-----------------------------------------------------------
+ICE IMEI Posicion0flag Encontrado
+ICE IMEI Posicion0IMEI a ingresar 012449002889835
+ICE IMEI ingresado012449002889835
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarIMEI
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=11
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=11
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=10
+Se actualizara con: Ult Tramite=NA-Ult Paso=11
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 11 Ultimo paso OK: 11
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEnviarPedido
+false
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=12
+Argumento 4:=true
+Argumento 5:=1-13
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:13
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:12 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:26
+-------------------------------------------------
+Inicio de Paso: 12
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso12
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=PostVenta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=12
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=12
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=11
+Se actualizara con: Ult Tramite=NA-Ult Paso=12
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 12 Ultimo paso OK: 12
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarMensaje
+false
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=13
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=DPM0012
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:13 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:53
+-------------------------------------------------
+Inicio de Paso: 13
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=DPM0012
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso13
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=DPM0012
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=HTML
+Argumento 4:=QA
+-----------------------------------------------------------
+Tipo: HTML
+Existe Mensaje HTML: true
+Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)
+Mensaje del código: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Mensaje de la pantalla: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+El mensaje Coincide
+Mensaje del código: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Mensaje de la pantalla: *Antes de esta acción debe presionar el botón "Volver a valorar todo" a nivel de los detalles del pedido (SBL-APS-00802)*
+Resultado: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:true
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=13
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=13
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=12
+Se actualizara con: Ult Tramite=NA-Ult Paso=13
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 13 Ultimo paso OK: 13
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValorarTodo
+false
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=14
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:14 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:17:57
+-------------------------------------------------
+Inicio de Paso: 14
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValorarTodo
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso14
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValorarTodo
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=PostVenta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+Tramite PostVenta
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValorarTodo
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=14
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=14
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=13
+Se actualizara con: Ult Tramite=NA-Ult Paso=14
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 14 Ultimo paso OK: 14
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEnviarPedido
+false
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=15
+Argumento 4:=true
+Argumento 5:=1-16
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:16
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:15 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:18:04
+-------------------------------------------------
+Inicio de Paso: 15
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso15
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=PostVenta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=15
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=15
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=14
+Se actualizara con: Ult Tramite=NA-Ult Paso=15
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 15 Ultimo paso OK: 15
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarMensaje
+false
+Script a validar:fValidarMensaje
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=16
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=DPM0007
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:16 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:18:35
+-------------------------------------------------
+Inicio de Paso: 16
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=DPM0007
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso16
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarMensaje
+Cantidad de argumentos:5
+Argumento 0:=DPM0007
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=HTML
+Argumento 4:=QA
+-----------------------------------------------------------
+Tipo: HTML
+Existe Mensaje HTML: true
+MODELO NO EXISTE EN EL SIPV(SBL-EXL-00151)(SBL-EXL-00151)(SBL-EXL-00151)
+Mensaje del código: *MODELO NO EXISTE EN EL SIPV(SBL-EXL-00151)(SBL-EXL-00151)(SBL-EXL-00151)*
+Mensaje de la pantalla: *MODELO NO EXISTE EN EL SIPV(SBL-EXL-00151)(SBL-EXL-00151)(SBL-EXL-00151)*
+El mensaje Coincide
+Mensaje del código: *MODELO NO EXISTE EN EL SIPV(SBL-EXL-00151)(SBL-EXL-00151)(SBL-EXL-00151)*
+Mensaje de la pantalla: *MODELO NO EXISTE EN EL SIPV(SBL-EXL-00151)(SBL-EXL-00151)(SBL-EXL-00151)*
+Resultado: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarMensaje
+Resultado:true
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=16
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 16
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=16
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=15
+Se actualizara con: Ult Tramite=NA-Ult Paso=16
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 16 Ultimo paso OK: 16
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=17
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:17 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:18:39
+-------------------------------------------------
+Inicio de Paso: 17
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarProducto
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso17
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:6
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=Si
+Argumento 5:=PostVenta
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 1 of 1, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 1 of 1
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 1 of 1
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *1*
+Total: *1*
+Desde: *1*
+Desde: 1 Subtotal: 1 Total: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-1-1
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 1 Total= 1
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Matches: true null Si
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Matches: true null Si
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 0
+Producto Seleccionado: Modificación
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:Encontrado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=17
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 17
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=17
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=16
+Se actualizara con: Ult Tramite=NA-Ult Paso=17
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 17 Ultimo paso OK: 17
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fTerminalCliente
+false
+Script a validar:fTerminalCliente
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=18
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:18 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:18:46
+-------------------------------------------------
+Inicio de Paso: 18
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fTerminalCliente
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso18
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminalCliente
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=Postpago
+Argumento 2:=false
+Argumento 3:=PostVenta
+Argumento 4:=true
+-----------------------------------------------------------
+Postpago-Servicio
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:4
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 1 of 1, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 1 of 1
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 1 of 1
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *1*
+Total: *1*
+Desde: *1*
+Desde: 1 Subtotal: 1 Total: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-1-1
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 1 Total= 1
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Matches: true null Si
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Matches: true null Si
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 0
+Producto Seleccionado: Modificación
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:Encontrado
+-----------------------------------------------------------
+Indica si es Cliente false
+[[Reconocimiento Ambiguo]]0{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=219, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=219,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+[[Reconocimiento Ambiguo]]1{onmousedown=MinibtnDown(this.parentNode), .offsetTop=1, onbeforeeditfocus=null Object, .name=, ondragover=null Object, onlayoutcomplete=null Object, aria-pressed=, hreflang=, aria-required=, onkeypress=null Object, hideFocus=false, .tag=A, coords=, aria-describedby=, onblur=null Object, aria-valuenow=, onhelp=null Object, dataSrc=, aria-invalid=, ondatasetcomplete=null Object, aria-valuemax=, onfocusout=null Object, oncontrolselect=null Object, aria-owns=, aria-controls=, .hasScript=true, accessKey=, .screenTop=264, onpage=null Object, onmousemove=null Object, title=, onbeforepaste=null Object, ondataavailable=null Object, .href=javascript:void(0), onmoveend=null Object, shape=, .offsetLeft=6, ondeactivate=null Object, onmouseleave=null Object, onrowsinserted=null Object, .id=s_1_1_151_0_mb, aria-valuemin=, .hasFocus=false, .className=, implementation=null Object, aria-readonly=, onmouseenter=null Object, ondragleave=null Object, disabled=false, aria-expanded=, .class=Html.A, charset=, onerrorupdate=null Object, onresizeend=null Object, ondragenter=null Object, ondragstart=null Object, oncut=null Object, onbeforecut=null Object, onmovestart=null Object, ondrag=null Object, .offsetHeight=13, onclick=null Object, aria-checked=, onafterupdate=null Object, contentEditable=inherit, onmousewheel=null Object, lang=, onselectstart=null Object, aria-activedescendant=, name=, aria-live=, onbeforeupdate=null Object, aria-disabled=, onrowenter=null Object, dataFormatAs=, aria-haspopup=, onfocus=null Object, .text=Consulta, onmove=null Object, ondatasetchanged=null Object, oncellchange=null Object, aria-hidden=, ondblclick=null Object, aria-flowto=, .screenLeft=201, type=, onkeydown=null Object, tabIndex=0, .bounds=java.awt.Rectangle[x=201,y=264,width=42,height=13], aria-busy=, onscroll=null Object, onmouseover=MinibtnHover(this.parentNode), aria-labelledby=, onmouseout=MinibtnOut(this.parentNode), aria-multiselectable=, oncopy=null Object, aria-relevant=, onkeyup=null Object, onresize=null Object, .disabled=false, href=javascript:void(0), onmouseup=MinibtnUp(this.parentNode), .contentText=Consulta, rev=, oncontextmenu=null Object, aria-selected=, .title=, onfilterchange=null Object, rel=, aria-level=0, onrowsdelete=null Object, onpaste=null Object, onlosecapture=null Object, methods=, onfocusin=null Object, class=, ondragend=null Object, style=, onresizestart=null Object, id=s_1_1_151_0_mb, ondrop=null Object, onbeforecopy=null Object, onrowexit=null Object, role=, dataFld=, dir=, onbeforedeactivate=null Object, language=, aria-setsize=0, onreadystatechange=null Object, target=, urn=, .offsetWidth=42, aria-secret=, onpropertychange=null Object, onactivate=null Object, onbeforeactivate=null Object, aria-posinset=0}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.TerminalCliente
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=18
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 18
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=18
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=17
+Se actualizara con: Ult Tramite=NA-Ult Paso=18
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 18 Ultimo paso OK: 18
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBuscarProducto
+false
+Script a validar:fBuscarProducto
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=19
+Argumento 4:=true
+Argumento 5:=1-21
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=1
+-----------------------------------------------------------
+Desde:1 Hasta:21
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:19 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:19:05
+-------------------------------------------------
+Inicio de Paso: 19
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBuscarProducto
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=1
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso19
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:6
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=Si
+Argumento 5:=PostVenta
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 1 of 1, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 1 of 1
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 1 of 1
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *1*
+Total: *1*
+Desde: *1*
+Desde: 1 Subtotal: 1 Total: 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-1-1
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 1 Total= 1
+Producto a buscar= Servicio de Telefonia Movil
+-------------------------------------------------------------------
+Matches: true null Si
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Matches: true null Si
+Producto Seleccionado: Servicio de Telefonia Movil en posición: 0
+Producto Seleccionado: Modificación
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:Encontrado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=19
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 19
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=19
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=18
+Se actualizara con: Ult Tramite=NA-Ult Paso=19
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 19 Ultimo paso OK: 19
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fExpandiryBuscar
+false
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=20
+Argumento 4:=true
+Argumento 5:=1-21
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=4
+-----------------------------------------------------------
+Desde:1 Hasta:21
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:20 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:19:14
+-------------------------------------------------
+Inicio de Paso: 20
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fExpandiryBuscar
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=4
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso20
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ExpandiryBuscar
+Cantidad de argumentos:4
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=Cambio de aparato
+Argumento 2:=null
+Argumento 3:=PostVenta
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ExpandirLinea
+Cantidad de argumentos:4
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=No
+Argumento 3:=PostVenta
+-----------------------------------------------------------
+Se expande la posicion actual
+Resultado:OK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ExpandirLinea
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:6
+Argumento 0:=Cambio de aparato
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=No
+Argumento 5:=PostVenta
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 6 of 6, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 6 of 6
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 6 of 6
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *6*
+Total: *6*
+Desde: *1*
+Desde: 1 Subtotal: 6 Total: 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-6-6
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 6 Total= 6
+Producto a buscar= Cambio de aparato
+-------------------------------------------------------------------
+Se busca desde la posición actual
+Producto: Servicio de Telefonia Movil 1
+expresion regular false
+Producto: Promociones y Descuentos 1.1
+expresion regular false
+Producto: Grupo SVA 1.2
+expresion regular false
+Producto: Promociones de Afiliacion 1.3
+expresion regular false
+Producto: Plan K1 35 minutos 12 M KOLBI 1.4
+expresion regular false
+Producto: Cambio de aparato 1.5
+expresion regular true
+-------------------------------------------------------------------
+Producto encontrado
+-------------------------------------------------------------------
+Matches: true 1.5 No
+Producto Seleccionado: Cambio de aparato en posición: 5
+Producto Seleccionado: Nuevo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:Encontrado
+-----------------------------------------------------------
+Resultado: Encontrado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ExpandiryBuscar
+Resultado:Encontrado
+-----------------------------------------------------------
+Condicion1:false
+Condicion2:false
+ErrorParaEjecucion:true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=20
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 20
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=20
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=19
+Se actualizara con: Ult Tramite=NA-Ult Paso=20
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 20 Ultimo paso OK: 20
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarAccion
+false
+Script a validar:fValidarAccion
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=21
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=Nuevo
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:21 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:19:44
+-------------------------------------------------
+Inicio de Paso: 21
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarAccion
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=Nuevo
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso21
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarNuevaAccion
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=Nuevo
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Accion deseado y en SBL = Nuevo-Nuevo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarNuevaAccion
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=21
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 21
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=21
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=20
+Se actualizara con: Ult Tramite=NA-Ult Paso=21
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 21 Ultimo paso OK: 21
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fExpandiryBuscar
+false
+Script a validar:fExpandiryBuscar
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=22
+Argumento 4:=true
+Argumento 5:=1-23
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=5
+-----------------------------------------------------------
+Desde:1 Hasta:23
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:22 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:19:48
+-------------------------------------------------
+Inicio de Paso: 22
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fExpandiryBuscar
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=5
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso22
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ExpandiryBuscar
+Cantidad de argumentos:4
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=Depósito de garantía
+Argumento 2:=null
+Argumento 3:=PostVenta
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ExpandirLinea
+Cantidad de argumentos:4
+Argumento 0:=Servicio de Telefonia Movil
+Argumento 1:=null
+Argumento 2:=No
+Argumento 3:=PostVenta
+-----------------------------------------------------------
+Se expande la posicion actual
+Resultado:OK
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ExpandirLinea
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.BuscarProducto
+Cantidad de argumentos:6
+Argumento 0:=Depósito de garantía
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=No
+Argumento 5:=PostVenta
+-----------------------------------------------------------
+true
+{RecordCounter=1 - 6 of 6, ClassName=SiebApplet, IsPopupApplet=false, UIName=Detalles, RepositoryName=Order Entry - Line Item List Applet (Sales)}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.RecordCount
+Cantidad de argumentos:5
+Argumento 0:=1 - 6 of 6
+Argumento 1:=null
+Argumento 2:=null
+Argumento 3:=null
+Argumento 4:=null
+-----------------------------------------------------------
+RecordCount pasado como argumento: 1 - 6 of 6
+Posicion del - en el record count: 2
+Posicion del of en el reord count:  6
+Posicion del + en el reord count:  -1
+SubTotal: *6*
+Total: *6*
+Desde: *1*
+Desde: 1 Subtotal: 6 Total: 6
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.RecordCount
+Resultado:1-6-6
+-----------------------------------------------------------
+-------------------------------------------------------------------
+Inicio de logica de buscar producto (1)
+Desde= 1 Subtotal= 6 Total= 6
+Producto a buscar= Depósito de garantía
+-------------------------------------------------------------------
+Se busca desde la posición actual
+Producto: Cambio de aparato 1.5
+expresion regular false
+Resultado: No Encontrado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.BuscarProducto
+Resultado:No Encontrado
+-----------------------------------------------------------
+Resultado: No Encontrado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ExpandiryBuscar
+Resultado:No Encontrado
+-----------------------------------------------------------
+Condicion1:false
+Condicion2:false
+ErrorParaEjecucion:true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=22
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 22
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=22
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=21
+Se actualizara con: Ult Tramite=NA-Ult Paso=22
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 22 Ultimo paso OK: 22
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarGenCtaFact
+false
+Script a validar:fValidarGenCtaFact
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=23
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:23 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:20:02
+-------------------------------------------------
+Inicio de Paso: 23
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarGenCtaFact
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=FALSE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso23
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarGenCtaFact
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=FALSE
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarGenCtaFact
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=23
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 23
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=23
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=22
+Se actualizara con: Ult Tramite=NA-Ult Paso=23
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 23 Ultimo paso OK: 23
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarBtonLiberarNumero
+false
+Script a validar:fValidarBtonLiberarNumero
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=24
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:24 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:20:05
+-------------------------------------------------
+Inicio de Paso: 24
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarBtonLiberarNumero
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=FALSE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso24
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarBtonLiberarNumero
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=FALSE
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarBtonLiberarNumero
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=24
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 24
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=24
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=23
+Se actualizara con: Ult Tramite=NA-Ult Paso=24
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 24 Ultimo paso OK: 24
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValidarBtonNumDisp
+false
+Script a validar:fValidarBtonNumDisp
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=25
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=FALSE
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:25 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:20:09
+-------------------------------------------------
+Inicio de Paso: 25
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValidarBtonNumDisp
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=FALSE
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso25
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidarBtonNumDisp
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=FALSE
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Estado del botón ValidarBtonNumDisp: false
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidarBtonNumDisp
+Resultado:OK
+-----------------------------------------------------------
+Resultado Recibido por fValidarBtonNumDisp: FALSE
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=25
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 25
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=25
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=24
+Se actualizara con: Ult Tramite=NA-Ult Paso=25
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 25 Ultimo paso OK: 25
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fValorarTodo
+false
+Script a validar:fValorarTodo
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=26
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:26 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:20:18
+-------------------------------------------------
+Inicio de Paso: 26
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fValorarTodo
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso26
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValorarTodo
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=PostVenta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+Tramite PostVenta
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValorarTodo
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=26
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 26
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=26
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=25
+Se actualizara con: Ult Tramite=NA-Ult Paso=26
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 26 Ultimo paso OK: 26
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEnviarPedido
+false
+Script a validar:fEnviarPedido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=27
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:27 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:20:26
+-------------------------------------------------
+Inicio de Paso: 27
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEnviarPedido
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso27
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EnviarPedido
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=PostVenta
+-----------------------------------------------------------
+Cantidad de intentos maximo20
+Tiempo de espera entre reintentos3
+cantidad de intentos1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EnviarPedido
+Resultado:Creado
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=27
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 27
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=27
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=26
+Se actualizara con: Ult Tramite=NA-Ult Paso=27
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 27 Ultimo paso OK: 27
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fEsperaEstado
+false
+Script a validar:fEsperaEstado
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=28
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=Completar
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:28 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:21:00
+-------------------------------------------------
+Inicio de Paso: 28
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fEsperaEstado
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=Completar
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso28
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.EsperaEstado
+Cantidad de argumentos:3
+Argumento 0:=Completar
+Argumento 1:=null
+Argumento 2:=PostVenta
+-----------------------------------------------------------
+Reintentos Maximos60
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 2
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 3
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 4
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 5
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 6
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 7
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 8
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 9
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 10
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 11
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 12
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 13
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 14
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 15
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 16
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 17
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 18
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 19
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 20
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 21
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 22
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 23
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 24
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 25
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 26
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 27
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 28
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 29
+Estado Abierto
+Reintentos Maximos 60
+Reintentos 30
+Estado Completar
+Reintentos Maximos 60
+Reintentos 31
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.EsperaEstado
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=28
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 28
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=28
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=27
+Se actualizara con: Ult Tramite=NA-Ult Paso=28
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 28 Ultimo paso OK: 28
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fLogout
+false
+Script a validar:fLogout
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=29
+Argumento 4:=true
+Argumento 5:=nunca
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:29 Paso desde:1
+Desde Inicio?:true
+Se analiza si el nunca
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:27:05
+-------------------------------------------------
+Inicio de Paso: 29
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLogout
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso29
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.Logout
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=NA
+-----------------------------------------------------------
+Cerrar IE: true
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=iexplore.exe*32
+-----------------------------------------------------------
+Incapaz de matar iexplore. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=WerFault.exe*32
+-----------------------------------------------------------
+Incapaz de matar WerFault. Exit code: 1n
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.Logout
+Resultado:Resultado: OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=29
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 29
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=29
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=28
+Se actualizara con: Ult Tramite=NA-Ult Paso=29
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 29 Ultimo paso OK: 29
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBRM_Login
+false
+Script a validar:fBRM_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=30
+Argumento 4:=true
+Argumento 5:=1-33
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:33
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:30 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:27:25
+-------------------------------------------------
+Inicio de Paso: 30
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBRM_Login
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso30
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.BRM_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=root.0.0.0.1
+Argumento 2:=password
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.BRM_Logout
+Cantidad de argumentos:1
+Argumento 0:=null
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.BRM_Logout
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.BRM_Login
+Resultado:Resultado OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=30
+-----------------------------------------------------------
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 30
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CP52_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=30
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\PROD\workspace_Carolina\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CP52_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=29
+Se actualizara con: Ult Tramite=NA-Ult Paso=30
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+registro actual: 30 Ultimo paso OK: 30
+Se realiza ajuste en el registro selecionado del datapool.
+Paso selecionado: fBRM_BuscarCliente
+false
+Script a validar:fBRM_BuscarCliente
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=31
+Argumento 4:=true
+Argumento 5:=1-32
+Argumento 6:=na
+Argumento 7:=CP52_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:32
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:31 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2019/05/28 16:27:47
+-------------------------------------------------
+Inicio de Paso: 31
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fBRM_BuscarCliente
+Cantidad de argumentos:5
+Argumento 0:=CP52_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso31
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.SistemasExternos.BRM_BuscarCliente
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=101788440406
+-----------------------------------------------------------
+  No Items Found
+La cuenta no existe
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.SistemasExternos.BRM_BuscarCliente
+Resultado:Resultado NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problema al buscar cuenta en BRM
+Argumento 1:=true
+Argumento 2:=CP52_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fBRM_BuscarCliente
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problema al buscar cuenta en BRM
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLogin; ;OK;
+Paso    2  -  fVista360; ;OK;
+Paso    3  -  fBuscarActivo; ;OK;
+Paso    4  -  fBuscarCtaFact; ;OK;
+Paso    5  -  fNuevaPostvta; ;OK;
+Paso    6  -  fBuscarPedidoVenta; ;OK;
+Paso    7  -  fIngresarAutenticacion; ;OK;
+Paso    8  -  fValidarAccion; ;OK;
+Paso    9  -  fValidarNroServicio_SIM_IMEI; ;OK;
+Paso   10  -  fValidarMotivoPedido; ;OK;
+Paso   11  -  fIngresarIMEI; ;OK;
+Paso   12  -  fEnviarPedido; ;OK;
+Paso   13  -  fValidarMensaje; ;OK;
+Paso   14  -  fValorarTodo; ;OK;
+Paso   15  -  fEnviarPedido; ;OK;
+Paso   16  -  fValidarMensaje; ;OK;
+Paso   17  -  fBuscarProducto; ;OK;
+Paso   18  -  fTerminalCliente; ;OK;
+Paso   19  -  fBuscarProducto; ;OK;
+Paso   20  -  fExpandiryBuscar; ;OK;
+Paso   21  -  fValidarAccion; ;OK;
+Paso   22  -  fExpandiryBuscar; ;OK;
+Paso   23  -  fValidarGenCtaFact; ;OK;
+Paso   24  -  fValidarBtonLiberarNumero; ;OK;
+Paso   25  -  fValidarBtonNumDisp; ;OK;
+Paso   26  -  fValorarTodo; ;OK;
+Paso   27  -  fEnviarPedido; ;OK;
+Paso   28  -  fEsperaEstado; ;OK;
+Paso   29  -  fLogout; ;OK;
+Paso   30  -  fBRM_Login; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+Paso    3  -  fBuscarActivo;NroServicio;89510211;
+Paso    4  -  GrabarDatosSalida;T1_NroCtaFact;101788440406;
+Paso    4  -  fBuscarCtaFact;NroCtaFact;101788440406;
+Paso    5  -  fNuevaPostvta;NroPedido;1-1788480066;
+Paso    5  -  GrabarDatosSalida;T1_NroPedido;1-1788480066;
+Scripts.Comun.ValidarPrecioenPedido;PrecioInicio;;
+Scripts.Comun.ValidarPrecioenPedido;PrecioNeto;;
+Paso   21  -  ValidarNuevaAccion;Accion;Nuevo;
+ 
+ 
+-----------------------------------------------------------------------------------------------------------------------------------------
+ --------------------------------------------Resultados Consola CMD----------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------------------------
+ 
+.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ERROR: Input redirection is not supported, exiting the process immediately.
+The process tried to write to a nonexistent pipe.
+2019-05-28 16:11:32.552:INFO:oejs.Server:jetty-8.1.16.v20140903
+2019-05-28 16:11:32.733:INFO:oejw.StandardDescriptorProcessor:NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-05-28 16:11:32.796:WARN:oejuc.AbstractLifeCycle:FAILED SelectChannelConnector@0.0.0.0:9100: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.sys.TestContextClient.becomeAClient(TestContextClient.java:294)
+	at com.rational.test.ft.sys.TestContextClient.create(TestContextClient.java:77)
+	at com.rational.test.ft.application.rational_ft_impl.initTheSession(rational_ft_impl.java:1995)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:253)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+2019-05-28 16:11:32.800:WARN:oejuc.AbstractLifeCycle:FAILED org.eclipse.jetty.server.Server@5821f2d9: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.sys.TestContextClient.becomeAClient(TestContextClient.java:294)
+	at com.rational.test.ft.sys.TestContextClient.create(TestContextClient.java:77)
+	at com.rational.test.ft.application.rational_ft_impl.initTheSession(rational_ft_impl.java:1995)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:253)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+Error eliminando duplicados en Reporte: Array index out of range: 1. Se maneja el Error y sigue con el proceso normal.
+Error eliminando duplicados en Reporte: Array index out of range: 1. Se maneja el Error y sigue con el proceso normal.
+Exception occurred during playback of script [Scripts.CasosPrueba.LeerDatosUSR_CSV] [RationalTestScriptError on line 0 of script Scripts.CasosPrueba.LeerDatosUSR_CSV:  [com.rational.test.ft.UserStoppedScriptError] - CRFCN0515E: stop() method called.].
+2019-05-28 16:27:54.597:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/E:/Program%20Files%20(x86)/IBM/SDP/FunctionalTester/WebConfiguration/}
+2019-05-28 16:27:54.844:INFO:oejs.Server:jetty-8.1.16.v20140903
+2019-05-28 16:27:54.875:INFO:oejw.StandardDescriptorProcessor:NO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet
+2019-05-28 16:27:54.886:WARN:oejuc.AbstractLifeCycle:FAILED SelectChannelConnector@0.0.0.0:9100: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.services.HTMLLog.getAppletArchieve(HTMLLog.java:909)
+	at com.rational.test.ft.services.HTMLLog.applet(HTMLLog.java:904)
+	at com.rational.test.ft.services.HTMLLog.endFile(HTMLLog.java:968)
+	at com.rational.test.ft.services.HTMLLog.closeLog(HTMLLog.java:176)
+	at com.rational.test.ft.services.LogExtensionAdapter.close(LogExtensionAdapter.java:569)
+	at com.rational.test.ft.application.ScriptPlayback.closeMessageLog(ScriptPlayback.java:1117)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:811)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+2019-05-28 16:27:54.892:WARN:oejuc.AbstractLifeCycle:FAILED org.eclipse.jetty.server.Server@ccf835ac: java.net.BindException: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:460)
+	at sun.nio.ch.Net.bind(Net.java:452)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:253)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:86)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:293)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at com.ibm.rational.test.ft.web.WebServer.start(WebServer.java:91)
+	at com.ibm.rational.test.ft.web.WebServer.enable(WebServer.java:200)
+	at com.rational.test.ft.services.HTMLLog.getAppletArchieve(HTMLLog.java:909)
+	at com.rational.test.ft.services.HTMLLog.applet(HTMLLog.java:904)
+	at com.rational.test.ft.services.HTMLLog.endFile(HTMLLog.java:968)
+	at com.rational.test.ft.services.HTMLLog.closeLog(HTMLLog.java:176)
+	at com.rational.test.ft.services.LogExtensionAdapter.close(LogExtensionAdapter.java:569)
+	at com.rational.test.ft.application.ScriptPlayback.closeMessageLog(ScriptPlayback.java:1117)
+	at com.rational.test.ft.application.ScriptPlayback.run(ScriptPlayback.java:811)
+	at com.rational.test.ft.application.RationalFtMain.run(RationalFtMain.java:2514)
+	at com.rational.test.ft.application.RationalFtMain.main(RationalFtMain.java:355)
+	at com.rational.test.ft.application.CommandLineApplication.run(CommandLineApplication.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+	at org.eclipse.core.launcher.Main.main(Main.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:507)
+	at com.rational.test.ft.rational_ft.startFT(rational_ft.java:329)
+	at com.rational.test.ft.rational_ft.main(rational_ft.java:186)
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+ OUTPUTSTREAM: java.io.BufferedOutputStream@9c1f2c

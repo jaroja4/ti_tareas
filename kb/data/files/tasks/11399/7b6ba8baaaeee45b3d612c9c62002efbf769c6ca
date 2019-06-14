@@ -1,0 +1,842 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ConsolaaFile
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.IngresarDataPoolPasos
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=CPKO08
+-----------------------------------------------------------
+NumeroCaso = CPKO08
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\ConfiguracionPasosEscenarios File de Entrada = DP_Pasos_CPKO08.rftdp
+false
+false
+--------------------------------------------------------------------
+CPKO08Pasos=fLeerVariableCondicionanteDP
+CPKO08Param=TipoPago
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_Login
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-21
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_ConsultaPorServicio
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-4
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_NuevoTramite
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_BuscarPedido
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=5-23
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_ConsultarMorosidad
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-10
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_SeleccionarPlan
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-10
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_PersonalizaPlan
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-10
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_SeleccionarTerminal
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-10
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_CotizarPedido
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=1-13
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_IngresarIMEI
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=11-12
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_IngresarVersionSerie
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=11-12
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_FinalizarOrden
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_BotonDetallePedido
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_EstadoOrden
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fVEP_Login
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fVEP_PagarREDNew
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fVEP_Logout
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_EstadoOrden
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="VEP"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_OpcionesDeOrden
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=Condicionado: %TipoPago%=="ADM"
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_BotonDetallePedido
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_EsperaEstadoPedido
+CPKO08Param=NA
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Siempre
+--------------------------------------------------------------------
+CPKO08Pasos=fKO_ValidaInfoPedido
+CPKO08Param=1
+CPKO08Ejecuta=TRUE
+CPKO08Cond=NA
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=Nunca
+--------------------------------------------------------------------
+CPKO08Pasos=FIN
+CPKO08Param=
+CPKO08Ejecuta=
+CPKO08Cond=null
+CPKO08ErrorStop=TRUE
+CPKO08ReEjec=null
+--------------------------------------------------------------------
+CPKO08Pasos=Ultima modificacion
+CPKO08Param=null
+CPKO08Ejecuta=23/11/2018
+CPKO08Cond=DB
+CPKO08ErrorStop=
+CPKO08ReEjec=null
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.IngresarDataPoolPasos
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se actualizan los datos de entrada
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatosEntrada
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+Argumento 3:=Todo
+-----------------------------------------------------------
+Path DP Entrada = RFT_ICE
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\ File de Entrada = CPKO08_CD1.rftdp
+***********************************************************
+Tramite=1
+NumeroCaso_ConjuntoDatos_Tramite = CPKO08_CD1_T1
+Ambiente = QA
+***********************************************************
+--------------------------------------------------------------------
+Dato = UltimaModifiacionDP
+Cantidad Variables = 1
+Valor = DB 28/11/2018
+Variable1= UltimaModifiacionDP
+Dato DB 28/11/2018 leido del dp = DB 28/11/2018
+--------------------------------------------------------------------
+Dato = TIPO DE PAGO A REALIZAR (ADM/VEP)
+Cantidad Variables = 1
+Valor = VEP
+Variable1= TipoPago
+Dato VEP leido del dp = VEP
+--------------------------------------------------------------------
+Dato = NUMERO SERVICIO
+Cantidad Variables = 2
+Valor = 10161820
+Variable1= NumeroServicio1
+Dato 10161820 leido del dp = 10161820
+Variable2= NumeroServicio
+Dato 10161820 leido del dp = 10161820
+--------------------------------------------------------------------
+Dato = NOMBRE DEL TIPO DE OFERTA COMERCIAL A SELECCIONAR
+Cantidad Variables = 1
+Valor = Oferta Kolbi Masiva
+Variable1= OfertaKO1 
+Dato Oferta Kolbi Masiva leido del dp = Oferta Kolbi Masiva
+--------------------------------------------------------------------
+Dato = NOMBRE DEL GRUPO DE PROMOCION A SELECCIONAR
+Cantidad Variables = 1
+Valor = Planes 4G K
+Variable1= GrupoPromocion1
+Dato Planes 4G K leido del dp = Planes 4G K
+--------------------------------------------------------------------
+Dato = NOMBRE DEL PLAN A ELEGIR
+Cantidad Variables = 1
+Valor = PLAN 4G K3 24 M
+Variable1= Plan1
+Dato PLAN 4G K3 24 M leido del dp = PLAN 4G K3 24 M
+--------------------------------------------------------------------
+Dato = NOMBRE TERMINAL
+Cantidad Variables = 2
+Valor = HUAWEI P10 NEGRO
+Variable1= Terminal1
+Dato HUAWEI P10 NEGRO leido del dp = HUAWEI P10 NEGRO
+Variable2= ValidaDato1_4
+Dato HUAWEI P10 NEGRO leido del dp = HUAWEI P10 NEGRO
+--------------------------------------------------------------------
+Dato = IMEI CORRECTO
+Cantidad Variables = 2
+Valor = 352214043665695
+Variable1= IMEI1
+Dato 352214043665695 leido del dp = 352214043665695
+Variable2= ValidaDato1_1
+Dato 352214043665695 leido del dp = 352214043665695
+--------------------------------------------------------------------
+Dato = OBSERVACIONES DE LA ORDEN
+Cantidad Variables = 1
+Valor = Configuracion del escenario de cambio de plan a postpago
+Variable1= ObservacionTP1
+Dato Configuracion del escenario de cambio de plan a postpago leido del dp = Configuracion del escenario de cambio de plan a postpago
+--------------------------------------------------------------------
+Dato = VERSION DE SOFTWARE
+Cantidad Variables = 1
+Valor = 11111111
+Variable1= Version
+Dato 11111111 leido del dp = 11111111
+--------------------------------------------------------------------
+Dato = NUMERO DE SERIE
+Cantidad Variables = 1
+Valor = 11
+Variable1= Serie
+Dato 11 leido del dp = 11
+--------------------------------------------------------------------
+Dato = NOMBRE DE LA FACILIDAD A SELECCIONAR
+Cantidad Variables = 2
+Valor = Activacion no identificador de llamada
+Variable1= PersonalizaOpcion1
+Dato Activacion no identificador de llamada leido del dp = Activacion no identificador de llamada
+Variable2= ValidaDato1_2
+Dato Activacion no identificador de llamada leido del dp = Activacion no identificador de llamada
+--------------------------------------------------------------------
+Dato = USUARIO_VEP
+Cantidad Variables = 1
+Valor = usrrft1
+Variable1= VEP_usr
+Dato usrrft1 leido del dp = usrrft1
+--------------------------------------------------------------------
+Dato = CONTRASENA_VEP
+Cantidad Variables = 1
+Valor = 20RftUsr117
+Variable1= VEP_pass
+Dato 20RftUsr117 leido del dp = 20RftUsr117
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatosEntrada
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------
+Se lee el último trámite y paso
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Cantidad de argumentos:3
+Argumento 0:=null
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+-----------------------------------------------------------
+Path DP Entrada = E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO08_CD1
+Ambiente = QA
+UltimoPasoOK0
+UltimoTramite1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+Reinicio automatico en paso :1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.LeerPasoInicial
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO08_CD1_T1
+Argumento 2:=QA
+Argumento 3:=NA
+-----------------------------------------------------------
+No se pudo leer el paso inicial del datapool de DatosEntrada, se seguirá el flujo normal tomando un NA. org.eclipse.hyades.execution.runtime.datapool.DatapoolException: CRFCN0478E: Variable name [PasoInicialDP] not found in datapool
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.LeerPasoInicial
+Resultado:NOK
+-----------------------------------------------------------
+----------------------------------
+Se inician los datos de salida
+----------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+Argumento 3:=inicializar
+Argumento 4:=null
+-----------------------------------------------------------
+NumeroCaso = CPKO08_CD1
+Ambiente = QA
+Se inicializan los datos
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+----------------------------------------
+Se inicia el data pool de condicionantes
+----------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ResetVariablesCondicionantes
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+Argumento 3:=null
+-----------------------------------------------------------
+FileName=DPC_CPKO08_CD1
+Path DP Condicionates = E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\ File de Entrada = DPC_CPKO08_CD1.rftdp
+DPC_CPKO08_CD1.rftdp is deleted!
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ResetVariablesCondicionantes
+Resultado:OK
+-----------------------------------------------------------
+Script a validar:fLeerVariableCondicionanteDP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=null
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=1
+Argumento 4:=true
+Argumento 5:=siempre
+Argumento 6:=na
+Argumento 7:=CPKO08_CD1_T1
+Argumento 8:=TipoPago
+-----------------------------------------------------------
+Desde:0 Hasta:1000
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:1 Paso desde:1
+Desde Inicio?:true
+Se analiza si el Siempre
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/29 09:15:59
+-------------------------------------------------
+Inicio de Paso: 1
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fLeerVariableCondicionanteDP
+Cantidad de argumentos:5
+Argumento 0:=CPKO08_CD1_T1
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso1
+-----------------------------------------------------------
+CPKO08_CD1
+Variable condicional encontrada en el tramite 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GuardarVariableCondicionante
+Cantidad de argumentos:5
+Argumento 0:=null
+Argumento 1:=TipoPago
+Argumento 2:=QA
+Argumento 3:=CPKO08_CD1
+Argumento 4:=VEP
+-----------------------------------------------------------
+FileName=DPC_CPKO08_CD1
+DP Salida en DP=E:\Ambiente\QA\workspace_Francisco\RFT_ICE\\Datos\\Condicionantes\\QA\\-DPC_CPKO08_CD1.rftdp
+Se Crea: Variable=TipoPago- con Valor=VEP
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GuardarVariableCondicionante
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatosSalida
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+Argumento 3:=UltPasoOK
+Argumento 4:=1
+-----------------------------------------------------------
+NumeroCaso = CPKO08_CD1
+Ambiente = QA
+Se graba el dato UltPasoOK con 1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatosSalida
+Resultado:OK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Cantidad de argumentos:5
+Argumento 0:=OK
+Argumento 1:=CPKO08_CD1
+Argumento 2:=QA
+Argumento 3:=NA
+Argumento 4:=1
+-----------------------------------------------------------
+DP Salida en USR=E:\Ambiente\QA\workspace_Francisco\RFT_ICE_USR\\Regresion\\QA\\-_SeguimientoEjecucion.rftdp
+NumeroCaso = CPKO08_CD1
+Ambiente = QA
+Se lee: Ult Tramite=1-Ult Paso=0
+Se actualizara con: Ult Tramite=NA-Ult Paso=1
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.GrabarDatoSalidaUltPasoEjec
+Resultado:OK
+-----------------------------------------------------------
+DATO: -1
+Script a validar:fKO_Login
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.ValidaPasoSiEjecuta
+Cantidad de argumentos:9
+Argumento 0:=true
+Argumento 1:=QA
+Argumento 2:=1
+Argumento 3:=2
+Argumento 4:=true
+Argumento 5:=1-21
+Argumento 6:=na
+Argumento 7:=CPKO08_CD1_T1
+Argumento 8:=NA
+-----------------------------------------------------------
+Desde:1 Hasta:21
+Se analiza si el paso ejecuta en una re-ejecución
+GetLogin:NOK
+Paso:2 Paso desde:1
+Desde Inicio?:true
+Se analiza el rango
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.ValidaPasoSiEjecuta
+Resultado:true
+-----------------------------------------------------------
+ 
+Hora de Inicio de la Ejecucion:2018/11/29 09:16:00
+-------------------------------------------------
+Inicio de Paso: 2
+-------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.PasosFunc.fKO_Login
+Cantidad de argumentos:5
+Argumento 0:=CPKO08_CD1_T1
+Argumento 1:=NA
+Argumento 2:=QA
+Argumento 3:=true
+Argumento 4:=Paso2
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.KomercialICE.KO_Login
+Cantidad de argumentos:4
+Argumento 0:=null
+Argumento 1:=usrrft1
+Argumento 2:=20RftUsr117
+Argumento 3:=QA
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.CerrarProcesosAdminTareas
+Cantidad de argumentos:2
+Argumento 0:=null
+Argumento 1:=chrome.exe
+-----------------------------------------------------------
+"System Idle Process","0","Services","0","4 K"
+"System","4","Services","0","264 K"
+"smss.exe","300","Services","0","1,000 K"
+"csrss.exe","412","Services","0","4,144 K"
+"csrss.exe","476","Console","1","3,568 K"
+"wininit.exe","484","Services","0","4,092 K"
+"winlogon.exe","512","Console","1","5,832 K"
+"services.exe","576","Services","0","8,736 K"
+"lsass.exe","584","Services","0","17,104 K"
+"svchost.exe","652","Services","0","13,268 K"
+"svchost.exe","684","Services","0","9,816 K"
+"LogonUI.exe","784","Console","1","25,648 K"
+"vmacthlp.exe","800","Services","0","4,132 K"
+"dwm.exe","808","Console","1","28,612 K"
+"svchost.exe","852","Services","0","18,944 K"
+"kavfs.exe","912","Services","0","62,840 K"
+"svchost.exe","980","Services","0","55,488 K"
+"kavfswp.exe","1008","Services","0","66,024 K"
+"svchost.exe","1016","Services","0","14,908 K"
+"conhost.exe","228","Services","0","2,892 K"
+"svchost.exe","424","Services","0","23,032 K"
+"svchost.exe","384","Services","0","10,984 K"
+"spoolsv.exe","1196","Services","0","16,340 K"
+"kavfswp.exe","1248","Services","0","39,064 K"
+"conhost.exe","1256","Services","0","2,904 K"
+"svchost.exe","1276","Services","0","8,132 K"
+"kavfsscs.exe","1320","Services","0","5,636 K"
+"nscp.exe","1352","Services","0","22,616 K"
+"svchost.exe","1500","Services","0","18,796 K"
+"VGAuthService.exe","1564","Services","0","10,624 K"
+"vmtoolsd.exe","1708","Services","0","20,332 K"
+"ManagementAgentHost.exe","1792","Services","0","9,716 K"
+"svchost.exe","2012","Services","0","259,168 K"
+"svchost.exe","1416","Services","0","4,716 K"
+"WmiPrvSE.exe","2272","Services","0","24,492 K"
+"dllhost.exe","2360","Services","0","10,976 K"
+"msdtc.exe","2624","Services","0","7,080 K"
+"csrss.exe","2320","","2","16,556 K"
+"winlogon.exe","2504","","2","6,684 K"
+"dwm.exe","1716","","2","41,736 K"
+"taskhostex.exe","3232","","2","11,576 K"
+"rdpclip.exe","3332","","2","10,384 K"
+"explorer.exe","3444","","2","94,164 K"
+"rdpinput.exe","3464","","2","4,584 K"
+"vmtoolsd.exe","4316","","2","11,156 K"
+"kavtray.exe","4388","","2","3,252 K"
+"GoogleCrashHandler.exe","4360","Services","0","296 K"
+"GoogleCrashHandler64.exe","3828","Services","0","100 K"
+"klnagent.exe","4268","Services","0","31,588 K"
+"csrss.exe","5976","RDP-Tcp#22","4","21,852 K"
+"winlogon.exe","4088","RDP-Tcp#22","4","5,420 K"
+"dwm.exe","2008","RDP-Tcp#22","4","56,324 K"
+"taskhostex.exe","240","RDP-Tcp#22","4","9,784 K"
+"rdpclip.exe","1464","RDP-Tcp#22","4","10,040 K"
+"rdpinput.exe","5872","RDP-Tcp#22","4","4,444 K"
+"explorer.exe","5764","RDP-Tcp#22","4","95,700 K"
+"vmtoolsd.exe","4932","RDP-Tcp#22","4","10,904 K"
+"kavtray.exe","6412","RDP-Tcp#22","4","1,864 K"
+"jusched.exe","6196","RDP-Tcp#22","4","8,672 K"
+"jucheck.exe","7576","RDP-Tcp#22","4","12,936 K"
+"csrss.exe","4680","RDP-Tcp#34","6","26,888 K"
+"winlogon.exe","5212","RDP-Tcp#34","6","5,408 K"
+"dwm.exe","5232","RDP-Tcp#34","6","62,348 K"
+"taskhostex.exe","4480","RDP-Tcp#34","6","22,460 K"
+"rdpclip.exe","3296","RDP-Tcp#34","6","7,516 K"
+"explorer.exe","4156","RDP-Tcp#34","6","108,912 K"
+"vmtoolsd.exe","4548","RDP-Tcp#34","6","10,884 K"
+"kavtray.exe","7336","RDP-Tcp#34","6","3,728 K"
+"jusched.exe","4140","RDP-Tcp#34","6","8,620 K"
+"jucheck.exe","6548","RDP-Tcp#34","6","12,532 K"
+"csrss.exe","4284","RDP-Tcp#37","7","49,704 K"
+"winlogon.exe","2968","RDP-Tcp#37","7","5,468 K"
+"dwm.exe","3096","RDP-Tcp#37","7","135,464 K"
+"taskhostex.exe","6992","RDP-Tcp#37","7","24,260 K"
+"rdpclip.exe","5628","RDP-Tcp#37","7","11,628 K"
+"rdpinput.exe","7728","RDP-Tcp#37","7","5,140 K"
+"explorer.exe","4172","RDP-Tcp#37","7","110,028 K"
+"vmtoolsd.exe","3672","RDP-Tcp#37","7","11,352 K"
+"kavtray.exe","5700","RDP-Tcp#37","7","5,316 K"
+"jusched.exe","1272","RDP-Tcp#37","7","8,572 K"
+"jucheck.exe","7200","RDP-Tcp#37","7","12,972 K"
+"eclipse.exe","6756","RDP-Tcp#37","7","5,092 K"
+"javaw.exe","3168","RDP-Tcp#22","4","56,128 K"
+"javaw.exe","1852","RDP-Tcp#37","7","472,648 K"
+"javaw.exe","3884","RDP-Tcp#34","6","64,716 K"
+"chrome.exe","4724","RDP-Tcp#37","7","109,408 K"
+"chrome.exe","7164","RDP-Tcp#37","7","5,804 K"
+"chrome.exe","7048","RDP-Tcp#37","7","6,156 K"
+"chrome.exe","5656","RDP-Tcp#37","7","141,276 K"
+"chrome.exe","6432","RDP-Tcp#37","7","98,204 K"
+"chrome.exe","2752","RDP-Tcp#37","7","52,480 K"
+"chrome.exe","3952","RDP-Tcp#37","7","47,616 K"
+"chrome.exe","1160","RDP-Tcp#37","7","12,144 K"
+"chrome.exe","6116","RDP-Tcp#37","7","62,000 K"
+"chrome.exe","6060","RDP-Tcp#37","7","30,748 K"
+"iexplore.exe","5776","RDP-Tcp#37","7","29,688 K"
+"iexplore.exe","7580","RDP-Tcp#37","7","132,280 K"
+"dllhost.exe","6968","RDP-Tcp#37","7","7,092 K"
+"chrome.exe","7360","RDP-Tcp#37","7","18,596 K"
+"chrome.exe","5148","RDP-Tcp#37","7","83,960 K"
+"chrome.exe","6888","RDP-Tcp#37","7","26,696 K"
+"javaw.exe","6016","RDP-Tcp#37","7","115,664 K"
+"kavfswp.exe","5176","Services","0","27,520 K"
+"conhost.exe","1704","Services","0","2,820 K"
+"playerhook32.exe","7020","RDP-Tcp#37","7","4,712 K"
+"conhost.exe","3928","RDP-Tcp#37","7","3,468 K"
+"cmd.exe","2940","RDP-Tcp#34","6","3,392 K"
+"conhost.exe","7340","RDP-Tcp#34","6","3,484 K"
+"java.exe","3588","RDP-Tcp#34","6","146,520 K"
+"playerhook32.exe","5076","RDP-Tcp#34","6","4,536 K"
+"conhost.exe","1428","RDP-Tcp#34","6","3,412 K"
+"tasklist.exe","7888","RDP-Tcp#34","6","5,928 K"
+"conhost.exe","2380","RDP-Tcp#34","6","3,440 K"
+num: 113
+Proceso: System Idle Process
+Se descarta el proceso:System Idle Process-0
+Proceso: System
+Se descarta el proceso:System-4
+Proceso: smss.exe
+Se descarta el proceso:smss.exe-300
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-412
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-476
+Proceso: wininit.exe
+Se descarta el proceso:wininit.exe-484
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-512
+Proceso: services.exe
+Se descarta el proceso:services.exe-576
+Proceso: lsass.exe
+Se descarta el proceso:lsass.exe-584
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-652
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-684
+Proceso: LogonUI.exe
+Se descarta el proceso:LogonUI.exe-784
+Proceso: vmacthlp.exe
+Se descarta el proceso:vmacthlp.exe-800
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-808
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-852
+Proceso: kavfs.exe
+Se descarta el proceso:kavfs.exe-912
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-980
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1008
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1016
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-228
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-424
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-384
+Proceso: spoolsv.exe
+Se descarta el proceso:spoolsv.exe-1196
+Proceso: kavfswp.exe
+Se descarta el proceso:kavfswp.exe-1248
+Proceso: conhost.exe
+Se descarta el proceso:conhost.exe-1256
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1276
+Proceso: kavfsscs.exe
+Se descarta el proceso:kavfsscs.exe-1320
+Proceso: nscp.exe
+Se descarta el proceso:nscp.exe-1352
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1500
+Proceso: VGAuthService.exe
+Se descarta el proceso:VGAuthService.exe-1564
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-1708
+Proceso: ManagementAgentHost.exe
+Se descarta el proceso:ManagementAgentHost.exe-1792
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-2012
+Proceso: svchost.exe
+Se descarta el proceso:svchost.exe-1416
+Proceso: WmiPrvSE.exe
+Se descarta el proceso:WmiPrvSE.exe-2272
+Proceso: dllhost.exe
+Se descarta el proceso:dllhost.exe-2360
+Proceso: msdtc.exe
+Se descarta el proceso:msdtc.exe-2624
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-2320
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-2504
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-1716
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-3232
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-3332
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-3444
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-3464
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-4316
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-4388
+Proceso: GoogleCrashHandler.exe
+Se descarta el proceso:GoogleCrashHandler.exe-4360
+Proceso: GoogleCrashHandler64.exe
+Se descarta el proceso:GoogleCrashHandler64.exe-3828
+Proceso: klnagent.exe
+Se descarta el proceso:klnagent.exe-4268
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-5976
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-4088
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-2008
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-240
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-1464
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-5872
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-5764
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-4932
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-6412
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-6196
+Proceso: jucheck.exe
+Se descarta el proceso:jucheck.exe-7576
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-4680
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-5212
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-5232
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-4480
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-3296
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4156
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-4548
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-7336
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-4140
+Proceso: jucheck.exe
+Se descarta el proceso:jucheck.exe-6548
+Proceso: csrss.exe
+Se descarta el proceso:csrss.exe-4284
+Proceso: winlogon.exe
+Se descarta el proceso:winlogon.exe-2968
+Proceso: dwm.exe
+Se descarta el proceso:dwm.exe-3096
+Proceso: taskhostex.exe
+Se descarta el proceso:taskhostex.exe-6992
+Proceso: rdpclip.exe
+Se descarta el proceso:rdpclip.exe-5628
+Proceso: rdpinput.exe
+Se descarta el proceso:rdpinput.exe-7728
+Proceso: explorer.exe
+Se descarta el proceso:explorer.exe-4172
+Proceso: vmtoolsd.exe
+Se descarta el proceso:vmtoolsd.exe-3672
+Proceso: kavtray.exe
+Se descarta el proceso:kavtray.exe-5700
+Proceso: jusched.exe
+Se descarta el proceso:jusched.exe-1272
+Proceso: jucheck.exe
+Se descarta el proceso:jucheck.exe-7200
+Proceso: eclipse.exe
+Se descarta el proceso:eclipse.exe-6756
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-3168
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-1852
+Proceso: javaw.exe
+Se descarta el proceso:javaw.exe-3884
+Proceso: chrome.exe
+chrome.exe-4724
+chrome-4724
+El proceso chrome.exe-4724fue removido
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.CerrarProcesosAdminTareas
+Resultado:Resultado OK
+-----------------------------------------------------------
+[onObjectNotFound]TestObjectMethodState {OBJECT_NOT_FOUND,testObjectClassName=BrowserTestObject(Name: <b>browser_htmlBrowser</b>, Map: htmlBrowser),method=maximize,signature=null,args=null}
+[onObjectNotFound]TestObjectMethodState {OBJECT_NOT_FOUND,testObjectClassName=BrowserTestObject(Name: <b>browser_htmlBrowser</b>, Map: htmlBrowser),method=maximize,signature=null,args=null}
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Fin de script:Scripts.Comun.KomercialICE.KO_Login
+Resultado:NOK
+-----------------------------------------------------------
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+Inicio de script:Scripts.Comun.TerminarCasoError
+Cantidad de argumentos:4
+Argumento 0:=Problema al ingresar a KO
+Argumento 1:=true
+Argumento 2:=CPKO08_CD1_T1
+Argumento 3:=Scripts.PasosFunc.fKO_Login
+-----------------------------------------------------------
+----------------------------------------------------------
+Mensaje de Error: Problema al ingresar a KO
+Debe parar la ejecución del CP: Si
+----------------------------------------------------------
+Paso    0  -  LeerDatosEntrada; ;OK;
+Paso    0  -  LeerDatoSalidaUltPasoEjec; ;OK;
+Paso    0  -  GrabarDatosSalida; ;OK;
+Paso    0  -  ResetVariablesCondicionantes; ;OK;
+Paso    1  -  fLeerVariableCondicionanteDP; ;OK;
+DATOS
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoPasoOK;0;
+Paso    0  -  LeerDatoSalidaUltPasoEjec;UltimoTramite;1;
+ 
+ 
